@@ -1,0 +1,81 @@
+---
+import { getCircuit, racePath } from '../lib/data.ts';
+import type { Race } from '../lib/schemas.ts';
+import { weekendStart } from '../lib/weekend.ts';
+import LocalTime from './LocalTime.astro';
+
+interface Props {
+  /** Most recently completed season. */
+  completedSeason: number | null;
+  completedRaces: number;
+  /** Round 1 of the next season, if the calendar is published. */
+  next: Race | null;
+}
+
+const { completedSeason, completedRaces, next } = Astro.props;
+const nextCircuit = next ? getCircuit(next.circuitId) : null;
+const firstSession = next?.sessions[0] ?? null;
+---
+
+<section class="offseason card">
+  <span class="badge">Off-season</span>
+  {
+    completedSeason && (
+      <h1>
+        {completedSeason} season complete
+      </h1>
+    )
+  }
+  {completedSeason && <p class="muted">{completedRaces} Grands Prix raced.</p>}
+  {
+    next && nextCircuit && firstSession ? (
+      <div class="next">
+        <p>
+          The {next.season} season starts with the <a href={racePath(next)}>{next.raceName}</a> in {nextCircuit.locality}.
+        </p>
+        <p class="muted">
+          First practice: <LocalTime utc={firstSession.start} tz={nextCircuit.timezone} />
+        </p>
+        <p class="mono countdown" data-countdown={firstSession.start}>
+          --
+        </p>
+        <p class="muted small">
+          Live radar switches on <LocalTime utc={new Date(weekendStart(next)).toISOString()} tz={nextCircuit.timezone} />.
+        </p>
+      </div>
+    ) : (
+      <p>The next season's calendar hasn't been published yet. It will appear here automatically.</p>
+    )
+  }
+</section>
+
+<style>
+  .offseason {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+    background:
+      radial-gradient(circle at 100% 0%, rgb(74 168 255 / 0.15), transparent 55%),
+      var(--surface);
+  }
+
+  .offseason p {
+    margin: 0;
+  }
+
+  .next {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+
+  .countdown {
+    font-size: clamp(1.6rem, 6vw, 2.4rem);
+    font-weight: 700;
+  }
+
+  .small {
+    font-size: 0.85rem;
+  }
+</style>

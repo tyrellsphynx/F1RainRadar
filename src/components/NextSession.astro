@@ -1,0 +1,40 @@
+---
+import { type Race, SESSION_LABELS } from '../lib/schemas.ts';
+import { sessionEnd } from '../lib/weekend.ts';
+
+interface Props {
+  race: Race;
+}
+
+const { race } = Astro.props;
+const sessions = race.sessions.map((s) => ({
+  label: SESSION_LABELS[s.type],
+  start: Date.parse(s.start),
+  end: sessionEnd(s),
+}));
+---
+
+<div class="next-session" data-next-session={JSON.stringify(sessions)}>
+  <span class="label" data-next-label>Next session</span>
+  <span class="mono countdown" data-next-countdown>--:--:--</span>
+</div>
+
+<style>
+  .next-session {
+    display: flex;
+    flex-direction: column;
+    gap: 0.1rem;
+  }
+
+  .label {
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
+  }
+
+  .countdown {
+    font-size: clamp(1.6rem, 6vw, 2.4rem);
+    font-weight: 700;
+  }
+</style>

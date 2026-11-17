@@ -1,0 +1,28 @@
+---
+import type { Race } from '../lib/schemas.ts';
+import RaceCard from './RaceCard.astro';
+
+interface Props {
+  races: Race[];
+  now: number;
+  featured?: { season: number; round: number } | null;
+}
+
+const { races, now, featured = null } = Astro.props;
+---
+
+<div class="calendar">
+  {
+    races.map((race) => (
+      <RaceCard race={race} now={now} featured={featured?.season === race.season && featured.round === race.round} />
+    ))
+  }
+</div>
+
+<style>
+  .calendar {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 0.75rem;
+  }
+</style>

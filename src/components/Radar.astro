@@ -1,0 +1,150 @@
+---
+import type { Circuit } from '../lib/schemas.ts';
+import LocalTime from './LocalTime.astro';
+
+interface Props {
+  circuit: Circuit;
+  /** Radar is only shown between these instants (ms since epoch). */
+  windowStart: number;
+  windowEnd: number;
+}
+
+const { circuit, windowStart, windowEnd } = Astro.props;
+const coverage = circuit.radarCoverage?.level ?? 'unknown';
+const outline = circuit.outline?.map(([lon, lat]) => [lat, lon]) ?? null;
+---
+
+<section
+  class="radar"
+  data-radar
+  data-lat={circuit.lat}
+  data-lon={circuit.lon}
+  data-window-start={windowStart}
+  data-window-end={windowEnd}
+>
+  <div class="radar-active card" hidden>
+    <div class="section-title">
+      <h2>Live rain radar</h2>
+      <span class="badge live">Now · last 2 hours</span>
+    </div>
+    {
+      coverage === 'none' && (
+        <p class="notice">
+          There's little or no weather radar coverage around {circuit.locality}. The map can stay empty even when
+          it rains. Check the forecast instead.
+        </p>
+      )
+    }
+    {
+      coverage === 'partial' && (
+        <p class="notice">Radar coverage around {circuit.locality} is partial, so some rain may not show up.</p>
+      )
+    }
+    <div class="map-wrap">
+      <div class="map" data-radar-map role="img" aria-label={`Rain radar map around ${circuit.name}`}></div>
+      <p class="map-error" data-radar-error hidden>Radar temporarily unavailable. Try again in a few minutes.</p>
+    </div>
+    <div class="player">
+      <button type="button" data-radar-play aria-label="Play radar animation">▶</button>
+      <input type="range" min="0" max="0" value="0" step="1" data-radar-slider aria-label="Radar frame" />
+      <span class="mono frame-time" data-radar-time>--:--</span>
+    </div>
+    <div class="legend" aria-hidden="true">
+      <span>Light</span>
+      <span class="legend-bar"></span>
+      <span>Heavy</span>
+    </div>
+    <script type="application/json" data-radar-outline set:html={JSON.stringify(outline)} />
+  </div>
+
+  <div class="radar-pending card">
+    <h2>Live rain radar</h2>
+    <p class="muted">
+      The live radar switches on 24 hours before the first session, on{' '}
+      <LocalTime utc={new Date(windowStart).toISOString()} tz={circuit.timezone} />{'.'}
+    </p>
+  </div>
+</section>
+
+<script>
+  import '../scripts/radar.ts';
+</script>
+
+<style>
+  .radar-active[hidden],
+  .radar-pending[hidden] {
+    display: none;
+  }
+
+  .notice {
+    background: rgb(245 185 66 / 0.1);
+    border: 1px solid rgb(245 185 66 / 0.35);
+    color: var(--warn);
+    padding: 0.5rem 0.75rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+  }
+
+  .map-wrap {
+    position: relative;
+  }
+
+  .map {
+    height: clamp(320px, 55vh, 560px);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  .map-error {
+    position: absolute;
+    inset: auto 1rem 1rem 1rem;
+    z-index: 500;
+    margin: 0;
+    padding: 0.5rem 0.75rem;
+    background: var(--surface-2);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+  }
+
+  .map-error[hidden] {
+    display: none;
+  }
+
+  .player {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 0.75rem;
+  }
+
+  .player input {
+    flex: 1;
+    accent-color: var(--accent);
+  }
+
+  .player button {
+    width: 2.5rem;
+  }
+
+  .frame-time {
+    min-width: 7.5rem;
+    text-align: right;
+    font-size: 0.85rem;
+  }
+
+  .legend {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.75rem;
+    color: var(--muted);
+    margin-top: 0.5rem;
+  }
+
+  .legend-bar {
+    flex: 0 1 220px;
+    height: 0.5rem;
+    border-radius: 4px;
+    background: linear-gradient(90deg, #9be8ff, #2ea8e6, #0a5fb4, #fff200, #ff9a00, #ff2a00, #c800c8);
+  }
+</style>

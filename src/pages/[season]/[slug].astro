@@ -1,0 +1,96 @@
+---
+import type { GetStaticPaths } from 'astro';
+import NextSession from '../../components/NextSession.astro';
+import Radar from '../../components/Radar.astro';
+import SessionList from '../../components/SessionList.astro';
+import Layout from '../../layouts/Layout.astro';
+import { getAllRaces, getCircuit, getSchedule, racePath, url } from '../../lib/data.ts';
+import { formatDateRange } from '../../lib/format.ts';
+import { raceSession, raceStatus, weekendEnd, weekendStart } from '../../lib/weekend.ts';
+
+export const getStaticPaths = (() =>
+  getAllRaces().map((race) => ({
+    params: { season: String(race.season), slug: race.slug },
+    props: { race },
+  }))) satisfies GetStaticPaths;
+
+const { race } = Astro.props;
+const circuit = getCircuit(race.circuitId);
+const now = Date.now();
+const status = raceStatus(race, now);
+const seasonRaces = getSchedule(race.season)?.races ?? [];
+const prev = seasonRaces.find((r) => r.round === race.round - 1);
+const next = seasonRaces.find((r) => r.round === race.round + 1);
+---
+
+<Layout title={`${race.season} ${race.raceName}`} season={race.season} description={`Live rain radar and weather for the ${race.season} ${race.raceName} at ${circuit.name}.`}>
+  <nav class="crumbs muted">
+    <a href={url(`${race.season}/`)}>{race.season} season</a> · Round {race.round}
+  </nav>
+
+  <section class="race-head">
+    <div class="card head-main">
+      <div>
+        {status === 'live' && <span class="badge live">Race weekend</span>}
+        {status === 'completed' && <span class="badge">Completed</span>}
+      </div>
+      <h1>{race.raceName}</h1>
+      <p class="muted">{circuit.name} · {circuit.locality}, {circuit.country}</p>
+      <p class="mono">{formatDateRange(race.sessions[0]!.start, raceSession(race).start, circuit.timezone)}</p>
+      {status !== 'completed' && <NextSession race={race} />}
+    </div>
+    <div class="card">
+      <h2>Sessions</h2>
+      <SessionList race={race} tz={circuit.timezone} />
+    </div>
+  </section>
+
+  {
+    status !== 'completed' && (
+      <div class="section">
+        <Radar circuit={circuit} windowStart={weekendStart(race)} windowEnd={weekendEnd(race)} />
+      </div>
+    )
+  }
+
+  <nav class="pager">
+    {prev ? <a href={racePath(prev)}>← {prev.raceName}</a> : <span></span>}
+    {next ? <a href={racePath(next)}>{next.raceName} →</a> : <span></span>}
+  </nav>
+</Layout>
+
+<style>
+  .crumbs {
+    font-size: 0.85rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .race-head {
+    display: grid;
+    gap: 1rem;
+  }
+
+  @media (min-width: 820px) {
+    .race-head {
+      grid-template-columns: 3fr 2fr;
+    }
+  }
+
+  .head-main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .head-main p {
+    margin: 0;
+  }
+
+  .pager {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+  }
+</style>

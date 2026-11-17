@@ -1,0 +1,16 @@
+---
+import { type TimeFormat, formatTime, timeZoneLabel } from '../lib/format.ts';
+
+interface Props {
+  utc: string;
+  /** Circuit timezone; also used for the server-rendered fallback text. */
+  tz: string;
+  fmt?: TimeFormat;
+  /** Also show the time in the other timezone underneath. */
+  dual?: boolean;
+}
+
+const { utc, tz, fmt = 'datetime', dual = false } = Astro.props;
+---
+
+<time datetime={utc} data-utc={utc} data-tz={tz} data-fmt={fmt}><span class="t-primary" title={timeZoneLabel(utc, tz)}>{formatTime(utc, fmt, tz)}</span>{dual && <span class="t-secondary" />}</time>

@@ -1,0 +1,27 @@
+---
+import { type Race, SESSION_LABELS } from '../lib/schemas.ts';
+import { sessionEnd } from '../lib/weekend.ts';
+import LocalTime from './LocalTime.astro';
+
+interface Props {
+  race: Race;
+  tz: string;
+}
+
+const { race, tz } = Astro.props;
+---
+
+<table class="sessions">
+  <tbody>
+    {
+      race.sessions.map((s) => (
+        <tr data-session-row data-start={Date.parse(s.start)} data-end={sessionEnd(s)}>
+          <td>{SESSION_LABELS[s.type]}</td>
+          <td class="mono">
+            <LocalTime utc={s.start} tz={tz} fmt="weekday-time" dual />
+          </td>
+        </tr>
+      ))
+    }
+  </tbody>
+</table>

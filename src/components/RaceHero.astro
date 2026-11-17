@@ -1,0 +1,112 @@
+---
+import { getCircuit, getSchedule, racePath } from '../lib/data.ts';
+import { formatDateRange } from '../lib/format.ts';
+import type { Race } from '../lib/schemas.ts';
+import { raceSession, raceStatus, weekendEnd, weekendStart } from '../lib/weekend.ts';
+import NextSession from './NextSession.astro';
+import Radar from './Radar.astro';
+import SessionList from './SessionList.astro';
+
+interface Props {
+  race: Race;
+  now: number;
+}
+
+const { race, now } = Astro.props;
+const circuit = getCircuit(race.circuitId);
+const total = getSchedule(race.season)?.races.length ?? race.round;
+const status = raceStatus(race, now);
+---
+
+<section class="hero" data-weekend-end={weekendEnd(race)}>
+  <div class="hero-main card">
+    <div class="eyebrow">
+      {status === 'live' ? <span class="badge live">Race weekend</span> : <span class="badge next">Next race</span>}
+      <span class="muted mono">Round {race.round} of {total} · {race.season}</span>
+    </div>
+    <h1><a href={racePath(race)}>{race.raceName}</a></h1>
+    <p class="muted">
+      {circuit.name} · {circuit.locality}, {circuit.country}
+    </p>
+    <p class="mono dates">{formatDateRange(race.sessions[0]!.start, raceSession(race).start, circuit.timezone)}</p>
+    <NextSession race={race} />
+  </div>
+  <div class="hero-sessions card">
+    <h2>Sessions</h2>
+    <SessionList race={race} tz={circuit.timezone} />
+  </div>
+</section>
+
+<p class="stale-note" data-stale-note hidden>
+  This race weekend has finished. The page will switch to the next race within the hour.
+</p>
+
+<div class="section">
+  <Radar circuit={circuit} windowStart={weekendStart(race)} windowEnd={weekendEnd(race)} />
+</div>
+
+<script>
+  const hero = document.querySelector<HTMLElement>('[data-weekend-end]');
+  const note = document.querySelector<HTMLElement>('[data-stale-note]');
+  const check = () => {
+    if (hero && note) note.hidden = Date.now() < Number(hero.dataset.weekendEnd);
+  };
+  check();
+  setInterval(check, 60_000);
+</script>
+
+<style>
+  .hero {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  @media (min-width: 820px) {
+    .hero {
+      grid-template-columns: 3fr 2fr;
+    }
+  }
+
+  .hero-main {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+    background:
+      radial-gradient(circle at 100% 0%, rgb(225 6 0 / 0.18), transparent 55%),
+      var(--surface);
+  }
+
+  .hero-main h1 a {
+    text-decoration: none;
+  }
+
+  .hero-main h1 a:hover {
+    text-decoration: underline;
+  }
+
+  .eyebrow {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 0.85rem;
+  }
+
+  .hero-main p {
+    margin: 0;
+  }
+
+  .dates {
+    margin-bottom: 0.75rem !important;
+  }
+
+  .stale-note {
+    margin-top: 1rem;
+    color: var(--warn);
+  }
+
+  .stale-note[hidden] {
+    display: none;
+  }
+</style>

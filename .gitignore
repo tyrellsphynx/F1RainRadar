@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.astro/
+.DS_Store
+.env
+
+# Generated data lives on the `data` branch (checked out here by CI or `npm run sync` locally)
+data/

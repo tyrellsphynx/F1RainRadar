@@ -1,0 +1,85 @@
+---
+import { getCircuit, racePath } from '../lib/data.ts';
+import { formatDateRange } from '../lib/format.ts';
+import type { Race } from '../lib/schemas.ts';
+import { raceSession, raceStatus } from '../lib/weekend.ts';
+
+interface Props {
+  race: Race;
+  now: number;
+  featured?: boolean;
+}
+
+const { race, now, featured = false } = Astro.props;
+const circuit = getCircuit(race.circuitId);
+const status = raceStatus(race, now);
+const first = race.sessions[0]!.start;
+const isSprint = race.sessions.some((s) => s.type === 'Sprint');
+---
+
+<a class:list={['race-card', status, { featured }]} href={racePath(race)}>
+  <div class="top">
+    <span class="round mono">R{String(race.round).padStart(2, '0')}</span>
+    {status === 'live' && <span class="badge live">Race weekend</span>}
+    {status === 'upcoming' && featured && <span class="badge next">Next</span>}
+    {status === 'completed' && <span class="badge">Completed</span>}
+    {isSprint && <span class="badge">Sprint</span>}
+  </div>
+  <h3>{race.raceName}</h3>
+  <p class="muted place">{circuit.locality}, {circuit.country}</p>
+  <p class="dates mono">{formatDateRange(first, raceSession(race).start, circuit.timezone)}</p>
+</a>
+
+<style>
+  .race-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 0.9rem 1rem;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    text-decoration: none;
+    transition:
+      border-color 0.15s,
+      transform 0.15s;
+  }
+
+  .race-card:hover {
+    border-color: var(--muted);
+    transform: translateY(-2px);
+  }
+
+  .race-card.completed {
+    opacity: 0.65;
+  }
+
+  .race-card.featured,
+  .race-card.live {
+    border-color: var(--accent);
+    box-shadow: 0 0 0 1px var(--accent) inset;
+  }
+
+  .top {
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .round {
+    font-weight: 700;
+    color: var(--accent);
+    margin-right: auto;
+  }
+
+  h3 {
+    font-size: 1rem;
+    margin: 0.25rem 0 0;
+  }
+
+  p {
+    margin: 0;
+    font-size: 0.85rem;
+  }
+</style>

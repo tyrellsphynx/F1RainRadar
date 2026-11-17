@@ -1,0 +1,147 @@
+name: Sync data & deploy
+
+on:
+  schedule:
+    # Hourly. The sync script decides what actually needs fetching and exits fast when idle.
+    - cron: '17 * * * *'
+  push:
+    branches: [main]
+  workflow_dispatch:
+    inputs:
+      force:
+        description: Refresh all data regardless of age
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: site
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+
+      - name: Check out data branch into ./data
+        run: |
+          if git ls-remote --exit-code --heads origin data > /dev/null; then
+            git fetch --depth=1 origin data
+            git worktree add --detach data FETCH_HEAD
+          else
+            echo "No data branch yet; creating it."
+            git worktree add --orphan -b data data
+          fi
+
+      - name: Sync
+        run: npm run sync -- ${{ inputs.force && '--force' || '' }}
+
+      - name: Commit data changes
+        id: commit
+        working-directory: data
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "No data changes."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git -c user.name="github-actions[bot]" \
+              -c user.email="41898282+github-actions[bot]@users.noreply.github.com" \
+              commit -q -m "data: sync $(date -u +%Y-%m-%dT%H:%MZ)"
+          git push origin HEAD:refs/heads/data
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+
+  build:
+    needs: sync
+    if: >-
+      always() && needs.sync.result != 'cancelled' &&
+      (github.event_name != 'schedule' || needs.sync.outputs.changed == 'true')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/checkout@v7
+        with:
+          ref: data
+          path: data
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - id: pages
+        uses: actions/configure-pages@v6
+      - run: npm ci
+      - run: npm run build
+        env:
+          SITE: ${{ steps.pages.outputs.origin }}
+          BASE_PATH: ${{ steps.pages.outputs.base_path }}
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
+
+  # Opens an issue after 3 consecutive failed scheduled runs, and closes it again once a run succeeds.
+  health:
+    needs: [sync, build, deploy]
+    if: always() && github.event_name == 'schedule'
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      actions: read
+    steps:
+      - uses: actions/github-script@v9
+        env:
+          FAILED: ${{ contains(needs.*.result, 'failure') }}
+        with:
+          script: |
+            const { owner, repo } = context.repo;
+            const label = 'sync-failure';
+            const failed = process.env.FAILED === 'true';
+            const { data: open } = await github.rest.issues.listForRepo({ owner, repo, labels: label, state: 'open' });
+
+            if (!failed) {
+              for (const issue of open) {
+                await github.rest.issues.createComment({ owner, repo, issue_number: issue.number, body: `Recovered in run ${context.runId}.` });
+                await github.rest.issues.update({ owner, repo, issue_number: issue.number, state: 'closed' });
+              }
+              return;
+            }
+            if (open.length) return;
+
+            const { data } = await github.rest.actions.listWorkflowRuns({
+              owner, repo, workflow_id: 'site.yml', event: 'schedule', status: 'completed', per_page: 2,
+            });
+            const previousFailures = data.workflow_runs.filter((r) => r.conclusion === 'failure').length;
+            if (previousFailures < 2) return;
+
+            const url = `${context.serverUrl}/${owner}/${repo}/actions/runs/${context.runId}`;
+            await github.rest.issues.create({
+              owner, repo,
+              title: 'Data sync failing',
+              labels: [label],
+              body: `The scheduled data sync has failed 3 times in a row.\n\nLatest run: ${url}\n\nThe site keeps serving the last good data in the meantime.`,
+            });

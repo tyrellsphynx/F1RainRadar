@@ -1,0 +1,32 @@
+---
+import type { GetStaticPaths } from 'astro';
+import Calendar from '../../components/Calendar.astro';
+import WorldMap from '../../components/WorldMap.astro';
+import Layout from '../../layouts/Layout.astro';
+import { getSchedule, getSeasons, getSiteState } from '../../lib/data.ts';
+import { weekendEnd } from '../../lib/weekend.ts';
+
+export const getStaticPaths = (() => getSeasons().map((season) => ({ params: { season: String(season) } }))) satisfies GetStaticPaths;
+
+const season = Number(Astro.params.season);
+const races = getSchedule(season)?.races ?? [];
+const now = Date.now();
+const done = races.filter((r) => weekendEnd(r) <= now).length;
+---
+
+<Layout title={`${season} season`} season={season} description={`Rain radar and weather for every race of the ${season} Formula 1 season.`}>
+  <h1>{season} season</h1>
+  <p class="muted">
+    {races.length} races{done > 0 && done < races.length && <> · {done} completed</>}
+    {done === races.length && races.length > 0 && <> · season complete</>}
+  </p>
+
+  <section class="section">
+    <Calendar races={races} now={now} featured={getSiteState().featured} />
+  </section>
+
+  <section class="section">
+    <h2>Circuits</h2>
+    <WorldMap races={races} now={now} />
+  </section>
+</Layout>
