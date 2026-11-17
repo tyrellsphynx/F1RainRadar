@@ -14,7 +14,8 @@ const sleep = (ms: number) => new Promise((resolve) => setTimeout(resolve, ms));
 /** Minimum spacing between requests per host, to stay well inside free-tier rate limits. */
 const HOST_SPACING_MS: Record<string, number> = {
   'api.jolpi.ca': 300,
-  'api.openf1.org': 400,
+  // Free tier: 3 requests/second and 30 requests/minute.
+  'api.openf1.org': 2100,
   'api.open-meteo.com': 150,
   'archive-api.open-meteo.com': 150,
   'tilecache.rainviewer.com': 700,
@@ -52,6 +53,16 @@ export async function fetchWithRetry(url: string, attempts = 4): Promise<Respons
 
 export async function fetchJson(url: string): Promise<unknown> {
   return (await fetchWithRetry(url)).json();
+}
+
+/** Like fetchJson, but treats 404 ("No results found") as an empty result. */
+export async function fetchJsonOrEmpty(url: string): Promise<unknown> {
+  try {
+    return await fetchJson(url);
+  } catch (err) {
+    if (err instanceof HttpError && err.status === 404) return [];
+    throw err;
+  }
 }
 
 export async function fetchBuffer(url: string): Promise<Buffer> {

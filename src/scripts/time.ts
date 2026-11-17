@@ -75,6 +75,7 @@ document.addEventListener('click', (e) => {
   if (!(e.target as HTMLElement).closest('[data-tz-toggle]')) return;
   localStorage.setItem(STORAGE_KEY, getTzMode() === 'local' ? 'circuit' : 'local');
   render();
+  document.dispatchEvent(new CustomEvent('tzchange'));
 });
 
 render();

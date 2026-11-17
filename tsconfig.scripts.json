@@ -11,5 +11,5 @@
     "types": ["node"]
   },
   "include": ["scripts/**/*", "src/lib/**/*", "tests/**/*"],
-  "exclude": ["src/lib/data.ts"]
+  "exclude": ["src/lib/data.ts", "src/lib/season.ts"]
 }

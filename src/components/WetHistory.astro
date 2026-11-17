@@ -1,0 +1,133 @@
+---
+import { circuitHistory, getAllRaces, racePath } from '../lib/data.ts';
+import type { Circuit } from '../lib/schemas.ts';
+import { MEASURED_RAIN_MIN, WET_THRESHOLD_MM } from '../lib/weather.ts';
+
+interface Props {
+  circuit: Circuit;
+}
+
+const { circuit } = Astro.props;
+const history = circuitHistory(circuit.id);
+const pages = new Map(getAllRaces().map((r) => [`${r.season}-${r.round}`, racePath(r)]));
+---
+
+{
+  history && (
+    <section class="card section">
+      <div class="section-title">
+        <h2>Wet-race history at {circuit.name}</h2>
+      </div>
+      <div class="headline">
+        <span class="share">{Math.round(history.share * 100)}%</span>
+        <span>
+          of races here were wet
+          <span class="muted block">
+            {history.wet} of {history.total} Grands Prix since {history.races[0]!.season}
+          </span>
+        </span>
+      </div>
+      <ol class="strip" aria-label="Wet and dry races by year">
+        {history.races.map((r) => {
+          const href = pages.get(`${r.season}-${r.round}`);
+          const cls = ['cell', r.verdict.wet ? 'wet' : 'dry', r.verdict.source].join(' ');
+          const title = `${r.season} ${r.raceName}: ${r.verdict.wet ? 'wet' : 'dry'} (${r.verdict.source}: ${r.verdict.detail})`;
+          return (
+            <li>
+              {href ? (
+                <a class={cls} href={href} title={title}>
+                  {String(r.season).slice(2)}
+                </a>
+              ) : (
+                <span class={cls} title={title}>
+                  {String(r.season).slice(2)}
+                </span>
+              )}
+            </li>
+          );
+        })}
+      </ol>
+      <ul class="chart-legend">
+        <li style="--swatch:#4aa8ff">Wet</li>
+        <li style="--swatch:#3a3f4a">Dry</li>
+        <li class="outlined">Dashed: modelled from weather data</li>
+      </ul>
+      <p class="muted small">
+        From 2023: measured. A race is wet when anyone used intermediate or wet tyres, or when the track weather station
+        reported rain for at least {MEASURED_RAIN_MIN} minutes. Before 2023: modelled. A race is wet with at least{' '}
+        {WET_THRESHOLD_MM} mm of precipitation from 1 hour before the start to 2 hours after (Open-Meteo reanalysis,
+        roughly 10–25 km resolution, so short local showers can be missed).
+      </p>
+    </section>
+  )
+}
+
+<style>
+  .headline {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .share {
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: var(--rain);
+  }
+
+  .block {
+    display: block;
+    font-size: 0.85rem;
+  }
+
+  .small {
+    font-size: 0.78rem;
+  }
+
+  .strip {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0.5rem;
+  }
+
+  .cell {
+    display: inline-grid;
+    place-items: center;
+    width: 2.1rem;
+    height: 1.7rem;
+    border-radius: 5px;
+    font-size: 0.75rem;
+    font-family: var(--mono);
+    text-decoration: none;
+    border: 2px solid transparent;
+  }
+
+  .cell.wet {
+    background: #4aa8ff;
+    color: #04121f;
+    font-weight: 700;
+  }
+
+  .cell.dry {
+    background: #3a3f4a;
+    color: var(--muted);
+  }
+
+  .cell.modelled {
+    border-style: dashed;
+    border-color: rgb(255 255 255 / 0.35);
+  }
+
+  a.cell:hover {
+    outline: 2px solid var(--text);
+  }
+
+  .outlined::before {
+    background: transparent !important;
+    border: 2px dashed rgb(255 255 255 / 0.5);
+  }
+</style>

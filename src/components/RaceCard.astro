@@ -1,8 +1,8 @@
 ---
-import { getCircuit, racePath } from '../lib/data.ts';
+import { circuitHistory, getCircuit, racePath, wetVerdict } from '../lib/data.ts';
 import { formatDateRange } from '../lib/format.ts';
 import type { Race } from '../lib/schemas.ts';
-import { raceSession, raceStatus } from '../lib/weekend.ts';
+import { raceSession, raceStart, raceStatus } from '../lib/weekend.ts';
 
 interface Props {
   race: Race;
@@ -15,6 +15,8 @@ const circuit = getCircuit(race.circuitId);
 const status = raceStatus(race, now);
 const first = race.sessions[0]!.start;
 const isSprint = race.sessions.some((s) => s.type === 'Sprint');
+const verdict = status === 'completed' ? wetVerdict(race) : null;
+const history = status !== 'completed' ? circuitHistory(race.circuitId) : null;
 ---
 
 <a class:list={['race-card', status, { featured }]} href={racePath(race)}>
@@ -22,13 +24,46 @@ const isSprint = race.sessions.some((s) => s.type === 'Sprint');
     <span class="round mono">R{String(race.round).padStart(2, '0')}</span>
     {status === 'live' && <span class="badge live">Race weekend</span>}
     {status === 'upcoming' && featured && <span class="badge next">Next</span>}
-    {status === 'completed' && <span class="badge">Completed</span>}
     {isSprint && <span class="badge">Sprint</span>}
+    {
+      verdict && (
+        <span
+          class:list={['badge', verdict.wet ? 'wet' : 'dry']}
+          title={`${verdict.source === 'measured' ? 'Measured' : 'Modelled'}: ${verdict.detail}`}
+        >
+          {verdict.wet ? 'Wet' : 'Dry'}
+        </span>
+      )
+    }
+    {status === 'completed' && !verdict && <span class="badge">Completed</span>}
   </div>
   <h3>{race.raceName}</h3>
   <p class="muted place">{circuit.locality}, {circuit.country}</p>
   <p class="dates mono">{formatDateRange(first, raceSession(race).start, circuit.timezone)}</p>
+  {
+    status !== 'completed' && (
+      <p
+        class="forecast"
+        data-card-forecast
+        data-lat={circuit.lat}
+        data-lon={circuit.lon}
+        data-race-start={raceStart(race)}
+        hidden
+      />
+    )
+  }
+  {
+    history && (
+      <p class="muted history" title={`${history.wet} of ${history.total} races at this circuit were wet`}>
+        {Math.round(history.share * 100)}% wet in the past
+      </p>
+    )
+  }
 </a>
+
+<script>
+  import '../scripts/forecast.ts';
+</script>
 
 <style>
   .race-card {
@@ -50,8 +85,9 @@ const isSprint = race.sessions.some((s) => s.type === 'Sprint');
     transform: translateY(-2px);
   }
 
-  .race-card.completed {
-    opacity: 0.65;
+  .race-card.completed h3,
+  .race-card.completed .dates {
+    opacity: 0.7;
   }
 
   .race-card.featured,
@@ -81,5 +117,18 @@ const isSprint = race.sessions.some((s) => s.type === 'Sprint');
   p {
     margin: 0;
     font-size: 0.85rem;
+  }
+
+  .forecast {
+    color: var(--rain);
+    font-weight: 600;
+  }
+
+  .forecast[hidden] {
+    display: none;
+  }
+
+  .history {
+    font-size: 0.78rem;
   }
 </style>

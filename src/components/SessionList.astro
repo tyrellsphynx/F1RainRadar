@@ -1,4 +1,5 @@
 ---
+import { getActuals } from '../lib/data.ts';
 import { type Race, SESSION_LABELS } from '../lib/schemas.ts';
 import { sessionEnd } from '../lib/weekend.ts';
 import LocalTime from './LocalTime.astro';
@@ -9,19 +10,44 @@ interface Props {
 }
 
 const { race, tz } = Astro.props;
+const actuals = getActuals(race);
+const raceKey = `${race.season}-${race.round}`;
 ---
 
 <table class="sessions">
   <tbody>
     {
-      race.sessions.map((s) => (
-        <tr data-session-row data-start={Date.parse(s.start)} data-end={sessionEnd(s)}>
-          <td>{SESSION_LABELS[s.type]}</td>
-          <td class="mono">
-            <LocalTime utc={s.start} tz={tz} fmt="weekday-time" dual />
-          </td>
-        </tr>
-      ))
+      race.sessions.map((s) => {
+        const actual = actuals?.sessions[s.type];
+        return (
+          <tr data-session-row data-start={Date.parse(s.start)} data-end={sessionEnd(s)}>
+            <td>{SESSION_LABELS[s.type]}</td>
+            <td class="mono">
+              <LocalTime utc={s.start} tz={tz} fmt="weekday-time" dual />
+            </td>
+            <td class="rain-cell" data-fc-race={raceKey} data-fc-cell={actual?.status === 'ok' ? undefined : s.type}>
+              {actual?.status === 'ok' &&
+                (actual.summary.rained ? (
+                  <span class="badge wet" title={`Rain reported at the track for ~${actual.summary.rainMinutes} min`}>
+                    Rain {actual.summary.rainMinutes > 0 ? `${actual.summary.rainMinutes}′` : ''}
+                  </span>
+                ) : (
+                  <span class="badge dry" title="No rain reported at the track">
+                    Dry
+                  </span>
+                ))}
+            </td>
+          </tr>
+        );
+      })
     }
   </tbody>
 </table>
+
+<style>
+  .rain-cell {
+    text-align: right;
+    white-space: nowrap;
+    font-size: 0.85rem;
+  }
+</style>

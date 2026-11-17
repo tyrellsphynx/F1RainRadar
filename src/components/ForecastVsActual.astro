@@ -1,0 +1,124 @@
+---
+import { getActuals, getForecasts } from '../lib/data.ts';
+import { type Race, SESSION_LABELS } from '../lib/schemas.ts';
+import { SESSION_RAIN_MIN, forecastLooksWet, sessionHadRain } from '../lib/weather.ts';
+import Value from './Value.astro';
+
+interface Props {
+  race: Race;
+}
+
+const { race } = Astro.props;
+const forecasts = getForecasts(race);
+const actuals = getActuals(race);
+
+const rows = race.sessions
+  .map((session) => {
+    const start = Date.parse(session.start);
+    // The last archived forecast made before the session started.
+    const snapshot = forecasts?.snapshots
+      .filter((s) => Date.parse(s.fetchedAt) < start && s.sessions[session.type])
+      .at(-1);
+    const forecast = snapshot?.sessions[session.type];
+    const actual = actuals?.sessions[session.type];
+    if (!forecast || actual?.status !== 'ok') return null;
+    const predictedWet = forecastLooksWet(forecast);
+    return {
+      label: SESSION_LABELS[session.type],
+      hoursAhead: Math.round((start - Date.parse(snapshot!.fetchedAt)) / 3_600_000),
+      forecast,
+      actual: actual.summary,
+      correct: predictedWet === sessionHadRain(actual.summary),
+    };
+  })
+  .filter((r) => r !== null);
+
+const correct = rows.filter((r) => r.correct).length;
+---
+
+{
+  rows.length > 0 && (
+    <section class="card section">
+      <div class="section-title">
+        <h2>Forecast vs reality</h2>
+        <span class="muted">
+          {correct} of {rows.length} sessions called right
+        </span>
+      </div>
+      <p class="muted small">
+        The last forecast saved before each session, compared with the track weather station. A forecast counts as
+        "wet" with at least a 50% chance of rain or 0.5 mm of rain expected. A session counts as rainy with at least
+        {SESSION_RAIN_MIN} minutes of rain reported.
+      </p>
+      <div class="chart-scroll">
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>Session</th>
+              <th class="num">Rain chance</th>
+              <th class="num">Expected</th>
+              <th class="num">Forecast temp</th>
+              <th>Actual</th>
+              <th class="num">Measured air</th>
+              <th />
+            </tr>
+          </thead>
+          <tbody>
+            {rows.map((r) => (
+              <tr>
+                <td>
+                  {r.label}
+                  <span class="muted small block">{r.hoursAhead} h before</span>
+                </td>
+                <td class="num">{r.forecast.rainChance ?? '–'}%</td>
+                <td class="num">
+                  <Value q="precip" v={r.forecast.precipMm} />
+                </td>
+                <td class="num">
+                  <Value q="temp" v={r.forecast.tempC} />
+                </td>
+                <td>
+                  {r.actual.rained ? (
+                    <span class="badge wet">Rain ~{r.actual.rainMinutes} min</span>
+                  ) : (
+                    <span class="badge dry">Dry</span>
+                  )}
+                </td>
+                <td class="num">
+                  <Value q="temp" v={r.actual.airAvg} />
+                </td>
+                <td class={r.correct ? 'ok' : 'miss'} title={r.correct ? 'Forecast was right' : 'Forecast was wrong'}>
+                  {r.correct ? '✓' : '✗'}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </section>
+  )
+}
+
+<style>
+  .small {
+    font-size: 0.8rem;
+  }
+
+  .block {
+    display: block;
+  }
+
+  .ok {
+    color: var(--live);
+    font-weight: 700;
+  }
+
+  .miss {
+    color: #ff6b66;
+    font-weight: 700;
+  }
+
+  table {
+    min-width: 560px;
+  }
+</style>

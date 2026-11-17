@@ -1,29 +1,44 @@
 ---
 import type { GetStaticPaths } from 'astro';
 import Calendar from '../../components/Calendar.astro';
+import StandingsTables from '../../components/StandingsTables.astro';
 import WorldMap from '../../components/WorldMap.astro';
 import Layout from '../../layouts/Layout.astro';
-import { getSchedule, getSeasons, getSiteState } from '../../lib/data.ts';
-import { weekendEnd } from '../../lib/weekend.ts';
+import { getSchedule, getSeasons, getSiteState, getStandings } from '../../lib/data.ts';
+import { seasonRainSummary } from '../../lib/season.ts';
 
 export const getStaticPaths = (() => getSeasons().map((season) => ({ params: { season: String(season) } }))) satisfies GetStaticPaths;
 
 const season = Number(Astro.params.season);
 const races = getSchedule(season)?.races ?? [];
 const now = Date.now();
-const done = races.filter((r) => weekendEnd(r) <= now).length;
+const rain = seasonRainSummary(season, now);
+const standings = getStandings(season);
 ---
 
 <Layout title={`${season} season`} season={season} description={`Rain radar and weather for every race of the ${season} Formula 1 season.`}>
   <h1>{season} season</h1>
   <p class="muted">
-    {races.length} races{done > 0 && done < races.length && <> · {done} completed</>}
-    {done === races.length && races.length > 0 && <> · season complete</>}
+    {races.length} races{rain.completed > 0 && rain.completed < races.length && <> · {rain.completed} completed</>}
+    {rain.completed === races.length && races.length > 0 && <> · season complete</>}
+    {rain.judged > 0 && <> · {rain.wet} wet {rain.wet === 1 ? 'race' : 'races'}</>}
   </p>
 
   <section class="section">
     <Calendar races={races} now={now} featured={getSiteState().featured} />
   </section>
+
+  {
+    standings && (
+      <section class="section" id="standings">
+        <div class="section-title">
+          <h2>Standings</h2>
+          <span class="muted">After round {standings.round}</span>
+        </div>
+        <StandingsTables season={season} />
+      </section>
+    )
+  }
 
   <section class="section">
     <h2>Circuits</h2>

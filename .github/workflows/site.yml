@@ -23,6 +23,7 @@ concurrency:
 jobs:
   sync:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     permissions:
       contents: write
     outputs:
@@ -48,8 +49,10 @@ jobs:
       - name: Sync
         run: npm run sync -- ${{ inputs.force && '--force' || '' }}
 
+      # Also commit after a partially failed sync: every file is schema-validated before it is written.
       - name: Commit data changes
         id: commit
+        if: ${{ !cancelled() }}
         working-directory: data
         run: |
           git add -A

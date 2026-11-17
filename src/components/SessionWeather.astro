@@ -1,0 +1,98 @@
+---
+import { timelineChart } from '../lib/charts.ts';
+import { getActuals } from '../lib/data.ts';
+import { type Race, SESSION_LABELS, type SessionType } from '../lib/schemas.ts';
+import Value from './Value.astro';
+
+interface Props {
+  race: Race;
+}
+
+const { race } = Astro.props;
+const actuals = getActuals(race);
+const sessions = race.sessions
+  .map((s) => ({ type: s.type as SessionType, actual: actuals?.sessions[s.type] }))
+  .filter((s) => s.actual?.status === 'ok')
+  .reverse(); // race first
+---
+
+{
+  sessions.length > 0 && (
+    <section class="card section">
+      <div class="section-title">
+        <h2>Measured track weather</h2>
+        <span class="muted small">OpenF1 track-side weather station</span>
+      </div>
+      {sessions.map(({ type, actual }, i) => {
+        if (actual?.status !== 'ok') return null;
+        const s = actual.summary;
+        const chart = timelineChart({
+          t: actual.weather.t,
+          rain: actual.weather.rain,
+          series: [
+            { label: 'Track temperature', color: '#ff6b3d', values: actual.weather.track },
+            { label: 'Air temperature', color: '#4ad9c3', values: actual.weather.air },
+          ],
+        });
+        return (
+          <details class="session-weather" open={i === 0}>
+            <summary>
+              <strong>{SESSION_LABELS[type]}</strong>
+              {s.rained ? <span class="badge wet">Rain ~{s.rainMinutes} min</span> : <span class="badge dry">Dry</span>}
+            </summary>
+            <div class="stat-row">
+              <span><span class="k">Air</span><Value q="temp" v={s.airAvg} /></span>
+              <span><span class="k">Track</span><Value q="temp" v={s.trackAvg} /> (max <Value q="temp" v={s.trackMax} />)</span>
+              <span><span class="k">Humidity</span><Value q="percent" v={s.humidityAvg} /></span>
+              <span><span class="k">Max wind</span><Value q="speed" v={s.windMaxKmh} /></span>
+            </div>
+            <div class="chart-scroll">
+              <div class="chart-box" set:html={chart} />
+            </div>
+            <ul class="chart-legend">
+              <li style="--swatch:#ff6b3d">Track temperature</li>
+              <li style="--swatch:#4ad9c3">Air temperature</li>
+              <li style="--swatch:rgb(74 168 255 / 0.5)">Rain reported</li>
+              <li class="no-swatch">Time since session start (h:mm)</li>
+            </ul>
+          </details>
+        );
+      })}
+    </section>
+  )
+}
+
+<style>
+  .small {
+    font-size: 0.8rem;
+  }
+
+  .session-weather {
+    border-top: 1px solid var(--border);
+    padding: 0.6rem 0;
+  }
+
+  .session-weather:first-of-type {
+    border-top: none;
+  }
+
+  summary {
+    cursor: pointer;
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    list-style-position: outside;
+  }
+
+  summary::-webkit-details-marker {
+    color: var(--muted);
+  }
+
+  .chart-box {
+    min-width: 520px;
+  }
+
+  .no-swatch::before {
+    display: none !important;
+  }
+</style>

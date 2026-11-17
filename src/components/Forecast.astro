@@ -1,0 +1,113 @@
+---
+import { type Circuit, type Race, SESSION_LABELS } from '../lib/schemas.ts';
+import { sessionEnd } from '../lib/weekend.ts';
+
+interface Props {
+  race: Race;
+  circuit: Circuit;
+}
+
+const { race, circuit } = Astro.props;
+const sessions = race.sessions.map((s) => ({
+  type: s.type,
+  label: SESSION_LABELS[s.type],
+  start: s.start,
+  end: sessionEnd(s),
+}));
+---
+
+<section
+  class="card forecast"
+  data-forecast
+  data-race-key={`${race.season}-${race.round}`}
+  data-lat={circuit.lat}
+  data-lon={circuit.lon}
+  data-tz={circuit.timezone}
+  data-sessions={JSON.stringify(sessions)}
+>
+  <div class="section-title">
+    <h2>Forecast</h2>
+    <span class="muted small">Open-Meteo, updated hourly</span>
+  </div>
+  <p class="muted" data-fc-status>Loading forecast…</p>
+  <div data-fc-body hidden>
+    <div class="fc-sessions" data-fc-sessions></div>
+    <h3 class="chart-title">Hourly rain around the weekend</h3>
+    <div class="chart-scroll"><div class="fc-chart" data-fc-chart></div></div>
+    <ul class="chart-legend">
+      <li style="--swatch:#4aa8ff">Precipitation per hour</li>
+      <li style="--swatch:#f5b942">Chance of rain</li>
+      <li style="--swatch:rgb(225 6 0 / 0.4)">Session</li>
+    </ul>
+  </div>
+</section>
+
+<script>
+  import '../scripts/forecast.ts';
+</script>
+
+<style>
+  .small {
+    font-size: 0.8rem;
+  }
+
+  .fc-sessions {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 0.6rem;
+    margin-bottom: 1rem;
+  }
+
+  .fc-sessions :global(.fc-card) {
+    background: var(--surface-2);
+    border-radius: 10px;
+    padding: 0.6rem 0.75rem;
+    font-size: 0.85rem;
+  }
+
+  .fc-sessions :global(.fc-card.past) {
+    opacity: 0.5;
+  }
+
+  .fc-sessions :global(.fc-head) {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+  }
+
+  .fc-sessions :global(.fc-main) {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 0.25rem 0;
+  }
+
+  .fc-sessions :global(.fc-icon) {
+    font-size: 1.6rem;
+  }
+
+  .fc-sessions :global(.fc-chance) {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--rain);
+  }
+
+  .fc-sessions :global(.fc-chance small) {
+    font-size: 0.9rem;
+  }
+
+  .fc-sessions :global(.fc-detail) {
+    font-size: 0.78rem;
+  }
+
+  .chart-title {
+    font-size: 0.9rem;
+    color: var(--muted);
+    font-weight: 600;
+  }
+
+  .fc-chart {
+    min-width: 560px;
+  }
+</style>

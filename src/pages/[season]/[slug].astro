@@ -1,10 +1,15 @@
 ---
 import type { GetStaticPaths } from 'astro';
+import Forecast from '../../components/Forecast.astro';
+import ForecastVsActual from '../../components/ForecastVsActual.astro';
 import NextSession from '../../components/NextSession.astro';
 import Radar from '../../components/Radar.astro';
 import SessionList from '../../components/SessionList.astro';
+import SessionWeather from '../../components/SessionWeather.astro';
+import TyreStrategy from '../../components/TyreStrategy.astro';
+import WetHistory from '../../components/WetHistory.astro';
 import Layout from '../../layouts/Layout.astro';
-import { getAllRaces, getCircuit, getSchedule, racePath, url } from '../../lib/data.ts';
+import { getAllRaces, getCircuit, getSchedule, racePath, url, wetVerdict } from '../../lib/data.ts';
 import { formatDateRange } from '../../lib/format.ts';
 import { raceSession, raceStatus, weekendEnd, weekendStart } from '../../lib/weekend.ts';
 
@@ -18,6 +23,7 @@ const { race } = Astro.props;
 const circuit = getCircuit(race.circuitId);
 const now = Date.now();
 const status = raceStatus(race, now);
+const verdict = status === 'completed' ? wetVerdict(race) : null;
 const seasonRaces = getSchedule(race.season)?.races ?? [];
 const prev = seasonRaces.find((r) => r.round === race.round - 1);
 const next = seasonRaces.find((r) => r.round === race.round + 1);
@@ -30,13 +36,21 @@ const next = seasonRaces.find((r) => r.round === race.round + 1);
 
   <section class="race-head">
     <div class="card head-main">
-      <div>
+      <div class="badges">
         {status === 'live' && <span class="badge live">Race weekend</span>}
         {status === 'completed' && <span class="badge">Completed</span>}
+        {
+          verdict && (
+            <span class:list={['badge', verdict.wet ? 'wet' : 'dry']}>
+              {verdict.wet ? 'Wet race' : 'Dry race'} · {verdict.source}
+            </span>
+          )
+        }
       </div>
       <h1>{race.raceName}</h1>
       <p class="muted">{circuit.name} · {circuit.locality}, {circuit.country}</p>
       <p class="mono">{formatDateRange(race.sessions[0]!.start, raceSession(race).start, circuit.timezone)}</p>
+      {verdict && <p class="muted small">{verdict.detail}</p>}
       {status !== 'completed' && <NextSession race={race} />}
     </div>
     <div class="card">
@@ -47,15 +61,25 @@ const next = seasonRaces.find((r) => r.round === race.round + 1);
 
   {
     status !== 'completed' && (
-      <div class="section">
-        <Radar circuit={circuit} windowStart={weekendStart(race)} windowEnd={weekendEnd(race)} />
-      </div>
+      <>
+        <div class="section">
+          <Radar circuit={circuit} windowStart={weekendStart(race)} windowEnd={weekendEnd(race)} />
+        </div>
+        <div class="section">
+          <Forecast race={race} circuit={circuit} />
+        </div>
+      </>
     )
   }
 
+  <ForecastVsActual race={race} />
+  <SessionWeather race={race} />
+  <TyreStrategy race={race} />
+  <WetHistory circuit={circuit} />
+
   <nav class="pager">
-    {prev ? <a href={racePath(prev)}>← {prev.raceName}</a> : <span></span>}
-    {next ? <a href={racePath(next)}>{next.raceName} →</a> : <span></span>}
+    {prev ? <a href={racePath(prev)}>← {prev.raceName}</a> : <span />}
+    {next ? <a href={racePath(next)}>{next.raceName} →</a> : <span />}
   </nav>
 </Layout>
 
@@ -84,6 +108,16 @@ const next = seasonRaces.find((r) => r.round === race.round + 1);
 
   .head-main p {
     margin: 0;
+  }
+
+  .badges {
+    display: flex;
+    gap: 0.4rem;
+    flex-wrap: wrap;
+  }
+
+  .small {
+    font-size: 0.85rem;
   }
 
   .pager {

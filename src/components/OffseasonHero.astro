@@ -1,32 +1,60 @@
 ---
-import { getCircuit, racePath } from '../lib/data.ts';
+import { getCircuit, getStandings, racePath } from '../lib/data.ts';
 import type { Race } from '../lib/schemas.ts';
+import { seasonRainSummary } from '../lib/season.ts';
 import { weekendStart } from '../lib/weekend.ts';
 import LocalTime from './LocalTime.astro';
 
 interface Props {
   /** Most recently completed season. */
   completedSeason: number | null;
-  completedRaces: number;
   /** Round 1 of the next season, if the calendar is published. */
   next: Race | null;
+  now: number;
 }
 
-const { completedSeason, completedRaces, next } = Astro.props;
+const { completedSeason, next, now } = Astro.props;
 const nextCircuit = next ? getCircuit(next.circuitId) : null;
 const firstSession = next?.sessions[0] ?? null;
+const standings = completedSeason ? getStandings(completedSeason) : null;
+const champion = standings?.drivers[0];
+const teamChampion = standings?.constructors[0];
+const rain = completedSeason ? seasonRainSummary(completedSeason, now) : null;
 ---
 
 <section class="offseason card">
   <span class="badge">Off-season</span>
+  {completedSeason && <h1>{completedSeason} season complete</h1>}
   {
-    completedSeason && (
-      <h1>
-        {completedSeason} season complete
-      </h1>
+    (champion || teamChampion) && (
+      <div class="champions">
+        {champion && (
+          <div>
+            <span class="k">Drivers' champion</span>
+            <strong>{champion.name}</strong>
+            <span class="muted">
+              {champion.team} · {champion.points} pts
+            </span>
+          </div>
+        )}
+        {teamChampion && (
+          <div>
+            <span class="k">Constructors' champion</span>
+            <strong>{teamChampion.name}</strong>
+            <span class="muted">{teamChampion.points} pts</span>
+          </div>
+        )}
+      </div>
     )
   }
-  {completedSeason && <p class="muted">{completedRaces} Grands Prix raced.</p>}
+  {
+    rain && rain.judged > 0 && (
+      <p>
+        <span class="badge wet">Rain</span> {rain.wet} of {rain.completed} races were wet
+        {rain.wetRaces.length > 0 && <span class="muted"> ({rain.wetRaces.join(', ')})</span>}.
+      </p>
+    )
+  }
   {
     next && nextCircuit && firstSession ? (
       <div class="next">
@@ -40,7 +68,7 @@ const firstSession = next?.sessions[0] ?? null;
           --
         </p>
         <p class="muted small">
-          Live radar switches on <LocalTime utc={new Date(weekendStart(next)).toISOString()} tz={nextCircuit.timezone} />.
+          Live radar switches on <LocalTime utc={new Date(weekendStart(next)).toISOString()} tz={nextCircuit.timezone} />{'.'}
         </p>
       </div>
     ) : (
@@ -53,7 +81,7 @@ const firstSession = next?.sessions[0] ?? null;
   .offseason {
     display: flex;
     flex-direction: column;
-    gap: 0.5rem;
+    gap: 0.6rem;
     align-items: flex-start;
     background:
       radial-gradient(circle at 100% 0%, rgb(74 168 255 / 0.15), transparent 55%),
@@ -62,6 +90,28 @@ const firstSession = next?.sessions[0] ?? null;
 
   .offseason p {
     margin: 0;
+  }
+
+  .champions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 2.5rem;
+  }
+
+  .champions div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .champions strong {
+    font-size: 1.3rem;
+  }
+
+  .k {
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--muted);
   }
 
   .next {

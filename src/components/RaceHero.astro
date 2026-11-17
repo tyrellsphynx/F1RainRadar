@@ -3,6 +3,7 @@ import { getCircuit, getSchedule, racePath } from '../lib/data.ts';
 import { formatDateRange } from '../lib/format.ts';
 import type { Race } from '../lib/schemas.ts';
 import { raceSession, raceStatus, weekendEnd, weekendStart } from '../lib/weekend.ts';
+import Forecast from './Forecast.astro';
 import NextSession from './NextSession.astro';
 import Radar from './Radar.astro';
 import SessionList from './SessionList.astro';
@@ -43,6 +44,10 @@ const status = raceStatus(race, now);
 
 <div class="section">
   <Radar circuit={circuit} windowStart={weekendStart(race)} windowEnd={weekendEnd(race)} />
+</div>
+
+<div class="section">
+  <Forecast race={race} circuit={circuit} />
 </div>
 
 <script>

@@ -1,0 +1,12 @@
+---
+import { type Quantity, formatValue } from '../lib/units.ts';
+
+interface Props {
+  q: Quantity;
+  v: number | null | undefined;
+}
+
+const { q, v } = Astro.props;
+---
+
+{v === null || v === undefined ? <span class="muted">–</span> : <span data-u={q} data-v={v}>{formatValue(q, v, 'metric')}</span>}

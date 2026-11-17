@@ -2,22 +2,25 @@
 import Calendar from '../components/Calendar.astro';
 import OffseasonHero from '../components/OffseasonHero.astro';
 import RaceHero from '../components/RaceHero.astro';
+import StandingsTables from '../components/StandingsTables.astro';
 import WorldMap from '../components/WorldMap.astro';
 import Layout from '../layouts/Layout.astro';
-import { getAllRaces, getSchedule, getSeasons, getSiteState, url } from '../lib/data.ts';
+import { getAllRaces, getSchedule, getSeasons, getSiteState, getStandings, url } from '../lib/data.ts';
+import { seasonRainSummary } from '../lib/season.ts';
 import { findRace, weekendEnd } from '../lib/weekend.ts';
 
 const now = Date.now();
 const state = getSiteState();
 const allRaces = getAllRaces();
 const featured = findRace(allRaces, state.featured);
-
-const completed = allRaces.filter((r) => weekendEnd(r) <= now);
-const lastCompleted = completed.at(-1) ?? null;
+const lastCompleted = allRaces.filter((r) => weekendEnd(r) <= now).at(-1) ?? null;
 
 // Show the calendar of the featured race's season; otherwise the latest known season.
 const calendarSeason = featured?.season ?? getSeasons().at(-1)!;
 const calendar = getSchedule(calendarSeason)?.races ?? [];
+const rain = seasonRainSummary(calendarSeason, now);
+const standingsSeason = getStandings(calendarSeason) ? calendarSeason : (lastCompleted?.season ?? null);
+const standings = standingsSeason ? getStandings(standingsSeason) : null;
 ---
 
 <Layout>
@@ -25,11 +28,7 @@ const calendar = getSchedule(calendarSeason)?.races ?? [];
     state.mode === 'race' && featured ? (
       <RaceHero race={featured} now={now} />
     ) : (
-      <OffseasonHero
-        completedSeason={lastCompleted?.season ?? null}
-        completedRaces={lastCompleted ? (getSchedule(lastCompleted.season)?.races.length ?? 0) : 0}
-        next={featured}
-      />
+      <OffseasonHero completedSeason={lastCompleted?.season ?? null} next={featured} now={now} />
     )
   }
 
@@ -38,8 +37,32 @@ const calendar = getSchedule(calendarSeason)?.races ?? [];
       <h2>{calendarSeason} calendar</h2>
       <a class="muted" href={url(`${calendarSeason}/`)}>Season overview →</a>
     </div>
+    {
+      rain.judged > 0 && (
+        <p class="muted">
+          {rain.wet} of {rain.completed} races so far were wet.
+        </p>
+      )
+    }
     <Calendar races={calendar} now={now} featured={state.featured} />
   </section>
+
+  {
+    standings && standingsSeason && (
+      <section class="section">
+        <div class="section-title">
+          <h2>{standingsSeason} standings</h2>
+          <span class="muted">After round {standings.round}</span>
+        </div>
+        <StandingsTables season={standingsSeason} limit={10} />
+        <p>
+          <a class="muted" href={url(`${standingsSeason}/#standings`)}>
+            Full standings →
+          </a>
+        </p>
+      </section>
+    )
+  }
 
   <section class="section">
     <h2>Circuits</h2>

@@ -183,6 +183,130 @@ a:focus-visible {
   color: var(--muted);
 }
 
+/* Charts */
+.chart {
+  width: 100%;
+  height: auto;
+  display: block;
+  font-family: var(--font);
+  font-size: 11px;
+  fill: var(--muted);
+}
+
+.chart .grid {
+  stroke: var(--border);
+  stroke-width: 1;
+}
+
+.chart .session {
+  fill: #ff8a85;
+  font-weight: 600;
+}
+
+.chart .prob {
+  fill: #f5b942;
+}
+
+.chart .mm {
+  fill: #4aa8ff;
+}
+
+.chart .drv {
+  fill: var(--text);
+  font-weight: 600;
+}
+
+.chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin: 0.25rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.chart-legend li::before {
+  content: '';
+  display: inline-block;
+  width: 0.7rem;
+  height: 0.7rem;
+  border-radius: 2px;
+  margin-right: 0.35rem;
+  vertical-align: -1px;
+  background: var(--swatch);
+}
+
+.chart-scroll {
+  overflow-x: auto;
+}
+
+.grid-2 {
+  display: grid;
+  gap: 1rem;
+}
+
+@media (min-width: 820px) {
+  .grid-2 {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.stat-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.25rem;
+  margin: 0.25rem 0 0.5rem;
+  font-size: 0.9rem;
+}
+
+.stat-row > span {
+  white-space: nowrap;
+}
+
+.stat-row .k {
+  color: var(--muted);
+  margin-right: 0.3rem;
+}
+
+.badge.wet {
+  background: rgb(74 168 255 / 0.15);
+  color: var(--rain);
+}
+
+.badge.dry {
+  background: rgb(245 185 66 / 0.12);
+  color: #e9c46a;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.data-table th,
+.data-table td {
+  text-align: left;
+  padding: 0.4rem 0.35rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.data-table th {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--muted);
+  font-weight: 600;
+}
+
+.data-table td.num,
+.data-table th.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
 /* Leaflet dark tweaks */
 .leaflet-container {
   background: #111 !important;

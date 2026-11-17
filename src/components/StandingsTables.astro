@@ -1,0 +1,79 @@
+---
+import { getStandings } from '../lib/data.ts';
+
+interface Props {
+  season: number;
+  /** Rows per table; omit for all. */
+  limit?: number;
+}
+
+const { season, limit } = Astro.props;
+const standings = getStandings(season);
+const drivers = standings ? standings.drivers.slice(0, limit ?? standings.drivers.length) : [];
+const constructors = standings ? standings.constructors.slice(0, limit ?? standings.constructors.length) : [];
+---
+
+{
+  standings && (
+    <div class="grid-2">
+      <div class="card">
+        <h3>Drivers</h3>
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th class="num">#</th>
+              <th>Driver</th>
+              <th class="num">Wins</th>
+              <th class="num">Pts</th>
+            </tr>
+          </thead>
+          <tbody>
+            {drivers.map((d) => (
+              <tr>
+                <td class="num">{d.position}</td>
+                <td>
+                  <strong>{d.name}</strong> <span class="muted team">{d.team}</span>
+                </td>
+                <td class="num">{d.wins}</td>
+                <td class="num">{d.points}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+      <div class="card">
+        <h3>Constructors</h3>
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th class="num">#</th>
+              <th>Team</th>
+              <th class="num">Wins</th>
+              <th class="num">Pts</th>
+            </tr>
+          </thead>
+          <tbody>
+            {constructors.map((c) => (
+              <tr>
+                <td class="num">{c.position}</td>
+                <td>{c.name}</td>
+                <td class="num">{c.wins}</td>
+                <td class="num">{c.points}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  )
+}
+
+<style>
+  .team {
+    font-size: 0.8rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+</style>

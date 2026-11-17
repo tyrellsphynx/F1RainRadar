@@ -1,0 +1,85 @@
+---
+import { COMPOUND_COLORS, strategyChart } from '../lib/charts.ts';
+import { getActuals } from '../lib/data.ts';
+import type { Race } from '../lib/schemas.ts';
+
+interface Props {
+  race: Race;
+}
+
+const { race } = Astro.props;
+const actuals = getActuals(race);
+const items = (['Race', 'Sprint'] as const)
+  .map((type) => {
+    const a = actuals?.sessions[type];
+    return a?.status === 'ok' && a.strategy ? { type, strategy: a.strategy } : null;
+  })
+  .filter((x) => x !== null);
+
+const legend = [
+  ['Soft', COMPOUND_COLORS.SOFT],
+  ['Medium', COMPOUND_COLORS.MEDIUM],
+  ['Hard', COMPOUND_COLORS.HARD],
+  ['Intermediate', COMPOUND_COLORS.INTERMEDIATE],
+  ['Wet', COMPOUND_COLORS.WET],
+] as const;
+---
+
+{
+  items.length > 0 && (
+    <section class="card section">
+      <div class="section-title">
+        <h2>Tyre strategy</h2>
+        <span class="muted small">Green and blue stints mean intermediates or full wets</span>
+      </div>
+      {items.map(({ type, strategy }, i) => {
+        const wetDrivers = new Set(
+          strategy.stints.filter((s) => s.compound === 'INTERMEDIATE' || s.compound === 'WET').map((s) => s.driver),
+        ).size;
+        return (
+          <details open={i === 0} class="strategy">
+            <summary>
+              <strong>{type}</strong>
+              <span class="muted">{strategy.totalLaps} laps</span>
+              {wetDrivers > 0 && (
+                <span class="badge wet">
+                  {wetDrivers} of {strategy.drivers.length} drivers used wet-weather tyres
+                </span>
+              )}
+            </summary>
+            <div class="chart-scroll">
+              <div class="chart-box" set:html={strategyChart(strategy)} />
+            </div>
+          </details>
+        );
+      })}
+      <ul class="chart-legend">
+        {legend.map(([label, color]) => (
+          <li style={`--swatch:${color}`}>{label}</li>
+        ))}
+      </ul>
+    </section>
+  )
+}
+
+<style>
+  .small {
+    font-size: 0.8rem;
+  }
+
+  .strategy {
+    padding: 0.5rem 0;
+  }
+
+  summary {
+    cursor: pointer;
+    display: flex;
+    gap: 0.6rem;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+
+  .chart-box {
+    min-width: 560px;
+  }
+</style>
