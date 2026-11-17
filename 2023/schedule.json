@@ -1,0 +1,665 @@
+{
+  "season": 2023,
+  "races": [
+    {
+      "season": 2023,
+      "round": 1,
+      "raceName": "Bahrain Grand Prix",
+      "slug": "bahrain",
+      "circuitId": "bahrain",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2023_Bahrain_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2023-03-03T11:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2023-03-03T15:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2023-03-04T11:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2023-03-04T15:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2023-03-05T15:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2023,
+      "round": 2,
+      "raceName": "Saudi Arabian Grand Prix",
+      "slug": "saudi-arabian",
+      "circuitId": "jeddah",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2023_Saudi_Arabian_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2023-03-17T13:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2023-03-17T17:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2023-03-18T13:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2023-03-18T17:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2023-03-19T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2023,
+      "round": 3,
+      "raceName": "Australian Grand Prix",
+      "slug": "australian",
+      "circuitId": "albert_park",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2023_Australian_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2023-03-31T01:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2023-03-31T05:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2023-04-01T01:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2023-04-01T05:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2023-04-02T05:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2023,
+      "round": 4,
+      "raceName": "Azerbaijan Grand Prix",
+      "slug": "azerbaijan",
+      "circuitId": "baku",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2023_Azerbaijan_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2023-04-28T09:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2023-04-28T13:00:00.000Z"
+        },
+        {
+          "type": "SQ",
+          "start": "2023-04-29T09:30:00.000Z"
+        },
+        {
+          "type": "Sprint",
+          "start": "2023-04-29T13:30:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2023-04-30T11:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2023,
+      "round": 5,
+      "raceName": "Miami Grand Prix",
+      "slug": "miami",
+      "circuitId": "miami",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2023_Miami_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2023-05-05T18:00:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2023-05-05T21:30:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2023-05-06T16:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2023-05-06T20:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2023-05-07T19:30:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2023,
+      "round": 6,
+      "raceName": "Monaco Grand Prix",
+      "slug": "monaco",
+      "circuitId": "monaco",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2023_Monaco_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2023-05-26T11:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2023-05-26T15:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2023-05-27T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2023-05-27T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2023-05-28T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2023,
+      "round": 7,
+      "raceName": "Spanish Grand Prix",
+      "slug": "spanish",
+      "circuitId": "catalunya",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2023_Spanish_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2023-06-02T11:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2023-06-02T15:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2023-06-03T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2023-06-03T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2023-06-04T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2023,
+      "round": 8,
+      "raceName": "Canadian Grand Prix",
+      "slug": "canadian",
+      "circuitId": "villeneuve",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2023_Canadian_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2023-06-16T17:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2023-06-16T21:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2023-06-17T16:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2023-06-17T20:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2023-06-18T18:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2023,
+      "round": 9,
+      "raceName": "Austrian Grand Prix",
+      "slug": "austrian",
+      "circuitId": "red_bull_ring",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2023_Austrian_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2023-06-30T11:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2023-06-30T15:00:00.000Z"
+        },
+        {
+          "type": "SQ",
+          "start": "2023-07-01T10:30:00.000Z"
+        },
+        {
+          "type": "Sprint",
+          "start": "2023-07-01T14:30:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2023-07-02T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2023,
+      "round": 10,
+      "raceName": "British Grand Prix",
+      "slug": "british",
+      "circuitId": "silverstone",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2023_British_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2023-07-07T11:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2023-07-07T15:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2023-07-08T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2023-07-08T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2023-07-09T14:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2023,
+      "round": 11,
+      "raceName": "Hungarian Grand Prix",
+      "slug": "hungarian",
+      "circuitId": "hungaroring",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2023_Hungarian_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2023-07-21T11:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2023-07-21T15:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2023-07-22T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2023-07-22T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2023-07-23T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2023,
+      "round": 12,
+      "raceName": "Belgian Grand Prix",
+      "slug": "belgian",
+      "circuitId": "spa",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2023_Belgian_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2023-07-28T11:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2023-07-28T15:00:00.000Z"
+        },
+        {
+          "type": "SQ",
+          "start": "2023-07-29T10:30:00.000Z"
+        },
+        {
+          "type": "Sprint",
+          "start": "2023-07-29T14:30:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2023-07-30T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2023,
+      "round": 13,
+      "raceName": "Dutch Grand Prix",
+      "slug": "dutch",
+      "circuitId": "zandvoort",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2023_Dutch_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2023-08-25T10:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2023-08-25T14:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2023-08-26T09:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2023-08-26T13:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2023-08-27T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2023,
+      "round": 14,
+      "raceName": "Italian Grand Prix",
+      "slug": "italian",
+      "circuitId": "monza",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2023_Italian_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2023-09-01T11:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2023-09-01T15:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2023-09-02T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2023-09-02T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2023-09-03T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2023,
+      "round": 15,
+      "raceName": "Singapore Grand Prix",
+      "slug": "singapore",
+      "circuitId": "marina_bay",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2023_Singapore_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2023-09-15T09:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2023-09-15T13:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2023-09-16T09:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2023-09-16T13:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2023-09-17T12:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2023,
+      "round": 16,
+      "raceName": "Japanese Grand Prix",
+      "slug": "japanese",
+      "circuitId": "suzuka",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2023_Japanese_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2023-09-22T02:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2023-09-22T06:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2023-09-23T02:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2023-09-23T06:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2023-09-24T05:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2023,
+      "round": 17,
+      "raceName": "Qatar Grand Prix",
+      "slug": "qatar",
+      "circuitId": "losail",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2023_Qatar_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2023-10-06T13:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2023-10-06T17:00:00.000Z"
+        },
+        {
+          "type": "SQ",
+          "start": "2023-10-07T13:00:00.000Z"
+        },
+        {
+          "type": "Sprint",
+          "start": "2023-10-07T17:30:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2023-10-08T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2023,
+      "round": 18,
+      "raceName": "United States Grand Prix",
+      "slug": "united-states",
+      "circuitId": "americas",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2023_United_States_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2023-10-20T17:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2023-10-20T21:00:00.000Z"
+        },
+        {
+          "type": "SQ",
+          "start": "2023-10-21T18:00:00.000Z"
+        },
+        {
+          "type": "Sprint",
+          "start": "2023-10-21T22:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2023-10-22T19:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2023,
+      "round": 19,
+      "raceName": "Mexico City Grand Prix",
+      "slug": "mexico-city",
+      "circuitId": "rodriguez",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2023_Mexico_City_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2023-10-27T18:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2023-10-27T22:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2023-10-28T17:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2023-10-28T21:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2023-10-29T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2023,
+      "round": 20,
+      "raceName": "São Paulo Grand Prix",
+      "slug": "sao-paulo",
+      "circuitId": "interlagos",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2023_S%C3%A3o_Paulo_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2023-11-03T14:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2023-11-03T18:00:00.000Z"
+        },
+        {
+          "type": "SQ",
+          "start": "2023-11-04T14:30:00.000Z"
+        },
+        {
+          "type": "Sprint",
+          "start": "2023-11-04T18:30:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2023-11-05T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2023,
+      "round": 21,
+      "raceName": "Las Vegas Grand Prix",
+      "slug": "las-vegas",
+      "circuitId": "vegas",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2023_Las_Vegas_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2023-11-16T04:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2023-11-16T08:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2023-11-17T04:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2023-11-17T08:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2023-11-19T06:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2023,
+      "round": 22,
+      "raceName": "Abu Dhabi Grand Prix",
+      "slug": "abu-dhabi",
+      "circuitId": "yas_marina",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2023_Abu_Dhabi_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2023-11-24T09:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2023-11-24T13:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2023-11-25T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2023-11-25T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2023-11-26T13:00:00.000Z"
+        }
+      ]
+    }
+  ]
+}

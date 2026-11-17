@@ -1,0 +1,17 @@
+{
+  "lastDailySync": "2026-11-17T18:38:16.987Z",
+  "seasons": [
+    2023,
+    2024,
+    2025,
+    2026
+  ],
+  "siteState": {
+    "mode": "race",
+    "featured": {
+      "season": 2026,
+      "round": 21
+    },
+    "radarActive": false
+  }
+}

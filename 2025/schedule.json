@@ -1,0 +1,725 @@
+{
+  "season": 2025,
+  "races": [
+    {
+      "season": 2025,
+      "round": 1,
+      "raceName": "Australian Grand Prix",
+      "slug": "australian",
+      "circuitId": "albert_park",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2025_Australian_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2025-03-14T01:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2025-03-14T05:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2025-03-15T01:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2025-03-15T05:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2025-03-16T04:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "round": 2,
+      "raceName": "Chinese Grand Prix",
+      "slug": "chinese",
+      "circuitId": "shanghai",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2025_Chinese_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2025-03-21T03:30:00.000Z"
+        },
+        {
+          "type": "SQ",
+          "start": "2025-03-21T07:30:00.000Z"
+        },
+        {
+          "type": "Sprint",
+          "start": "2025-03-22T03:00:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2025-03-22T07:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2025-03-23T07:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "round": 3,
+      "raceName": "Japanese Grand Prix",
+      "slug": "japanese",
+      "circuitId": "suzuka",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2025_Japanese_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2025-04-04T02:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2025-04-04T06:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2025-04-05T02:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2025-04-05T06:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2025-04-06T05:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "round": 4,
+      "raceName": "Bahrain Grand Prix",
+      "slug": "bahrain",
+      "circuitId": "bahrain",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2025_Bahrain_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2025-04-11T11:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2025-04-11T15:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2025-04-12T12:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2025-04-12T16:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2025-04-13T15:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "round": 5,
+      "raceName": "Saudi Arabian Grand Prix",
+      "slug": "saudi-arabian",
+      "circuitId": "jeddah",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2025_Saudi_Arabian_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2025-04-18T13:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2025-04-18T17:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2025-04-19T13:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2025-04-19T17:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2025-04-20T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "round": 6,
+      "raceName": "Miami Grand Prix",
+      "slug": "miami",
+      "circuitId": "miami",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2025_Miami_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2025-05-02T16:30:00.000Z"
+        },
+        {
+          "type": "SQ",
+          "start": "2025-05-02T20:30:00.000Z"
+        },
+        {
+          "type": "Sprint",
+          "start": "2025-05-03T16:00:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2025-05-03T20:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2025-05-04T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "round": 7,
+      "raceName": "Emilia Romagna Grand Prix",
+      "slug": "emilia-romagna",
+      "circuitId": "imola",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2025_Emilia_Romagna_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2025-05-16T11:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2025-05-16T15:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2025-05-17T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2025-05-17T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2025-05-18T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "round": 8,
+      "raceName": "Monaco Grand Prix",
+      "slug": "monaco",
+      "circuitId": "monaco",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2025_Monaco_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2025-05-23T11:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2025-05-23T15:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2025-05-24T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2025-05-24T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2025-05-25T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "round": 9,
+      "raceName": "Spanish Grand Prix",
+      "slug": "spanish",
+      "circuitId": "catalunya",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2025_Spanish_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2025-05-30T11:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2025-05-30T15:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2025-05-31T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2025-05-31T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2025-06-01T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "round": 10,
+      "raceName": "Canadian Grand Prix",
+      "slug": "canadian",
+      "circuitId": "villeneuve",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2025_Canadian_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2025-06-13T17:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2025-06-13T21:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2025-06-14T16:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2025-06-14T20:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2025-06-15T18:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "round": 11,
+      "raceName": "Austrian Grand Prix",
+      "slug": "austrian",
+      "circuitId": "red_bull_ring",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2025_Austrian_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2025-06-27T11:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2025-06-27T15:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2025-06-28T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2025-06-28T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2025-06-29T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "round": 12,
+      "raceName": "British Grand Prix",
+      "slug": "british",
+      "circuitId": "silverstone",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2025_British_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2025-07-04T11:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2025-07-04T15:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2025-07-05T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2025-07-05T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2025-07-06T14:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "round": 13,
+      "raceName": "Belgian Grand Prix",
+      "slug": "belgian",
+      "circuitId": "spa",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2025_Belgian_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2025-07-25T10:30:00.000Z"
+        },
+        {
+          "type": "SQ",
+          "start": "2025-07-25T14:30:00.000Z"
+        },
+        {
+          "type": "Sprint",
+          "start": "2025-07-26T10:00:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2025-07-26T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2025-07-27T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "round": 14,
+      "raceName": "Hungarian Grand Prix",
+      "slug": "hungarian",
+      "circuitId": "hungaroring",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2025_Hungarian_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2025-08-01T11:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2025-08-01T15:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2025-08-02T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2025-08-02T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2025-08-03T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "round": 15,
+      "raceName": "Dutch Grand Prix",
+      "slug": "dutch",
+      "circuitId": "zandvoort",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2025_Dutch_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2025-08-29T10:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2025-08-29T14:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2025-08-30T09:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2025-08-30T13:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2025-08-31T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "round": 16,
+      "raceName": "Italian Grand Prix",
+      "slug": "italian",
+      "circuitId": "monza",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2025_Italian_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2025-09-05T11:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2025-09-05T15:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2025-09-06T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2025-09-06T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2025-09-07T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "round": 17,
+      "raceName": "Azerbaijan Grand Prix",
+      "slug": "azerbaijan",
+      "circuitId": "baku",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2025_Azerbaijan_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2025-09-19T08:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2025-09-19T12:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2025-09-20T08:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2025-09-20T12:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2025-09-21T11:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "round": 18,
+      "raceName": "Singapore Grand Prix",
+      "slug": "singapore",
+      "circuitId": "marina_bay",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2025_Singapore_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2025-10-03T09:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2025-10-03T13:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2025-10-04T09:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2025-10-04T13:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2025-10-05T12:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "round": 19,
+      "raceName": "United States Grand Prix",
+      "slug": "united-states",
+      "circuitId": "americas",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2025_United_States_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2025-10-17T17:30:00.000Z"
+        },
+        {
+          "type": "SQ",
+          "start": "2025-10-17T21:30:00.000Z"
+        },
+        {
+          "type": "Sprint",
+          "start": "2025-10-18T17:00:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2025-10-18T21:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2025-10-19T19:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "round": 20,
+      "raceName": "Mexico City Grand Prix",
+      "slug": "mexico-city",
+      "circuitId": "rodriguez",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2025_Mexico_City_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2025-10-24T18:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2025-10-24T22:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2025-10-25T17:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2025-10-25T21:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2025-10-26T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "round": 21,
+      "raceName": "São Paulo Grand Prix",
+      "slug": "sao-paulo",
+      "circuitId": "interlagos",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2025_S%C3%A3o_Paulo_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2025-11-07T14:30:00.000Z"
+        },
+        {
+          "type": "SQ",
+          "start": "2025-11-07T18:30:00.000Z"
+        },
+        {
+          "type": "Sprint",
+          "start": "2025-11-08T14:00:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2025-11-08T18:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2025-11-09T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "round": 22,
+      "raceName": "Las Vegas Grand Prix",
+      "slug": "las-vegas",
+      "circuitId": "vegas",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2025_Las_Vegas_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2025-11-21T00:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2025-11-21T04:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2025-11-22T00:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2025-11-22T04:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2025-11-23T04:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "round": 23,
+      "raceName": "Qatar Grand Prix",
+      "slug": "qatar",
+      "circuitId": "losail",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2025_Qatar_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2025-11-28T13:30:00.000Z"
+        },
+        {
+          "type": "SQ",
+          "start": "2025-11-28T17:30:00.000Z"
+        },
+        {
+          "type": "Sprint",
+          "start": "2025-11-29T14:00:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2025-11-29T18:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2025-11-30T16:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2025,
+      "round": 24,
+      "raceName": "Abu Dhabi Grand Prix",
+      "slug": "abu-dhabi",
+      "circuitId": "yas_marina",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2025_Abu_Dhabi_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2025-12-05T09:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2025-12-05T13:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2025-12-06T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2025-12-06T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2025-12-07T13:00:00.000Z"
+        }
+      ]
+    }
+  ]
+}

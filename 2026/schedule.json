@@ -1,0 +1,695 @@
+{
+  "season": 2026,
+  "races": [
+    {
+      "season": 2026,
+      "round": 1,
+      "raceName": "Australian Grand Prix",
+      "slug": "australian",
+      "circuitId": "albert_park",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2026_Australian_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2026-03-06T01:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2026-03-06T05:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2026-03-07T01:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2026-03-07T05:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2026-03-08T04:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2026,
+      "round": 2,
+      "raceName": "Chinese Grand Prix",
+      "slug": "chinese",
+      "circuitId": "shanghai",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2026_Chinese_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2026-03-13T03:30:00.000Z"
+        },
+        {
+          "type": "SQ",
+          "start": "2026-03-13T07:30:00.000Z"
+        },
+        {
+          "type": "Sprint",
+          "start": "2026-03-14T03:00:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2026-03-14T07:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2026-03-15T07:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2026,
+      "round": 3,
+      "raceName": "Japanese Grand Prix",
+      "slug": "japanese",
+      "circuitId": "suzuka",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2026_Japanese_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2026-03-27T02:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2026-03-27T06:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2026-03-28T02:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2026-03-28T06:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2026-03-29T05:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2026,
+      "round": 4,
+      "raceName": "Miami Grand Prix",
+      "slug": "miami",
+      "circuitId": "miami",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2026_Miami_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2026-05-01T16:00:00.000Z"
+        },
+        {
+          "type": "SQ",
+          "start": "2026-05-01T20:30:00.000Z"
+        },
+        {
+          "type": "Sprint",
+          "start": "2026-05-02T16:00:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2026-05-02T20:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2026-05-03T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2026,
+      "round": 5,
+      "raceName": "Canadian Grand Prix",
+      "slug": "canadian",
+      "circuitId": "villeneuve",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2026_Canadian_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2026-05-22T16:30:00.000Z"
+        },
+        {
+          "type": "SQ",
+          "start": "2026-05-22T20:30:00.000Z"
+        },
+        {
+          "type": "Sprint",
+          "start": "2026-05-23T16:00:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2026-05-23T20:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2026-05-24T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2026,
+      "round": 6,
+      "raceName": "Monaco Grand Prix",
+      "slug": "monaco",
+      "circuitId": "monaco",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2026_Monaco_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2026-06-05T11:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2026-06-05T15:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2026-06-06T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2026-06-06T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2026-06-07T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2026,
+      "round": 7,
+      "raceName": "Barcelona Grand Prix",
+      "slug": "barcelona",
+      "circuitId": "catalunya",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2026_Barcelona-Catalunya",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2026-06-12T11:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2026-06-12T15:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2026-06-13T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2026-06-13T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2026-06-14T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2026,
+      "round": 8,
+      "raceName": "Austrian Grand Prix",
+      "slug": "austrian",
+      "circuitId": "red_bull_ring",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2026_Austrian_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2026-06-26T11:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2026-06-26T15:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2026-06-27T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2026-06-27T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2026-06-28T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2026,
+      "round": 9,
+      "raceName": "British Grand Prix",
+      "slug": "british",
+      "circuitId": "silverstone",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2026_British_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2026-07-03T11:30:00.000Z"
+        },
+        {
+          "type": "SQ",
+          "start": "2026-07-03T15:30:00.000Z"
+        },
+        {
+          "type": "Sprint",
+          "start": "2026-07-04T11:00:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2026-07-04T15:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2026-07-05T14:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2026,
+      "round": 10,
+      "raceName": "Belgian Grand Prix",
+      "slug": "belgian",
+      "circuitId": "spa",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2026_Belgian_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2026-07-17T11:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2026-07-17T15:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2026-07-18T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2026-07-18T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2026-07-19T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2026,
+      "round": 11,
+      "raceName": "Hungarian Grand Prix",
+      "slug": "hungarian",
+      "circuitId": "hungaroring",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2026_Hungarian_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2026-07-24T11:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2026-07-24T15:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2026-07-25T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2026-07-25T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2026-07-26T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2026,
+      "round": 12,
+      "raceName": "Dutch Grand Prix",
+      "slug": "dutch",
+      "circuitId": "zandvoort",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2026_Dutch_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2026-08-21T10:30:00.000Z"
+        },
+        {
+          "type": "SQ",
+          "start": "2026-08-21T14:30:00.000Z"
+        },
+        {
+          "type": "Sprint",
+          "start": "2026-08-22T10:00:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2026-08-22T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2026-08-23T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2026,
+      "round": 13,
+      "raceName": "Italian Grand Prix",
+      "slug": "italian",
+      "circuitId": "monza",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2026_Italian_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2026-09-04T10:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2026-09-04T14:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2026-09-05T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2026-09-05T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2026-09-06T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2026,
+      "round": 14,
+      "raceName": "Spanish Grand Prix",
+      "slug": "spanish",
+      "circuitId": "madring",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2026_Spanish_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2026-09-11T11:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2026-09-11T15:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2026-09-12T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2026-09-12T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2026-09-13T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2026,
+      "round": 15,
+      "raceName": "Azerbaijan Grand Prix",
+      "slug": "azerbaijan",
+      "circuitId": "baku",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2026_Azerbaijan_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2026-09-24T08:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2026-09-24T12:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2026-09-25T08:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2026-09-25T12:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2026-09-26T11:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2026,
+      "round": 16,
+      "raceName": "Bahrain Grand Prix in Malaysia",
+      "slug": "bahrain-in-malaysia",
+      "circuitId": "sepang",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2026_Bahrain_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2026-10-02T04:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2026-10-02T08:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2026-10-03T04:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2026-10-03T08:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2026-10-04T07:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2026,
+      "round": 17,
+      "raceName": "Singapore Grand Prix",
+      "slug": "singapore",
+      "circuitId": "marina_bay",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2026_Singapore_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2026-10-09T08:30:00.000Z"
+        },
+        {
+          "type": "SQ",
+          "start": "2026-10-09T12:30:00.000Z"
+        },
+        {
+          "type": "Sprint",
+          "start": "2026-10-10T09:00:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2026-10-10T13:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2026-10-11T12:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2026,
+      "round": 18,
+      "raceName": "United States Grand Prix",
+      "slug": "united-states",
+      "circuitId": "americas",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2026_United_States_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2026-10-23T17:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2026-10-23T21:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2026-10-24T17:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2026-10-24T21:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2026-10-25T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2026,
+      "round": 19,
+      "raceName": "Mexico City Grand Prix",
+      "slug": "mexico-city",
+      "circuitId": "rodriguez",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2026_Mexico_City_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2026-10-30T18:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2026-10-30T22:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2026-10-31T17:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2026-10-31T21:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2026-11-01T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2026,
+      "round": 20,
+      "raceName": "Brazilian Grand Prix",
+      "slug": "brazilian",
+      "circuitId": "interlagos",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2026_Brazilian_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2026-11-06T15:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2026-11-06T19:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2026-11-07T14:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2026-11-07T18:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2026-11-08T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2026,
+      "round": 21,
+      "raceName": "Las Vegas Grand Prix",
+      "slug": "las-vegas",
+      "circuitId": "vegas",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2026_Las_Vegas_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2026-11-20T00:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2026-11-20T04:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2026-11-21T00:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2026-11-21T04:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2026-11-22T04:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2026,
+      "round": 22,
+      "raceName": "Qatar Grand Prix",
+      "slug": "qatar",
+      "circuitId": "losail",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2026_Qatar_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2026-11-27T13:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2026-11-27T17:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2026-11-28T14:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2026-11-28T18:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2026-11-29T16:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2026,
+      "round": 23,
+      "raceName": "Abu Dhabi Grand Prix",
+      "slug": "abu-dhabi",
+      "circuitId": "yas_marina",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2026_Abu_Dhabi_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2026-12-04T09:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2026-12-04T13:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2026-12-05T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2026-12-05T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2026-12-06T13:00:00.000Z"
+        }
+      ]
+    }
+  ]
+}

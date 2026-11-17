@@ -1,0 +1,725 @@
+{
+  "season": 2024,
+  "races": [
+    {
+      "season": 2024,
+      "round": 1,
+      "raceName": "Bahrain Grand Prix",
+      "slug": "bahrain",
+      "circuitId": "bahrain",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2024_Bahrain_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2024-02-29T11:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2024-02-29T15:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2024-03-01T12:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2024-03-01T16:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2024-03-02T15:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2024,
+      "round": 2,
+      "raceName": "Saudi Arabian Grand Prix",
+      "slug": "saudi-arabian",
+      "circuitId": "jeddah",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2024_Saudi_Arabian_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2024-03-07T13:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2024-03-07T17:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2024-03-08T13:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2024-03-08T17:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2024-03-09T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2024,
+      "round": 3,
+      "raceName": "Australian Grand Prix",
+      "slug": "australian",
+      "circuitId": "albert_park",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2024_Australian_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2024-03-22T01:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2024-03-22T05:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2024-03-23T01:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2024-03-23T05:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2024-03-24T04:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2024,
+      "round": 4,
+      "raceName": "Japanese Grand Prix",
+      "slug": "japanese",
+      "circuitId": "suzuka",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2024_Japanese_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2024-04-05T02:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2024-04-05T06:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2024-04-06T02:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2024-04-06T06:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2024-04-07T05:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2024,
+      "round": 5,
+      "raceName": "Chinese Grand Prix",
+      "slug": "chinese",
+      "circuitId": "shanghai",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2024_Chinese_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2024-04-19T03:30:00.000Z"
+        },
+        {
+          "type": "SQ",
+          "start": "2024-04-19T07:30:00.000Z"
+        },
+        {
+          "type": "Sprint",
+          "start": "2024-04-20T03:00:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2024-04-20T07:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2024-04-21T07:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2024,
+      "round": 6,
+      "raceName": "Miami Grand Prix",
+      "slug": "miami",
+      "circuitId": "miami",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2024_Miami_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2024-05-03T16:30:00.000Z"
+        },
+        {
+          "type": "SQ",
+          "start": "2024-05-03T20:30:00.000Z"
+        },
+        {
+          "type": "Sprint",
+          "start": "2024-05-04T16:00:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2024-05-04T20:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2024-05-05T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2024,
+      "round": 7,
+      "raceName": "Emilia Romagna Grand Prix",
+      "slug": "emilia-romagna",
+      "circuitId": "imola",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2024_Emilia_Romagna_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2024-05-17T11:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2024-05-17T15:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2024-05-18T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2024-05-18T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2024-05-19T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2024,
+      "round": 8,
+      "raceName": "Monaco Grand Prix",
+      "slug": "monaco",
+      "circuitId": "monaco",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2024_Monaco_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2024-05-24T11:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2024-05-24T15:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2024-05-25T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2024-05-25T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2024-05-26T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2024,
+      "round": 9,
+      "raceName": "Canadian Grand Prix",
+      "slug": "canadian",
+      "circuitId": "villeneuve",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2024_Canadian_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2024-06-07T17:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2024-06-07T21:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2024-06-08T16:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2024-06-08T20:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2024-06-09T18:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2024,
+      "round": 10,
+      "raceName": "Spanish Grand Prix",
+      "slug": "spanish",
+      "circuitId": "catalunya",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2024_Spanish_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2024-06-21T11:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2024-06-21T15:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2024-06-22T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2024-06-22T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2024-06-23T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2024,
+      "round": 11,
+      "raceName": "Austrian Grand Prix",
+      "slug": "austrian",
+      "circuitId": "red_bull_ring",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2024_Austrian_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2024-06-28T10:30:00.000Z"
+        },
+        {
+          "type": "SQ",
+          "start": "2024-06-28T14:30:00.000Z"
+        },
+        {
+          "type": "Sprint",
+          "start": "2024-06-29T10:00:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2024-06-29T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2024-06-30T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2024,
+      "round": 12,
+      "raceName": "British Grand Prix",
+      "slug": "british",
+      "circuitId": "silverstone",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2024_British_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2024-07-05T11:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2024-07-05T15:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2024-07-06T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2024-07-06T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2024-07-07T14:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2024,
+      "round": 13,
+      "raceName": "Hungarian Grand Prix",
+      "slug": "hungarian",
+      "circuitId": "hungaroring",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2024_Hungarian_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2024-07-19T11:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2024-07-19T15:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2024-07-20T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2024-07-20T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2024-07-21T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2024,
+      "round": 14,
+      "raceName": "Belgian Grand Prix",
+      "slug": "belgian",
+      "circuitId": "spa",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2024_Belgian_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2024-07-26T11:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2024-07-26T15:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2024-07-27T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2024-07-27T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2024-07-28T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2024,
+      "round": 15,
+      "raceName": "Dutch Grand Prix",
+      "slug": "dutch",
+      "circuitId": "zandvoort",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2024_Dutch_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2024-08-23T10:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2024-08-23T14:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2024-08-24T09:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2024-08-24T13:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2024-08-25T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2024,
+      "round": 16,
+      "raceName": "Italian Grand Prix",
+      "slug": "italian",
+      "circuitId": "monza",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2024_Italian_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2024-08-30T11:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2024-08-30T15:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2024-08-31T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2024-08-31T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2024-09-01T13:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2024,
+      "round": 17,
+      "raceName": "Azerbaijan Grand Prix",
+      "slug": "azerbaijan",
+      "circuitId": "baku",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2024_Azerbaijan_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2024-09-13T09:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2024-09-13T13:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2024-09-14T08:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2024-09-14T12:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2024-09-15T11:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2024,
+      "round": 18,
+      "raceName": "Singapore Grand Prix",
+      "slug": "singapore",
+      "circuitId": "marina_bay",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2024_Singapore_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2024-09-20T09:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2024-09-20T13:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2024-09-21T09:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2024-09-21T13:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2024-09-22T12:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2024,
+      "round": 19,
+      "raceName": "United States Grand Prix",
+      "slug": "united-states",
+      "circuitId": "americas",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2024_United_States_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2024-10-18T17:30:00.000Z"
+        },
+        {
+          "type": "SQ",
+          "start": "2024-10-18T21:30:00.000Z"
+        },
+        {
+          "type": "Sprint",
+          "start": "2024-10-19T18:00:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2024-10-19T22:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2024-10-20T19:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2024,
+      "round": 20,
+      "raceName": "Mexico City Grand Prix",
+      "slug": "mexico-city",
+      "circuitId": "rodriguez",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2024_Mexico_City_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2024-10-25T18:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2024-10-25T22:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2024-10-26T17:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2024-10-26T21:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2024-10-27T20:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2024,
+      "round": 21,
+      "raceName": "São Paulo Grand Prix",
+      "slug": "sao-paulo",
+      "circuitId": "interlagos",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2024_S%C3%A3o_Paulo_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2024-11-01T14:30:00.000Z"
+        },
+        {
+          "type": "SQ",
+          "start": "2024-11-01T18:30:00.000Z"
+        },
+        {
+          "type": "Sprint",
+          "start": "2024-11-02T14:00:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2024-11-02T18:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2024-11-03T17:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2024,
+      "round": 22,
+      "raceName": "Las Vegas Grand Prix",
+      "slug": "las-vegas",
+      "circuitId": "vegas",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2024_Las_Vegas_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2024-11-21T02:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2024-11-21T06:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2024-11-22T02:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2024-11-22T06:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2024-11-23T06:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2024,
+      "round": 23,
+      "raceName": "Qatar Grand Prix",
+      "slug": "qatar",
+      "circuitId": "losail",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2024_Qatar_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2024-11-29T13:30:00.000Z"
+        },
+        {
+          "type": "SQ",
+          "start": "2024-11-29T17:30:00.000Z"
+        },
+        {
+          "type": "Sprint",
+          "start": "2024-11-30T14:00:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2024-11-30T18:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2024-12-01T16:00:00.000Z"
+        }
+      ]
+    },
+    {
+      "season": 2024,
+      "round": 24,
+      "raceName": "Abu Dhabi Grand Prix",
+      "slug": "abu-dhabi",
+      "circuitId": "yas_marina",
+      "wikipediaUrl": "https://en.wikipedia.org/wiki/2024_Abu_Dhabi_Grand_Prix",
+      "sessions": [
+        {
+          "type": "FP1",
+          "start": "2024-12-06T09:30:00.000Z"
+        },
+        {
+          "type": "FP2",
+          "start": "2024-12-06T13:00:00.000Z"
+        },
+        {
+          "type": "FP3",
+          "start": "2024-12-07T10:30:00.000Z"
+        },
+        {
+          "type": "Q",
+          "start": "2024-12-07T14:00:00.000Z"
+        },
+        {
+          "type": "Race",
+          "start": "2024-12-08T13:00:00.000Z"
+        }
+      ]
+    }
+  ]
+}
