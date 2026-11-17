@@ -1,0 +1,44 @@
+{
+  "snapshots": [
+    {
+      "fetchedAt": "2026-11-17T19:21:16.953Z",
+      "sessions": {
+        "FP1": {
+          "rainChance": 48,
+          "precipMm": 0,
+          "tempC": 13.1,
+          "windKmh": 21.3,
+          "code": 3
+        },
+        "FP2": {
+          "rainChance": 48,
+          "precipMm": 0,
+          "tempC": 12.9,
+          "windKmh": 27.1,
+          "code": 0
+        },
+        "FP3": {
+          "rainChance": 1,
+          "precipMm": 0,
+          "tempC": 13.9,
+          "windKmh": 19.1,
+          "code": 0
+        },
+        "Q": {
+          "rainChance": 1,
+          "precipMm": 0,
+          "tempC": 12.3,
+          "windKmh": 14,
+          "code": 0
+        },
+        "Race": {
+          "rainChance": 0,
+          "precipMm": 0,
+          "tempC": 12.4,
+          "windKmh": 8.3,
+          "code": 0
+        }
+      }
+    }
+  ]
+}

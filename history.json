@@ -1,0 +1,5012 @@
+{
+  "modelRule": "pre1h-race2h",
+  "seasons": [
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013,
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022
+  ],
+  "circuits": {
+    "albert_park": {
+      "name": "Albert Park Grand Prix Circuit",
+      "locality": "Melbourne",
+      "country": "Australia",
+      "lat": -37.8497,
+      "lon": 144.968
+    },
+    "interlagos": {
+      "name": "Autódromo José Carlos Pace",
+      "locality": "São Paulo",
+      "country": "Brazil",
+      "lat": -23.7036,
+      "lon": -46.6997
+    },
+    "imola": {
+      "name": "Autodromo Enzo e Dino Ferrari",
+      "locality": "Imola",
+      "country": "Italy",
+      "lat": 44.3439,
+      "lon": 11.7167
+    },
+    "silverstone": {
+      "name": "Silverstone Circuit",
+      "locality": "Silverstone",
+      "country": "UK",
+      "lat": 52.0786,
+      "lon": -1.01694
+    },
+    "catalunya": {
+      "name": "Circuit de Barcelona-Catalunya",
+      "locality": "Barcelona",
+      "country": "Spain",
+      "lat": 41.57,
+      "lon": 2.26111
+    },
+    "nurburgring": {
+      "name": "Nürburgring",
+      "locality": "Nürburg",
+      "country": "Germany",
+      "lat": 50.3356,
+      "lon": 6.9475
+    },
+    "monaco": {
+      "name": "Circuit de Monaco",
+      "locality": "Monte Carlo",
+      "country": "Monaco",
+      "lat": 43.7347,
+      "lon": 7.42056
+    },
+    "villeneuve": {
+      "name": "Circuit Gilles Villeneuve",
+      "locality": "Montreal",
+      "country": "Canada",
+      "lat": 45.5,
+      "lon": -73.5228
+    },
+    "magny_cours": {
+      "name": "Circuit de Nevers Magny-Cours",
+      "locality": "Magny Cours",
+      "country": "France",
+      "lat": 46.8642,
+      "lon": 3.16361
+    },
+    "red_bull_ring": {
+      "name": "Red Bull Ring",
+      "locality": "Spielberg",
+      "country": "Austria",
+      "lat": 47.2197,
+      "lon": 14.7647
+    },
+    "hockenheimring": {
+      "name": "Hockenheimring",
+      "locality": "Hockenheim",
+      "country": "Germany",
+      "lat": 49.3278,
+      "lon": 8.56583
+    },
+    "hungaroring": {
+      "name": "Hungaroring",
+      "locality": "Budapest",
+      "country": "Hungary",
+      "lat": 47.5789,
+      "lon": 19.2486
+    },
+    "spa": {
+      "name": "Circuit de Spa-Francorchamps",
+      "locality": "Spa",
+      "country": "Belgium",
+      "lat": 50.4372,
+      "lon": 5.97139
+    },
+    "monza": {
+      "name": "Autodromo Nazionale di Monza",
+      "locality": "Monza",
+      "country": "Italy",
+      "lat": 45.6156,
+      "lon": 9.28111
+    },
+    "indianapolis": {
+      "name": "Indianapolis Motor Speedway",
+      "locality": "Indianapolis",
+      "country": "USA",
+      "lat": 39.795,
+      "lon": -86.2347
+    },
+    "suzuka": {
+      "name": "Suzuka Circuit",
+      "locality": "Suzuka",
+      "country": "Japan",
+      "lat": 34.8431,
+      "lon": 136.541
+    },
+    "sepang": {
+      "name": "Sepang International Circuit",
+      "locality": "Kuala Lumpur",
+      "country": "Malaysia",
+      "lat": 2.76083,
+      "lon": 101.738
+    },
+    "bahrain": {
+      "name": "Bahrain International Circuit",
+      "locality": "Sakhir",
+      "country": "Bahrain",
+      "lat": 26.0325,
+      "lon": 50.5106
+    },
+    "shanghai": {
+      "name": "Shanghai International Circuit",
+      "locality": "Shanghai",
+      "country": "China",
+      "lat": 31.3389,
+      "lon": 121.22
+    },
+    "istanbul": {
+      "name": "Istanbul Park",
+      "locality": "Istanbul",
+      "country": "Turkey",
+      "lat": 40.9517,
+      "lon": 29.405
+    },
+    "fuji": {
+      "name": "Fuji Speedway",
+      "locality": "Oyama",
+      "country": "Japan",
+      "lat": 35.3717,
+      "lon": 138.927
+    },
+    "valencia": {
+      "name": "Valencia Street Circuit",
+      "locality": "Valencia",
+      "country": "Spain",
+      "lat": 39.4589,
+      "lon": -0.331667
+    },
+    "marina_bay": {
+      "name": "Marina Bay Street Circuit",
+      "locality": "Marina Bay",
+      "country": "Singapore",
+      "lat": 1.2914,
+      "lon": 103.864
+    },
+    "yas_marina": {
+      "name": "Yas Marina Circuit",
+      "locality": "Abu Dhabi",
+      "country": "UAE",
+      "lat": 24.4672,
+      "lon": 54.6031
+    },
+    "yeongam": {
+      "name": "Korean International Circuit",
+      "locality": "Yeongam County",
+      "country": "Korea",
+      "lat": 34.7333,
+      "lon": 126.417
+    },
+    "buddh": {
+      "name": "Buddh International Circuit",
+      "locality": "Uttar Pradesh",
+      "country": "India",
+      "lat": 28.3487,
+      "lon": 77.5331
+    },
+    "americas": {
+      "name": "Circuit of the Americas",
+      "locality": "Austin",
+      "country": "USA",
+      "lat": 30.1328,
+      "lon": -97.6411
+    },
+    "sochi": {
+      "name": "Sochi Autodrom",
+      "locality": "Sochi",
+      "country": "Russia",
+      "lat": 43.4057,
+      "lon": 39.9578
+    },
+    "rodriguez": {
+      "name": "Autódromo Hermanos Rodríguez",
+      "locality": "Mexico City",
+      "country": "Mexico",
+      "lat": 19.4042,
+      "lon": -99.0907
+    },
+    "baku": {
+      "name": "Baku City Circuit",
+      "locality": "Baku",
+      "country": "Azerbaijan",
+      "lat": 40.3725,
+      "lon": 49.8533
+    },
+    "ricard": {
+      "name": "Circuit Paul Ricard",
+      "locality": "Le Castellet",
+      "country": "France",
+      "lat": 43.2506,
+      "lon": 5.79167
+    },
+    "mugello": {
+      "name": "Autodromo Internazionale del Mugello",
+      "locality": "Mugello",
+      "country": "Italy",
+      "lat": 43.9975,
+      "lon": 11.3719
+    },
+    "portimao": {
+      "name": "Autódromo Internacional do Algarve",
+      "locality": "Portimão",
+      "country": "Portugal",
+      "lat": 37.227,
+      "lon": -8.6267
+    },
+    "zandvoort": {
+      "name": "Circuit Park Zandvoort",
+      "locality": "Zandvoort",
+      "country": "Netherlands",
+      "lat": 52.3888,
+      "lon": 4.54092
+    },
+    "losail": {
+      "name": "Lusail International Circuit",
+      "locality": "Lusail",
+      "country": "Qatar",
+      "lat": 25.49,
+      "lon": 51.4542
+    },
+    "jeddah": {
+      "name": "Jeddah Corniche Circuit",
+      "locality": "Jeddah",
+      "country": "Saudi Arabia",
+      "lat": 21.6319,
+      "lon": 39.1044
+    },
+    "miami": {
+      "name": "Miami International Autodrome",
+      "locality": "Miami",
+      "country": "USA",
+      "lat": 25.9581,
+      "lon": -80.2389
+    },
+    "vegas": {
+      "name": "Las Vegas Strip Street Circuit",
+      "locality": "Las Vegas",
+      "country": "USA",
+      "lat": 36.1147,
+      "lon": -115.173
+    },
+    "madring": {
+      "name": "Madring",
+      "locality": "Madrid",
+      "country": "Spain",
+      "lat": 40.46528,
+      "lon": -3.61528
+    }
+  },
+  "races": [
+    {
+      "season": 2000,
+      "round": 1,
+      "raceName": "Australian Grand Prix",
+      "circuitId": "albert_park",
+      "start": "2000-03-12T03:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2000,
+      "round": 2,
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "interlagos",
+      "start": "2000-03-26T17:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0.4
+    },
+    {
+      "season": 2000,
+      "round": 3,
+      "raceName": "San Marino Grand Prix",
+      "circuitId": "imola",
+      "start": "2000-04-09T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2000,
+      "round": 4,
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "start": "2000-04-23T14:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0.7
+    },
+    {
+      "season": 2000,
+      "round": 5,
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "catalunya",
+      "start": "2000-05-07T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 1.7
+    },
+    {
+      "season": 2000,
+      "round": 6,
+      "raceName": "European Grand Prix",
+      "circuitId": "nurburgring",
+      "start": "2000-05-21T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 2
+    },
+    {
+      "season": 2000,
+      "round": 7,
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "start": "2000-06-04T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2000,
+      "round": 8,
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "villeneuve",
+      "start": "2000-06-18T19:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0.4
+    },
+    {
+      "season": 2000,
+      "round": 9,
+      "raceName": "French Grand Prix",
+      "circuitId": "magny_cours",
+      "start": "2000-07-02T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2000,
+      "round": 10,
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "red_bull_ring",
+      "start": "2000-07-16T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0.1
+    },
+    {
+      "season": 2000,
+      "round": 11,
+      "raceName": "German Grand Prix",
+      "circuitId": "hockenheimring",
+      "start": "2000-07-30T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0.6
+    },
+    {
+      "season": 2000,
+      "round": 12,
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hungaroring",
+      "start": "2000-08-13T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0.2
+    },
+    {
+      "season": 2000,
+      "round": 13,
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "start": "2000-08-27T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0.3
+    },
+    {
+      "season": 2000,
+      "round": 14,
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "start": "2000-09-10T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2000,
+      "round": 15,
+      "raceName": "United States Grand Prix",
+      "circuitId": "indianapolis",
+      "start": "2000-09-24T19:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0.2
+    },
+    {
+      "season": 2000,
+      "round": 16,
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "start": "2000-10-08T05:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0.5
+    },
+    {
+      "season": 2000,
+      "round": 17,
+      "raceName": "Malaysian Grand Prix",
+      "circuitId": "sepang",
+      "start": "2000-10-22T06:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0.1
+    },
+    {
+      "season": 2001,
+      "round": 1,
+      "raceName": "Australian Grand Prix",
+      "circuitId": "albert_park",
+      "start": "2001-03-04T03:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2001,
+      "round": 2,
+      "raceName": "Malaysian Grand Prix",
+      "circuitId": "sepang",
+      "start": "2001-03-18T06:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0.5
+    },
+    {
+      "season": 2001,
+      "round": 3,
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "interlagos",
+      "start": "2001-04-01T17:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 7.9
+    },
+    {
+      "season": 2001,
+      "round": 4,
+      "raceName": "San Marino Grand Prix",
+      "circuitId": "imola",
+      "start": "2001-04-15T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2001,
+      "round": 5,
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "catalunya",
+      "start": "2001-04-29T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2001,
+      "round": 6,
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "red_bull_ring",
+      "start": "2001-05-13T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2001,
+      "round": 7,
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "start": "2001-05-27T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2001,
+      "round": 8,
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "villeneuve",
+      "start": "2001-06-10T19:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2001,
+      "round": 9,
+      "raceName": "European Grand Prix",
+      "circuitId": "nurburgring",
+      "start": "2001-06-24T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2001,
+      "round": 10,
+      "raceName": "French Grand Prix",
+      "circuitId": "magny_cours",
+      "start": "2001-07-01T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2001,
+      "round": 11,
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "start": "2001-07-15T14:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2001,
+      "round": 12,
+      "raceName": "German Grand Prix",
+      "circuitId": "hockenheimring",
+      "start": "2001-07-29T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2001,
+      "round": 13,
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hungaroring",
+      "start": "2001-08-19T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0.2
+    },
+    {
+      "season": 2001,
+      "round": 14,
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "start": "2001-09-02T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2001,
+      "round": 15,
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "start": "2001-09-16T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2001,
+      "round": 16,
+      "raceName": "United States Grand Prix",
+      "circuitId": "indianapolis",
+      "start": "2001-09-30T19:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2001,
+      "round": 17,
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "start": "2001-10-14T05:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2002,
+      "round": 1,
+      "raceName": "Australian Grand Prix",
+      "circuitId": "albert_park",
+      "start": "2002-03-03T03:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0.5
+    },
+    {
+      "season": 2002,
+      "round": 2,
+      "raceName": "Malaysian Grand Prix",
+      "circuitId": "sepang",
+      "start": "2002-03-17T06:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 1.9
+    },
+    {
+      "season": 2002,
+      "round": 3,
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "interlagos",
+      "start": "2002-03-31T17:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2002,
+      "round": 4,
+      "raceName": "San Marino Grand Prix",
+      "circuitId": "imola",
+      "start": "2002-04-14T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0.6
+    },
+    {
+      "season": 2002,
+      "round": 5,
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "catalunya",
+      "start": "2002-04-28T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2002,
+      "round": 6,
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "red_bull_ring",
+      "start": "2002-05-12T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 2.2
+    },
+    {
+      "season": 2002,
+      "round": 7,
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "start": "2002-05-26T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2002,
+      "round": 8,
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "villeneuve",
+      "start": "2002-06-09T19:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2002,
+      "round": 9,
+      "raceName": "European Grand Prix",
+      "circuitId": "nurburgring",
+      "start": "2002-06-23T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2002,
+      "round": 10,
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "start": "2002-07-07T14:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0.3
+    },
+    {
+      "season": 2002,
+      "round": 11,
+      "raceName": "French Grand Prix",
+      "circuitId": "magny_cours",
+      "start": "2002-07-21T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2002,
+      "round": 12,
+      "raceName": "German Grand Prix",
+      "circuitId": "hockenheimring",
+      "start": "2002-07-28T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2002,
+      "round": 13,
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hungaroring",
+      "start": "2002-08-18T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2002,
+      "round": 14,
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "start": "2002-09-01T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2002,
+      "round": 15,
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "start": "2002-09-15T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2002,
+      "round": 16,
+      "raceName": "United States Grand Prix",
+      "circuitId": "indianapolis",
+      "start": "2002-09-29T19:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2002,
+      "round": 17,
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "start": "2002-10-13T05:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2003,
+      "round": 1,
+      "raceName": "Australian Grand Prix",
+      "circuitId": "albert_park",
+      "start": "2003-03-09T03:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0.4
+    },
+    {
+      "season": 2003,
+      "round": 2,
+      "raceName": "Malaysian Grand Prix",
+      "circuitId": "sepang",
+      "start": "2003-03-23T06:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2003,
+      "round": 3,
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "interlagos",
+      "start": "2003-04-06T17:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 3.7
+    },
+    {
+      "season": 2003,
+      "round": 4,
+      "raceName": "San Marino Grand Prix",
+      "circuitId": "imola",
+      "start": "2003-04-20T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2003,
+      "round": 5,
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "catalunya",
+      "start": "2003-05-04T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2003,
+      "round": 6,
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "red_bull_ring",
+      "start": "2003-05-18T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 2.3
+    },
+    {
+      "season": 2003,
+      "round": 7,
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "start": "2003-06-01T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0.5
+    },
+    {
+      "season": 2003,
+      "round": 8,
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "villeneuve",
+      "start": "2003-06-15T19:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2003,
+      "round": 9,
+      "raceName": "European Grand Prix",
+      "circuitId": "nurburgring",
+      "start": "2003-06-29T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2003,
+      "round": 10,
+      "raceName": "French Grand Prix",
+      "circuitId": "magny_cours",
+      "start": "2003-07-06T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2003,
+      "round": 11,
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "start": "2003-07-20T14:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2003,
+      "round": 12,
+      "raceName": "German Grand Prix",
+      "circuitId": "hockenheimring",
+      "start": "2003-08-03T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2003,
+      "round": 13,
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hungaroring",
+      "start": "2003-08-24T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2003,
+      "round": 14,
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "start": "2003-09-14T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2003,
+      "round": 15,
+      "raceName": "United States Grand Prix",
+      "circuitId": "indianapolis",
+      "start": "2003-09-28T19:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 2.7
+    },
+    {
+      "season": 2003,
+      "round": 16,
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "start": "2003-10-12T05:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0.4
+    },
+    {
+      "season": 2004,
+      "round": 1,
+      "raceName": "Australian Grand Prix",
+      "circuitId": "albert_park",
+      "start": "2004-03-07T03:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2004,
+      "round": 2,
+      "raceName": "Malaysian Grand Prix",
+      "circuitId": "sepang",
+      "start": "2004-03-21T06:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 1
+    },
+    {
+      "season": 2004,
+      "round": 3,
+      "raceName": "Bahrain Grand Prix",
+      "circuitId": "bahrain",
+      "start": "2004-04-04T11:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2004,
+      "round": 4,
+      "raceName": "San Marino Grand Prix",
+      "circuitId": "imola",
+      "start": "2004-04-25T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2004,
+      "round": 5,
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "catalunya",
+      "start": "2004-05-09T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2004,
+      "round": 6,
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "start": "2004-05-23T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0.7
+    },
+    {
+      "season": 2004,
+      "round": 7,
+      "raceName": "European Grand Prix",
+      "circuitId": "nurburgring",
+      "start": "2004-05-30T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2004,
+      "round": 8,
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "villeneuve",
+      "start": "2004-06-13T19:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2004,
+      "round": 9,
+      "raceName": "United States Grand Prix",
+      "circuitId": "indianapolis",
+      "start": "2004-06-20T19:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2004,
+      "round": 10,
+      "raceName": "French Grand Prix",
+      "circuitId": "magny_cours",
+      "start": "2004-07-04T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2004,
+      "round": 11,
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "start": "2004-07-11T14:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0.2
+    },
+    {
+      "season": 2004,
+      "round": 12,
+      "raceName": "German Grand Prix",
+      "circuitId": "hockenheimring",
+      "start": "2004-07-25T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2004,
+      "round": 13,
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hungaroring",
+      "start": "2004-08-15T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2004,
+      "round": 14,
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "start": "2004-08-29T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2004,
+      "round": 15,
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "start": "2004-09-12T13:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2004,
+      "round": 16,
+      "raceName": "Chinese Grand Prix",
+      "circuitId": "shanghai",
+      "start": "2004-09-26T06:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2004,
+      "round": 17,
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "start": "2004-10-10T05:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 0.1
+    },
+    {
+      "season": 2004,
+      "round": 18,
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "interlagos",
+      "start": "2004-10-24T17:00:00.000Z",
+      "startAssumed": true,
+      "modelledPrecipMm": 1.4
+    },
+    {
+      "season": 2005,
+      "round": 1,
+      "raceName": "Australian Grand Prix",
+      "circuitId": "albert_park",
+      "start": "2005-03-06T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2005,
+      "round": 2,
+      "raceName": "Malaysian Grand Prix",
+      "circuitId": "sepang",
+      "start": "2005-03-20T15:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2005,
+      "round": 3,
+      "raceName": "Bahrain Grand Prix",
+      "circuitId": "bahrain",
+      "start": "2005-04-03T14:30:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2005,
+      "round": 4,
+      "raceName": "San Marino Grand Prix",
+      "circuitId": "imola",
+      "start": "2005-04-24T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2005,
+      "round": 5,
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "catalunya",
+      "start": "2005-05-08T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2005,
+      "round": 6,
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "start": "2005-05-22T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2005,
+      "round": 7,
+      "raceName": "European Grand Prix",
+      "circuitId": "nurburgring",
+      "start": "2005-05-29T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2005,
+      "round": 8,
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "villeneuve",
+      "start": "2005-06-12T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2005,
+      "round": 9,
+      "raceName": "United States Grand Prix",
+      "circuitId": "indianapolis",
+      "start": "2005-06-19T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2005,
+      "round": 10,
+      "raceName": "French Grand Prix",
+      "circuitId": "magny_cours",
+      "start": "2005-07-03T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2005,
+      "round": 11,
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "start": "2005-07-10T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2005,
+      "round": 12,
+      "raceName": "German Grand Prix",
+      "circuitId": "hockenheimring",
+      "start": "2005-07-24T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0.2
+    },
+    {
+      "season": 2005,
+      "round": 13,
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hungaroring",
+      "start": "2005-07-31T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2005,
+      "round": 14,
+      "raceName": "Turkish Grand Prix",
+      "circuitId": "istanbul",
+      "start": "2005-08-21T15:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2005,
+      "round": 15,
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "start": "2005-09-04T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0.9
+    },
+    {
+      "season": 2005,
+      "round": 16,
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "start": "2005-09-11T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0.8
+    },
+    {
+      "season": 2005,
+      "round": 17,
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "interlagos",
+      "start": "2005-09-25T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 2.4
+    },
+    {
+      "season": 2005,
+      "round": 18,
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "start": "2005-10-09T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2005,
+      "round": 19,
+      "raceName": "Chinese Grand Prix",
+      "circuitId": "shanghai",
+      "start": "2005-10-16T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2006,
+      "round": 1,
+      "raceName": "Bahrain Grand Prix",
+      "circuitId": "bahrain",
+      "start": "2006-03-12T14:30:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2006,
+      "round": 2,
+      "raceName": "Malaysian Grand Prix",
+      "circuitId": "sepang",
+      "start": "2006-03-19T15:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2006,
+      "round": 3,
+      "raceName": "Australian Grand Prix",
+      "circuitId": "albert_park",
+      "start": "2006-04-02T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2006,
+      "round": 4,
+      "raceName": "San Marino Grand Prix",
+      "circuitId": "imola",
+      "start": "2006-04-23T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2006,
+      "round": 5,
+      "raceName": "European Grand Prix",
+      "circuitId": "nurburgring",
+      "start": "2006-05-07T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2006,
+      "round": 6,
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "catalunya",
+      "start": "2006-05-14T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2006,
+      "round": 7,
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "start": "2006-05-28T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2006,
+      "round": 8,
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "start": "2006-06-11T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2006,
+      "round": 9,
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "villeneuve",
+      "start": "2006-06-25T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2006,
+      "round": 10,
+      "raceName": "United States Grand Prix",
+      "circuitId": "indianapolis",
+      "start": "2006-07-02T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2006,
+      "round": 11,
+      "raceName": "French Grand Prix",
+      "circuitId": "magny_cours",
+      "start": "2006-07-16T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2006,
+      "round": 12,
+      "raceName": "German Grand Prix",
+      "circuitId": "hockenheimring",
+      "start": "2006-07-30T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2006,
+      "round": 13,
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hungaroring",
+      "start": "2006-08-06T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2006,
+      "round": 14,
+      "raceName": "Turkish Grand Prix",
+      "circuitId": "istanbul",
+      "start": "2006-08-27T15:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2006,
+      "round": 15,
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "start": "2006-09-10T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2006,
+      "round": 16,
+      "raceName": "Chinese Grand Prix",
+      "circuitId": "shanghai",
+      "start": "2006-10-01T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2006,
+      "round": 17,
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "start": "2006-10-08T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2006,
+      "round": 18,
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "interlagos",
+      "start": "2006-10-22T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0.1
+    },
+    {
+      "season": 2007,
+      "round": 1,
+      "raceName": "Australian Grand Prix",
+      "circuitId": "albert_park",
+      "start": "2007-03-18T03:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2007,
+      "round": 2,
+      "raceName": "Malaysian Grand Prix",
+      "circuitId": "sepang",
+      "start": "2007-04-08T07:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 2.7
+    },
+    {
+      "season": 2007,
+      "round": 3,
+      "raceName": "Bahrain Grand Prix",
+      "circuitId": "bahrain",
+      "start": "2007-04-15T11:30:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2007,
+      "round": 4,
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "catalunya",
+      "start": "2007-05-13T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2007,
+      "round": 5,
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "start": "2007-05-27T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 2.9
+    },
+    {
+      "season": 2007,
+      "round": 6,
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "villeneuve",
+      "start": "2007-06-10T17:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0.1
+    },
+    {
+      "season": 2007,
+      "round": 7,
+      "raceName": "United States Grand Prix",
+      "circuitId": "indianapolis",
+      "start": "2007-06-17T17:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2007,
+      "round": 8,
+      "raceName": "French Grand Prix",
+      "circuitId": "magny_cours",
+      "start": "2007-07-01T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0.7
+    },
+    {
+      "season": 2007,
+      "round": 9,
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "start": "2007-07-08T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2007,
+      "round": 10,
+      "raceName": "European Grand Prix",
+      "circuitId": "nurburgring",
+      "start": "2007-07-22T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2007,
+      "round": 11,
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hungaroring",
+      "start": "2007-08-05T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2007,
+      "round": 12,
+      "raceName": "Turkish Grand Prix",
+      "circuitId": "istanbul",
+      "start": "2007-08-26T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2007,
+      "round": 13,
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "start": "2007-09-09T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2007,
+      "round": 14,
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "start": "2007-09-16T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2007,
+      "round": 15,
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "fuji",
+      "start": "2007-09-30T04:30:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 6.9
+    },
+    {
+      "season": 2007,
+      "round": 16,
+      "raceName": "Chinese Grand Prix",
+      "circuitId": "shanghai",
+      "start": "2007-10-07T06:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 4.9
+    },
+    {
+      "season": 2007,
+      "round": 17,
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "interlagos",
+      "start": "2007-10-21T16:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2008,
+      "round": 1,
+      "raceName": "Australian Grand Prix",
+      "circuitId": "albert_park",
+      "start": "2008-03-16T04:30:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2008,
+      "round": 2,
+      "raceName": "Malaysian Grand Prix",
+      "circuitId": "sepang",
+      "start": "2008-03-23T07:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 1.3
+    },
+    {
+      "season": 2008,
+      "round": 3,
+      "raceName": "Bahrain Grand Prix",
+      "circuitId": "bahrain",
+      "start": "2008-04-06T11:30:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2008,
+      "round": 4,
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "catalunya",
+      "start": "2008-04-27T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2008,
+      "round": 5,
+      "raceName": "Turkish Grand Prix",
+      "circuitId": "istanbul",
+      "start": "2008-05-11T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2008,
+      "round": 6,
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "start": "2008-05-25T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 1.9
+    },
+    {
+      "season": 2008,
+      "round": 7,
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "villeneuve",
+      "start": "2008-06-08T17:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2008,
+      "round": 8,
+      "raceName": "French Grand Prix",
+      "circuitId": "magny_cours",
+      "start": "2008-06-22T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0.5
+    },
+    {
+      "season": 2008,
+      "round": 9,
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "start": "2008-07-06T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 1.2
+    },
+    {
+      "season": 2008,
+      "round": 10,
+      "raceName": "German Grand Prix",
+      "circuitId": "hockenheimring",
+      "start": "2008-07-20T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2008,
+      "round": 11,
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hungaroring",
+      "start": "2008-08-03T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2008,
+      "round": 12,
+      "raceName": "European Grand Prix",
+      "circuitId": "valencia",
+      "start": "2008-08-24T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2008,
+      "round": 13,
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "start": "2008-09-07T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0.1
+    },
+    {
+      "season": 2008,
+      "round": 14,
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "start": "2008-09-14T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 1
+    },
+    {
+      "season": 2008,
+      "round": 15,
+      "raceName": "Singapore Grand Prix",
+      "circuitId": "marina_bay",
+      "start": "2008-09-28T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2008,
+      "round": 16,
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "fuji",
+      "start": "2008-10-12T04:30:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2008,
+      "round": 17,
+      "raceName": "Chinese Grand Prix",
+      "circuitId": "shanghai",
+      "start": "2008-10-19T07:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0.9
+    },
+    {
+      "season": 2008,
+      "round": 18,
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "interlagos",
+      "start": "2008-11-02T17:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 1.8
+    },
+    {
+      "season": 2009,
+      "round": 1,
+      "raceName": "Australian Grand Prix",
+      "circuitId": "albert_park",
+      "start": "2009-03-29T06:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2009,
+      "round": 2,
+      "raceName": "Malaysian Grand Prix",
+      "circuitId": "sepang",
+      "start": "2009-04-05T09:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 8.8
+    },
+    {
+      "season": 2009,
+      "round": 3,
+      "raceName": "Chinese Grand Prix",
+      "circuitId": "shanghai",
+      "start": "2009-04-19T07:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 3.6
+    },
+    {
+      "season": 2009,
+      "round": 4,
+      "raceName": "Bahrain Grand Prix",
+      "circuitId": "bahrain",
+      "start": "2009-04-26T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2009,
+      "round": 5,
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "catalunya",
+      "start": "2009-05-10T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2009,
+      "round": 6,
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "start": "2009-05-24T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2009,
+      "round": 7,
+      "raceName": "Turkish Grand Prix",
+      "circuitId": "istanbul",
+      "start": "2009-06-07T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2009,
+      "round": 8,
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "start": "2009-06-21T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2009,
+      "round": 9,
+      "raceName": "German Grand Prix",
+      "circuitId": "nurburgring",
+      "start": "2009-07-12T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0.2
+    },
+    {
+      "season": 2009,
+      "round": 10,
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hungaroring",
+      "start": "2009-07-26T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2009,
+      "round": 11,
+      "raceName": "European Grand Prix",
+      "circuitId": "valencia",
+      "start": "2009-08-23T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2009,
+      "round": 12,
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "start": "2009-08-30T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2009,
+      "round": 13,
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "start": "2009-09-13T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2009,
+      "round": 14,
+      "raceName": "Singapore Grand Prix",
+      "circuitId": "marina_bay",
+      "start": "2009-09-27T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2009,
+      "round": 15,
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "start": "2009-10-04T05:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2009,
+      "round": 16,
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "interlagos",
+      "start": "2009-10-18T16:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 10.3
+    },
+    {
+      "season": 2009,
+      "round": 17,
+      "raceName": "Abu Dhabi Grand Prix",
+      "circuitId": "yas_marina",
+      "start": "2009-11-01T11:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2010,
+      "round": 1,
+      "raceName": "Bahrain Grand Prix",
+      "circuitId": "bahrain",
+      "start": "2010-03-14T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2010,
+      "round": 2,
+      "raceName": "Australian Grand Prix",
+      "circuitId": "albert_park",
+      "start": "2010-03-28T06:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0.2
+    },
+    {
+      "season": 2010,
+      "round": 3,
+      "raceName": "Malaysian Grand Prix",
+      "circuitId": "sepang",
+      "start": "2010-04-04T08:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2010,
+      "round": 4,
+      "raceName": "Chinese Grand Prix",
+      "circuitId": "shanghai",
+      "start": "2010-04-18T06:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0.7
+    },
+    {
+      "season": 2010,
+      "round": 5,
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "catalunya",
+      "start": "2010-05-09T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2010,
+      "round": 6,
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "start": "2010-05-16T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0.7
+    },
+    {
+      "season": 2010,
+      "round": 7,
+      "raceName": "Turkish Grand Prix",
+      "circuitId": "istanbul",
+      "start": "2010-05-30T11:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2010,
+      "round": 8,
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "villeneuve",
+      "start": "2010-06-13T16:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2010,
+      "round": 9,
+      "raceName": "European Grand Prix",
+      "circuitId": "valencia",
+      "start": "2010-06-27T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2010,
+      "round": 10,
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "start": "2010-07-11T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2010,
+      "round": 11,
+      "raceName": "German Grand Prix",
+      "circuitId": "hockenheimring",
+      "start": "2010-07-25T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2010,
+      "round": 12,
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hungaroring",
+      "start": "2010-08-01T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2010,
+      "round": 13,
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "start": "2010-08-29T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 1.1
+    },
+    {
+      "season": 2010,
+      "round": 14,
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "start": "2010-09-12T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2010,
+      "round": 15,
+      "raceName": "Singapore Grand Prix",
+      "circuitId": "marina_bay",
+      "start": "2010-09-26T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0.8
+    },
+    {
+      "season": 2010,
+      "round": 16,
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "start": "2010-10-10T06:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2010,
+      "round": 17,
+      "raceName": "Korean Grand Prix",
+      "circuitId": "yeongam",
+      "start": "2010-10-24T05:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 1.3
+    },
+    {
+      "season": 2010,
+      "round": 18,
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "interlagos",
+      "start": "2010-11-07T16:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2010,
+      "round": 19,
+      "raceName": "Abu Dhabi Grand Prix",
+      "circuitId": "yas_marina",
+      "start": "2010-11-14T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2011,
+      "round": 1,
+      "raceName": "Australian Grand Prix",
+      "circuitId": "albert_park",
+      "start": "2011-03-27T06:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2011,
+      "round": 2,
+      "raceName": "Malaysian Grand Prix",
+      "circuitId": "sepang",
+      "start": "2011-04-10T08:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 19.3
+    },
+    {
+      "season": 2011,
+      "round": 3,
+      "raceName": "Chinese Grand Prix",
+      "circuitId": "shanghai",
+      "start": "2011-04-17T07:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2011,
+      "round": 4,
+      "raceName": "Turkish Grand Prix",
+      "circuitId": "istanbul",
+      "start": "2011-05-08T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2011,
+      "round": 5,
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "catalunya",
+      "start": "2011-05-22T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2011,
+      "round": 6,
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "start": "2011-05-29T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2011,
+      "round": 7,
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "villeneuve",
+      "start": "2011-06-12T17:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 5.1
+    },
+    {
+      "season": 2011,
+      "round": 8,
+      "raceName": "European Grand Prix",
+      "circuitId": "valencia",
+      "start": "2011-06-26T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2011,
+      "round": 9,
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "start": "2011-07-10T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2011,
+      "round": 10,
+      "raceName": "German Grand Prix",
+      "circuitId": "nurburgring",
+      "start": "2011-07-24T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 1
+    },
+    {
+      "season": 2011,
+      "round": 11,
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hungaroring",
+      "start": "2011-07-31T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2011,
+      "round": 12,
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "start": "2011-08-28T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0.2
+    },
+    {
+      "season": 2011,
+      "round": 13,
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "start": "2011-09-11T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2011,
+      "round": 14,
+      "raceName": "Singapore Grand Prix",
+      "circuitId": "marina_bay",
+      "start": "2011-09-25T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0.1
+    },
+    {
+      "season": 2011,
+      "round": 15,
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "start": "2011-10-09T06:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2011,
+      "round": 16,
+      "raceName": "Korean Grand Prix",
+      "circuitId": "yeongam",
+      "start": "2011-10-16T06:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0.1
+    },
+    {
+      "season": 2011,
+      "round": 17,
+      "raceName": "Indian Grand Prix",
+      "circuitId": "buddh",
+      "start": "2011-10-30T09:30:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2011,
+      "round": 18,
+      "raceName": "Abu Dhabi Grand Prix",
+      "circuitId": "yas_marina",
+      "start": "2011-11-13T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2011,
+      "round": 19,
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "interlagos",
+      "start": "2011-11-27T16:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 5.2
+    },
+    {
+      "season": 2012,
+      "round": 1,
+      "raceName": "Australian Grand Prix",
+      "circuitId": "albert_park",
+      "start": "2012-03-18T06:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2012,
+      "round": 2,
+      "raceName": "Malaysian Grand Prix",
+      "circuitId": "sepang",
+      "start": "2012-03-25T08:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 2.2
+    },
+    {
+      "season": 2012,
+      "round": 3,
+      "raceName": "Chinese Grand Prix",
+      "circuitId": "shanghai",
+      "start": "2012-04-15T07:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2012,
+      "round": 4,
+      "raceName": "Bahrain Grand Prix",
+      "circuitId": "bahrain",
+      "start": "2012-04-22T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2012,
+      "round": 5,
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "catalunya",
+      "start": "2012-05-13T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2012,
+      "round": 6,
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "start": "2012-05-27T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0.5
+    },
+    {
+      "season": 2012,
+      "round": 7,
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "villeneuve",
+      "start": "2012-06-10T18:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2012,
+      "round": 8,
+      "raceName": "European Grand Prix",
+      "circuitId": "valencia",
+      "start": "2012-06-24T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2012,
+      "round": 9,
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "start": "2012-07-08T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0.8
+    },
+    {
+      "season": 2012,
+      "round": 10,
+      "raceName": "German Grand Prix",
+      "circuitId": "hockenheimring",
+      "start": "2012-07-22T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2012,
+      "round": 11,
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hungaroring",
+      "start": "2012-07-29T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2012,
+      "round": 12,
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "start": "2012-09-02T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2012,
+      "round": 13,
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "start": "2012-09-09T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2012,
+      "round": 14,
+      "raceName": "Singapore Grand Prix",
+      "circuitId": "marina_bay",
+      "start": "2012-09-23T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0.1
+    },
+    {
+      "season": 2012,
+      "round": 15,
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "start": "2012-10-07T06:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2012,
+      "round": 16,
+      "raceName": "Korean Grand Prix",
+      "circuitId": "yeongam",
+      "start": "2012-10-14T06:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2012,
+      "round": 17,
+      "raceName": "Indian Grand Prix",
+      "circuitId": "buddh",
+      "start": "2012-10-28T09:30:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2012,
+      "round": 18,
+      "raceName": "Abu Dhabi Grand Prix",
+      "circuitId": "yas_marina",
+      "start": "2012-11-04T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2012,
+      "round": 19,
+      "raceName": "United States Grand Prix",
+      "circuitId": "americas",
+      "start": "2012-11-18T19:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2012,
+      "round": 20,
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "interlagos",
+      "start": "2012-11-25T16:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 2.9
+    },
+    {
+      "season": 2013,
+      "round": 1,
+      "raceName": "Australian Grand Prix",
+      "circuitId": "albert_park",
+      "start": "2013-03-17T06:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2013,
+      "round": 2,
+      "raceName": "Malaysian Grand Prix",
+      "circuitId": "sepang",
+      "start": "2013-03-24T08:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0.6
+    },
+    {
+      "season": 2013,
+      "round": 3,
+      "raceName": "Chinese Grand Prix",
+      "circuitId": "shanghai",
+      "start": "2013-04-14T07:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2013,
+      "round": 4,
+      "raceName": "Bahrain Grand Prix",
+      "circuitId": "bahrain",
+      "start": "2013-04-21T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2013,
+      "round": 5,
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "catalunya",
+      "start": "2013-05-12T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2013,
+      "round": 6,
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "start": "2013-05-26T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2013,
+      "round": 7,
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "villeneuve",
+      "start": "2013-06-09T18:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0.2
+    },
+    {
+      "season": 2013,
+      "round": 8,
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "start": "2013-06-30T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2013,
+      "round": 9,
+      "raceName": "German Grand Prix",
+      "circuitId": "nurburgring",
+      "start": "2013-07-07T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2013,
+      "round": 10,
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hungaroring",
+      "start": "2013-07-28T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2013,
+      "round": 11,
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "start": "2013-08-25T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0.1
+    },
+    {
+      "season": 2013,
+      "round": 12,
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "start": "2013-09-08T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 1.1
+    },
+    {
+      "season": 2013,
+      "round": 13,
+      "raceName": "Singapore Grand Prix",
+      "circuitId": "marina_bay",
+      "start": "2013-09-22T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2013,
+      "round": 14,
+      "raceName": "Korean Grand Prix",
+      "circuitId": "yeongam",
+      "start": "2013-10-06T06:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2013,
+      "round": 15,
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "start": "2013-10-13T06:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2013,
+      "round": 16,
+      "raceName": "Indian Grand Prix",
+      "circuitId": "buddh",
+      "start": "2013-10-27T09:30:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2013,
+      "round": 17,
+      "raceName": "Abu Dhabi Grand Prix",
+      "circuitId": "yas_marina",
+      "start": "2013-11-03T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2013,
+      "round": 18,
+      "raceName": "United States Grand Prix",
+      "circuitId": "americas",
+      "start": "2013-11-17T19:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": 0
+    },
+    {
+      "season": 2013,
+      "round": 19,
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "interlagos",
+      "start": "2013-11-24T16:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2014,
+      "round": 1,
+      "raceName": "Australian Grand Prix",
+      "circuitId": "albert_park",
+      "start": "2014-03-16T06:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2014,
+      "round": 2,
+      "raceName": "Malaysian Grand Prix",
+      "circuitId": "sepang",
+      "start": "2014-03-30T08:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2014,
+      "round": 3,
+      "raceName": "Bahrain Grand Prix",
+      "circuitId": "bahrain",
+      "start": "2014-04-06T15:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2014,
+      "round": 4,
+      "raceName": "Chinese Grand Prix",
+      "circuitId": "shanghai",
+      "start": "2014-04-20T07:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2014,
+      "round": 5,
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "catalunya",
+      "start": "2014-05-11T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2014,
+      "round": 6,
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "start": "2014-05-25T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2014,
+      "round": 7,
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "villeneuve",
+      "start": "2014-06-08T18:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2014,
+      "round": 8,
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "red_bull_ring",
+      "start": "2014-06-22T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2014,
+      "round": 9,
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "start": "2014-07-06T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2014,
+      "round": 10,
+      "raceName": "German Grand Prix",
+      "circuitId": "hockenheimring",
+      "start": "2014-07-20T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2014,
+      "round": 11,
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hungaroring",
+      "start": "2014-07-27T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2014,
+      "round": 12,
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "start": "2014-08-24T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2014,
+      "round": 13,
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "start": "2014-09-07T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2014,
+      "round": 14,
+      "raceName": "Singapore Grand Prix",
+      "circuitId": "marina_bay",
+      "start": "2014-09-21T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2014,
+      "round": 15,
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "start": "2014-10-05T06:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2014,
+      "round": 16,
+      "raceName": "Russian Grand Prix",
+      "circuitId": "sochi",
+      "start": "2014-10-12T11:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2014,
+      "round": 17,
+      "raceName": "United States Grand Prix",
+      "circuitId": "americas",
+      "start": "2014-11-02T20:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2014,
+      "round": 18,
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "interlagos",
+      "start": "2014-11-09T16:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2014,
+      "round": 19,
+      "raceName": "Abu Dhabi Grand Prix",
+      "circuitId": "yas_marina",
+      "start": "2014-11-23T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2015,
+      "round": 1,
+      "raceName": "Australian Grand Prix",
+      "circuitId": "albert_park",
+      "start": "2015-03-15T05:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2015,
+      "round": 2,
+      "raceName": "Malaysian Grand Prix",
+      "circuitId": "sepang",
+      "start": "2015-03-29T07:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2015,
+      "round": 3,
+      "raceName": "Chinese Grand Prix",
+      "circuitId": "shanghai",
+      "start": "2015-04-12T06:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2015,
+      "round": 4,
+      "raceName": "Bahrain Grand Prix",
+      "circuitId": "bahrain",
+      "start": "2015-04-19T15:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2015,
+      "round": 5,
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "catalunya",
+      "start": "2015-05-10T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2015,
+      "round": 6,
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "start": "2015-05-24T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2015,
+      "round": 7,
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "villeneuve",
+      "start": "2015-06-07T18:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2015,
+      "round": 8,
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "red_bull_ring",
+      "start": "2015-06-21T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2015,
+      "round": 9,
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "start": "2015-07-05T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2015,
+      "round": 10,
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hungaroring",
+      "start": "2015-07-26T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2015,
+      "round": 11,
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "start": "2015-08-23T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2015,
+      "round": 12,
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "start": "2015-09-06T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2015,
+      "round": 13,
+      "raceName": "Singapore Grand Prix",
+      "circuitId": "marina_bay",
+      "start": "2015-09-20T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2015,
+      "round": 14,
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "start": "2015-09-27T05:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2015,
+      "round": 15,
+      "raceName": "Russian Grand Prix",
+      "circuitId": "sochi",
+      "start": "2015-10-11T11:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2015,
+      "round": 16,
+      "raceName": "United States Grand Prix",
+      "circuitId": "americas",
+      "start": "2015-10-25T19:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2015,
+      "round": 17,
+      "raceName": "Mexican Grand Prix",
+      "circuitId": "rodriguez",
+      "start": "2015-11-01T19:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2015,
+      "round": 18,
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "interlagos",
+      "start": "2015-11-15T16:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2015,
+      "round": 19,
+      "raceName": "Abu Dhabi Grand Prix",
+      "circuitId": "yas_marina",
+      "start": "2015-11-29T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2016,
+      "round": 1,
+      "raceName": "Australian Grand Prix",
+      "circuitId": "albert_park",
+      "start": "2016-03-20T05:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2016,
+      "round": 2,
+      "raceName": "Bahrain Grand Prix",
+      "circuitId": "bahrain",
+      "start": "2016-04-03T15:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2016,
+      "round": 3,
+      "raceName": "Chinese Grand Prix",
+      "circuitId": "shanghai",
+      "start": "2016-04-17T06:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2016,
+      "round": 4,
+      "raceName": "Russian Grand Prix",
+      "circuitId": "sochi",
+      "start": "2016-05-01T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2016,
+      "round": 5,
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "catalunya",
+      "start": "2016-05-15T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2016,
+      "round": 6,
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "start": "2016-05-29T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2016,
+      "round": 7,
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "villeneuve",
+      "start": "2016-06-12T18:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2016,
+      "round": 8,
+      "raceName": "European Grand Prix",
+      "circuitId": "baku",
+      "start": "2016-06-19T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2016,
+      "round": 9,
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "red_bull_ring",
+      "start": "2016-07-03T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2016,
+      "round": 10,
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "start": "2016-07-10T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2016,
+      "round": 11,
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hungaroring",
+      "start": "2016-07-24T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2016,
+      "round": 12,
+      "raceName": "German Grand Prix",
+      "circuitId": "hockenheimring",
+      "start": "2016-07-31T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2016,
+      "round": 13,
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "start": "2016-08-28T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2016,
+      "round": 14,
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "start": "2016-09-04T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2016,
+      "round": 15,
+      "raceName": "Singapore Grand Prix",
+      "circuitId": "marina_bay",
+      "start": "2016-09-18T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2016,
+      "round": 16,
+      "raceName": "Malaysian Grand Prix",
+      "circuitId": "sepang",
+      "start": "2016-10-02T07:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2016,
+      "round": 17,
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "start": "2016-10-09T05:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2016,
+      "round": 18,
+      "raceName": "United States Grand Prix",
+      "circuitId": "americas",
+      "start": "2016-10-23T19:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2016,
+      "round": 19,
+      "raceName": "Mexican Grand Prix",
+      "circuitId": "rodriguez",
+      "start": "2016-10-30T19:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2016,
+      "round": 20,
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "interlagos",
+      "start": "2016-11-13T16:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2016,
+      "round": 21,
+      "raceName": "Abu Dhabi Grand Prix",
+      "circuitId": "yas_marina",
+      "start": "2016-11-27T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2017,
+      "round": 1,
+      "raceName": "Australian Grand Prix",
+      "circuitId": "albert_park",
+      "start": "2017-03-26T05:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2017,
+      "round": 2,
+      "raceName": "Chinese Grand Prix",
+      "circuitId": "shanghai",
+      "start": "2017-04-09T06:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2017,
+      "round": 3,
+      "raceName": "Bahrain Grand Prix",
+      "circuitId": "bahrain",
+      "start": "2017-04-16T15:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2017,
+      "round": 4,
+      "raceName": "Russian Grand Prix",
+      "circuitId": "sochi",
+      "start": "2017-04-30T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2017,
+      "round": 5,
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "catalunya",
+      "start": "2017-05-14T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2017,
+      "round": 6,
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "start": "2017-05-28T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2017,
+      "round": 7,
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "villeneuve",
+      "start": "2017-06-11T18:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2017,
+      "round": 8,
+      "raceName": "Azerbaijan Grand Prix",
+      "circuitId": "baku",
+      "start": "2017-06-25T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2017,
+      "round": 9,
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "red_bull_ring",
+      "start": "2017-07-09T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2017,
+      "round": 10,
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "start": "2017-07-16T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2017,
+      "round": 11,
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hungaroring",
+      "start": "2017-07-30T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2017,
+      "round": 12,
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "start": "2017-08-27T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2017,
+      "round": 13,
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "start": "2017-09-03T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2017,
+      "round": 14,
+      "raceName": "Singapore Grand Prix",
+      "circuitId": "marina_bay",
+      "start": "2017-09-17T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2017,
+      "round": 15,
+      "raceName": "Malaysian Grand Prix",
+      "circuitId": "sepang",
+      "start": "2017-10-01T07:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2017,
+      "round": 16,
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "start": "2017-10-08T05:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2017,
+      "round": 17,
+      "raceName": "United States Grand Prix",
+      "circuitId": "americas",
+      "start": "2017-10-22T19:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2017,
+      "round": 18,
+      "raceName": "Mexican Grand Prix",
+      "circuitId": "rodriguez",
+      "start": "2017-10-29T19:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2017,
+      "round": 19,
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "interlagos",
+      "start": "2017-11-12T16:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2017,
+      "round": 20,
+      "raceName": "Abu Dhabi Grand Prix",
+      "circuitId": "yas_marina",
+      "start": "2017-11-26T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2018,
+      "round": 1,
+      "raceName": "Australian Grand Prix",
+      "circuitId": "albert_park",
+      "start": "2018-03-25T05:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2018,
+      "round": 2,
+      "raceName": "Bahrain Grand Prix",
+      "circuitId": "bahrain",
+      "start": "2018-04-08T15:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2018,
+      "round": 3,
+      "raceName": "Chinese Grand Prix",
+      "circuitId": "shanghai",
+      "start": "2018-04-15T06:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2018,
+      "round": 4,
+      "raceName": "Azerbaijan Grand Prix",
+      "circuitId": "baku",
+      "start": "2018-04-29T12:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2018,
+      "round": 5,
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "catalunya",
+      "start": "2018-05-13T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2018,
+      "round": 6,
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "start": "2018-05-27T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2018,
+      "round": 7,
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "villeneuve",
+      "start": "2018-06-10T18:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2018,
+      "round": 8,
+      "raceName": "French Grand Prix",
+      "circuitId": "ricard",
+      "start": "2018-06-24T14:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2018,
+      "round": 9,
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "red_bull_ring",
+      "start": "2018-07-01T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2018,
+      "round": 10,
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "start": "2018-07-08T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2018,
+      "round": 11,
+      "raceName": "German Grand Prix",
+      "circuitId": "hockenheimring",
+      "start": "2018-07-22T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2018,
+      "round": 12,
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hungaroring",
+      "start": "2018-07-29T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2018,
+      "round": 13,
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "start": "2018-08-26T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2018,
+      "round": 14,
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "start": "2018-09-02T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2018,
+      "round": 15,
+      "raceName": "Singapore Grand Prix",
+      "circuitId": "marina_bay",
+      "start": "2018-09-16T12:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2018,
+      "round": 16,
+      "raceName": "Russian Grand Prix",
+      "circuitId": "sochi",
+      "start": "2018-09-30T11:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2018,
+      "round": 17,
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "start": "2018-10-07T05:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2018,
+      "round": 18,
+      "raceName": "United States Grand Prix",
+      "circuitId": "americas",
+      "start": "2018-10-21T18:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2018,
+      "round": 19,
+      "raceName": "Mexican Grand Prix",
+      "circuitId": "rodriguez",
+      "start": "2018-10-28T19:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2018,
+      "round": 20,
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "interlagos",
+      "start": "2018-11-11T17:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2018,
+      "round": 21,
+      "raceName": "Abu Dhabi Grand Prix",
+      "circuitId": "yas_marina",
+      "start": "2018-11-25T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2019,
+      "round": 1,
+      "raceName": "Australian Grand Prix",
+      "circuitId": "albert_park",
+      "start": "2019-03-17T05:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2019,
+      "round": 2,
+      "raceName": "Bahrain Grand Prix",
+      "circuitId": "bahrain",
+      "start": "2019-03-31T15:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2019,
+      "round": 3,
+      "raceName": "Chinese Grand Prix",
+      "circuitId": "shanghai",
+      "start": "2019-04-14T06:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2019,
+      "round": 4,
+      "raceName": "Azerbaijan Grand Prix",
+      "circuitId": "baku",
+      "start": "2019-04-28T12:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2019,
+      "round": 5,
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "catalunya",
+      "start": "2019-05-12T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2019,
+      "round": 6,
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "start": "2019-05-26T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2019,
+      "round": 7,
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "villeneuve",
+      "start": "2019-06-09T18:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2019,
+      "round": 8,
+      "raceName": "French Grand Prix",
+      "circuitId": "ricard",
+      "start": "2019-06-23T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2019,
+      "round": 9,
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "red_bull_ring",
+      "start": "2019-06-30T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2019,
+      "round": 10,
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "start": "2019-07-14T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2019,
+      "round": 11,
+      "raceName": "German Grand Prix",
+      "circuitId": "hockenheimring",
+      "start": "2019-07-28T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2019,
+      "round": 12,
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hungaroring",
+      "start": "2019-08-04T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2019,
+      "round": 13,
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "start": "2019-09-01T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2019,
+      "round": 14,
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "start": "2019-09-08T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2019,
+      "round": 15,
+      "raceName": "Singapore Grand Prix",
+      "circuitId": "marina_bay",
+      "start": "2019-09-22T12:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2019,
+      "round": 16,
+      "raceName": "Russian Grand Prix",
+      "circuitId": "sochi",
+      "start": "2019-09-29T11:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2019,
+      "round": 17,
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "start": "2019-10-13T05:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2019,
+      "round": 18,
+      "raceName": "Mexican Grand Prix",
+      "circuitId": "rodriguez",
+      "start": "2019-10-27T19:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2019,
+      "round": 19,
+      "raceName": "United States Grand Prix",
+      "circuitId": "americas",
+      "start": "2019-11-03T19:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2019,
+      "round": 20,
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "interlagos",
+      "start": "2019-11-17T17:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2019,
+      "round": 21,
+      "raceName": "Abu Dhabi Grand Prix",
+      "circuitId": "yas_marina",
+      "start": "2019-12-01T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2020,
+      "round": 1,
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "red_bull_ring",
+      "start": "2020-07-05T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2020,
+      "round": 2,
+      "raceName": "Styrian Grand Prix",
+      "circuitId": "red_bull_ring",
+      "start": "2020-07-12T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2020,
+      "round": 3,
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hungaroring",
+      "start": "2020-07-19T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2020,
+      "round": 4,
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "start": "2020-08-02T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2020,
+      "round": 5,
+      "raceName": "70th Anniversary Grand Prix",
+      "circuitId": "silverstone",
+      "start": "2020-08-09T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2020,
+      "round": 6,
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "catalunya",
+      "start": "2020-08-16T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2020,
+      "round": 7,
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "start": "2020-08-30T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2020,
+      "round": 8,
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "start": "2020-09-06T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2020,
+      "round": 9,
+      "raceName": "Tuscan Grand Prix",
+      "circuitId": "mugello",
+      "start": "2020-09-13T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2020,
+      "round": 10,
+      "raceName": "Russian Grand Prix",
+      "circuitId": "sochi",
+      "start": "2020-09-27T11:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2020,
+      "round": 11,
+      "raceName": "Eifel Grand Prix",
+      "circuitId": "nurburgring",
+      "start": "2020-10-11T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2020,
+      "round": 12,
+      "raceName": "Portuguese Grand Prix",
+      "circuitId": "portimao",
+      "start": "2020-10-25T12:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2020,
+      "round": 13,
+      "raceName": "Emilia Romagna Grand Prix",
+      "circuitId": "imola",
+      "start": "2020-11-01T12:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2020,
+      "round": 14,
+      "raceName": "Turkish Grand Prix",
+      "circuitId": "istanbul",
+      "start": "2020-11-15T10:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2020,
+      "round": 15,
+      "raceName": "Bahrain Grand Prix",
+      "circuitId": "bahrain",
+      "start": "2020-11-29T14:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2020,
+      "round": 16,
+      "raceName": "Sakhir Grand Prix",
+      "circuitId": "bahrain",
+      "start": "2020-12-06T17:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2020,
+      "round": 17,
+      "raceName": "Abu Dhabi Grand Prix",
+      "circuitId": "yas_marina",
+      "start": "2020-12-13T13:10:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2021,
+      "round": 1,
+      "raceName": "Bahrain Grand Prix",
+      "circuitId": "bahrain",
+      "start": "2021-03-28T15:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2021,
+      "round": 2,
+      "raceName": "Emilia Romagna Grand Prix",
+      "circuitId": "imola",
+      "start": "2021-04-18T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2021,
+      "round": 3,
+      "raceName": "Portuguese Grand Prix",
+      "circuitId": "portimao",
+      "start": "2021-05-02T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2021,
+      "round": 4,
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "catalunya",
+      "start": "2021-05-09T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2021,
+      "round": 5,
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "start": "2021-05-23T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2021,
+      "round": 6,
+      "raceName": "Azerbaijan Grand Prix",
+      "circuitId": "baku",
+      "start": "2021-06-06T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2021,
+      "round": 7,
+      "raceName": "French Grand Prix",
+      "circuitId": "ricard",
+      "start": "2021-06-20T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2021,
+      "round": 8,
+      "raceName": "Styrian Grand Prix",
+      "circuitId": "red_bull_ring",
+      "start": "2021-06-27T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2021,
+      "round": 9,
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "red_bull_ring",
+      "start": "2021-07-04T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2021,
+      "round": 10,
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "start": "2021-07-18T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2021,
+      "round": 11,
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hungaroring",
+      "start": "2021-08-01T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2021,
+      "round": 12,
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "start": "2021-08-29T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2021,
+      "round": 13,
+      "raceName": "Dutch Grand Prix",
+      "circuitId": "zandvoort",
+      "start": "2021-09-05T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2021,
+      "round": 14,
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "start": "2021-09-12T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2021,
+      "round": 15,
+      "raceName": "Russian Grand Prix",
+      "circuitId": "sochi",
+      "start": "2021-09-26T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2021,
+      "round": 16,
+      "raceName": "Turkish Grand Prix",
+      "circuitId": "istanbul",
+      "start": "2021-10-10T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2021,
+      "round": 17,
+      "raceName": "United States Grand Prix",
+      "circuitId": "americas",
+      "start": "2021-10-24T19:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2021,
+      "round": 18,
+      "raceName": "Mexico City Grand Prix",
+      "circuitId": "rodriguez",
+      "start": "2021-11-07T19:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2021,
+      "round": 19,
+      "raceName": "São Paulo Grand Prix",
+      "circuitId": "interlagos",
+      "start": "2021-11-14T17:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2021,
+      "round": 20,
+      "raceName": "Qatar Grand Prix",
+      "circuitId": "losail",
+      "start": "2021-11-21T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2021,
+      "round": 21,
+      "raceName": "Saudi Arabian Grand Prix",
+      "circuitId": "jeddah",
+      "start": "2021-12-05T17:30:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2021,
+      "round": 22,
+      "raceName": "Abu Dhabi Grand Prix",
+      "circuitId": "yas_marina",
+      "start": "2021-12-12T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2022,
+      "round": 1,
+      "raceName": "Bahrain Grand Prix",
+      "circuitId": "bahrain",
+      "start": "2022-03-20T15:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2022,
+      "round": 2,
+      "raceName": "Saudi Arabian Grand Prix",
+      "circuitId": "jeddah",
+      "start": "2022-03-27T17:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2022,
+      "round": 3,
+      "raceName": "Australian Grand Prix",
+      "circuitId": "albert_park",
+      "start": "2022-04-10T05:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2022,
+      "round": 4,
+      "raceName": "Emilia Romagna Grand Prix",
+      "circuitId": "imola",
+      "start": "2022-04-24T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2022,
+      "round": 5,
+      "raceName": "Miami Grand Prix",
+      "circuitId": "miami",
+      "start": "2022-05-08T19:30:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2022,
+      "round": 6,
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "catalunya",
+      "start": "2022-05-22T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2022,
+      "round": 7,
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "start": "2022-05-29T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2022,
+      "round": 8,
+      "raceName": "Azerbaijan Grand Prix",
+      "circuitId": "baku",
+      "start": "2022-06-12T11:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2022,
+      "round": 9,
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "villeneuve",
+      "start": "2022-06-19T18:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2022,
+      "round": 10,
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "start": "2022-07-03T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2022,
+      "round": 11,
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "red_bull_ring",
+      "start": "2022-07-10T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2022,
+      "round": 12,
+      "raceName": "French Grand Prix",
+      "circuitId": "ricard",
+      "start": "2022-07-24T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2022,
+      "round": 13,
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hungaroring",
+      "start": "2022-07-31T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2022,
+      "round": 14,
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "start": "2022-08-28T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2022,
+      "round": 15,
+      "raceName": "Dutch Grand Prix",
+      "circuitId": "zandvoort",
+      "start": "2022-09-04T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2022,
+      "round": 16,
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "start": "2022-09-11T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2022,
+      "round": 17,
+      "raceName": "Singapore Grand Prix",
+      "circuitId": "marina_bay",
+      "start": "2022-10-02T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2022,
+      "round": 18,
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "start": "2022-10-09T05:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2022,
+      "round": 19,
+      "raceName": "United States Grand Prix",
+      "circuitId": "americas",
+      "start": "2022-10-23T19:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2022,
+      "round": 20,
+      "raceName": "Mexico City Grand Prix",
+      "circuitId": "rodriguez",
+      "start": "2022-10-30T20:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2022,
+      "round": 21,
+      "raceName": "São Paulo Grand Prix",
+      "circuitId": "interlagos",
+      "start": "2022-11-13T18:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2022,
+      "round": 22,
+      "raceName": "Abu Dhabi Grand Prix",
+      "circuitId": "yas_marina",
+      "start": "2022-11-20T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2023,
+      "round": 1,
+      "raceName": "Bahrain Grand Prix",
+      "circuitId": "bahrain",
+      "start": "2023-03-05T15:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2023,
+      "round": 2,
+      "raceName": "Saudi Arabian Grand Prix",
+      "circuitId": "jeddah",
+      "start": "2023-03-19T17:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2023,
+      "round": 3,
+      "raceName": "Australian Grand Prix",
+      "circuitId": "albert_park",
+      "start": "2023-04-02T05:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2023,
+      "round": 4,
+      "raceName": "Azerbaijan Grand Prix",
+      "circuitId": "baku",
+      "start": "2023-04-30T11:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2023,
+      "round": 5,
+      "raceName": "Miami Grand Prix",
+      "circuitId": "miami",
+      "start": "2023-05-07T19:30:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2023,
+      "round": 6,
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "start": "2023-05-28T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2023,
+      "round": 7,
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "catalunya",
+      "start": "2023-06-04T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2023,
+      "round": 8,
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "villeneuve",
+      "start": "2023-06-18T18:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2023,
+      "round": 9,
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "red_bull_ring",
+      "start": "2023-07-02T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2023,
+      "round": 10,
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "start": "2023-07-09T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2023,
+      "round": 11,
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hungaroring",
+      "start": "2023-07-23T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2023,
+      "round": 12,
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "start": "2023-07-30T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2023,
+      "round": 13,
+      "raceName": "Dutch Grand Prix",
+      "circuitId": "zandvoort",
+      "start": "2023-08-27T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2023,
+      "round": 14,
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "start": "2023-09-03T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2023,
+      "round": 15,
+      "raceName": "Singapore Grand Prix",
+      "circuitId": "marina_bay",
+      "start": "2023-09-17T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2023,
+      "round": 16,
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "start": "2023-09-24T05:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2023,
+      "round": 17,
+      "raceName": "Qatar Grand Prix",
+      "circuitId": "losail",
+      "start": "2023-10-08T17:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2023,
+      "round": 18,
+      "raceName": "United States Grand Prix",
+      "circuitId": "americas",
+      "start": "2023-10-22T19:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2023,
+      "round": 19,
+      "raceName": "Mexico City Grand Prix",
+      "circuitId": "rodriguez",
+      "start": "2023-10-29T20:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2023,
+      "round": 20,
+      "raceName": "São Paulo Grand Prix",
+      "circuitId": "interlagos",
+      "start": "2023-11-05T17:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2023,
+      "round": 21,
+      "raceName": "Las Vegas Grand Prix",
+      "circuitId": "vegas",
+      "start": "2023-11-19T06:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2023,
+      "round": 22,
+      "raceName": "Abu Dhabi Grand Prix",
+      "circuitId": "yas_marina",
+      "start": "2023-11-26T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2024,
+      "round": 1,
+      "raceName": "Bahrain Grand Prix",
+      "circuitId": "bahrain",
+      "start": "2024-03-02T15:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2024,
+      "round": 2,
+      "raceName": "Saudi Arabian Grand Prix",
+      "circuitId": "jeddah",
+      "start": "2024-03-09T17:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2024,
+      "round": 3,
+      "raceName": "Australian Grand Prix",
+      "circuitId": "albert_park",
+      "start": "2024-03-24T04:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2024,
+      "round": 4,
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "start": "2024-04-07T05:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2024,
+      "round": 5,
+      "raceName": "Chinese Grand Prix",
+      "circuitId": "shanghai",
+      "start": "2024-04-21T07:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2024,
+      "round": 6,
+      "raceName": "Miami Grand Prix",
+      "circuitId": "miami",
+      "start": "2024-05-05T20:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2024,
+      "round": 7,
+      "raceName": "Emilia Romagna Grand Prix",
+      "circuitId": "imola",
+      "start": "2024-05-19T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2024,
+      "round": 8,
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "start": "2024-05-26T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2024,
+      "round": 9,
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "villeneuve",
+      "start": "2024-06-09T18:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2024,
+      "round": 10,
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "catalunya",
+      "start": "2024-06-23T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2024,
+      "round": 11,
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "red_bull_ring",
+      "start": "2024-06-30T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2024,
+      "round": 12,
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "start": "2024-07-07T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2024,
+      "round": 13,
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hungaroring",
+      "start": "2024-07-21T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2024,
+      "round": 14,
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "start": "2024-07-28T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2024,
+      "round": 15,
+      "raceName": "Dutch Grand Prix",
+      "circuitId": "zandvoort",
+      "start": "2024-08-25T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2024,
+      "round": 16,
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "start": "2024-09-01T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2024,
+      "round": 17,
+      "raceName": "Azerbaijan Grand Prix",
+      "circuitId": "baku",
+      "start": "2024-09-15T11:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2024,
+      "round": 18,
+      "raceName": "Singapore Grand Prix",
+      "circuitId": "marina_bay",
+      "start": "2024-09-22T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2024,
+      "round": 19,
+      "raceName": "United States Grand Prix",
+      "circuitId": "americas",
+      "start": "2024-10-20T19:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2024,
+      "round": 20,
+      "raceName": "Mexico City Grand Prix",
+      "circuitId": "rodriguez",
+      "start": "2024-10-27T20:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2024,
+      "round": 21,
+      "raceName": "São Paulo Grand Prix",
+      "circuitId": "interlagos",
+      "start": "2024-11-03T17:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2024,
+      "round": 22,
+      "raceName": "Las Vegas Grand Prix",
+      "circuitId": "vegas",
+      "start": "2024-11-23T06:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2024,
+      "round": 23,
+      "raceName": "Qatar Grand Prix",
+      "circuitId": "losail",
+      "start": "2024-12-01T16:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2024,
+      "round": 24,
+      "raceName": "Abu Dhabi Grand Prix",
+      "circuitId": "yas_marina",
+      "start": "2024-12-08T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2025,
+      "round": 1,
+      "raceName": "Australian Grand Prix",
+      "circuitId": "albert_park",
+      "start": "2025-03-16T04:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2025,
+      "round": 2,
+      "raceName": "Chinese Grand Prix",
+      "circuitId": "shanghai",
+      "start": "2025-03-23T07:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2025,
+      "round": 3,
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "start": "2025-04-06T05:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2025,
+      "round": 4,
+      "raceName": "Bahrain Grand Prix",
+      "circuitId": "bahrain",
+      "start": "2025-04-13T15:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2025,
+      "round": 5,
+      "raceName": "Saudi Arabian Grand Prix",
+      "circuitId": "jeddah",
+      "start": "2025-04-20T17:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2025,
+      "round": 6,
+      "raceName": "Miami Grand Prix",
+      "circuitId": "miami",
+      "start": "2025-05-04T20:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2025,
+      "round": 7,
+      "raceName": "Emilia Romagna Grand Prix",
+      "circuitId": "imola",
+      "start": "2025-05-18T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2025,
+      "round": 8,
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "start": "2025-05-25T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2025,
+      "round": 9,
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "catalunya",
+      "start": "2025-06-01T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2025,
+      "round": 10,
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "villeneuve",
+      "start": "2025-06-15T18:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2025,
+      "round": 11,
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "red_bull_ring",
+      "start": "2025-06-29T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2025,
+      "round": 12,
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "start": "2025-07-06T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2025,
+      "round": 13,
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "start": "2025-07-27T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2025,
+      "round": 14,
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hungaroring",
+      "start": "2025-08-03T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2025,
+      "round": 15,
+      "raceName": "Dutch Grand Prix",
+      "circuitId": "zandvoort",
+      "start": "2025-08-31T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2025,
+      "round": 16,
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "start": "2025-09-07T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2025,
+      "round": 17,
+      "raceName": "Azerbaijan Grand Prix",
+      "circuitId": "baku",
+      "start": "2025-09-21T11:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2025,
+      "round": 18,
+      "raceName": "Singapore Grand Prix",
+      "circuitId": "marina_bay",
+      "start": "2025-10-05T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2025,
+      "round": 19,
+      "raceName": "United States Grand Prix",
+      "circuitId": "americas",
+      "start": "2025-10-19T19:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2025,
+      "round": 20,
+      "raceName": "Mexico City Grand Prix",
+      "circuitId": "rodriguez",
+      "start": "2025-10-26T20:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2025,
+      "round": 21,
+      "raceName": "São Paulo Grand Prix",
+      "circuitId": "interlagos",
+      "start": "2025-11-09T17:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2025,
+      "round": 22,
+      "raceName": "Las Vegas Grand Prix",
+      "circuitId": "vegas",
+      "start": "2025-11-23T04:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2025,
+      "round": 23,
+      "raceName": "Qatar Grand Prix",
+      "circuitId": "losail",
+      "start": "2025-11-30T16:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2025,
+      "round": 24,
+      "raceName": "Abu Dhabi Grand Prix",
+      "circuitId": "yas_marina",
+      "start": "2025-12-07T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2026,
+      "round": 1,
+      "raceName": "Australian Grand Prix",
+      "circuitId": "albert_park",
+      "start": "2026-03-08T04:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2026,
+      "round": 2,
+      "raceName": "Chinese Grand Prix",
+      "circuitId": "shanghai",
+      "start": "2026-03-15T07:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2026,
+      "round": 3,
+      "raceName": "Japanese Grand Prix",
+      "circuitId": "suzuka",
+      "start": "2026-03-29T05:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2026,
+      "round": 4,
+      "raceName": "Miami Grand Prix",
+      "circuitId": "miami",
+      "start": "2026-05-03T20:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2026,
+      "round": 5,
+      "raceName": "Canadian Grand Prix",
+      "circuitId": "villeneuve",
+      "start": "2026-05-24T20:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2026,
+      "round": 6,
+      "raceName": "Monaco Grand Prix",
+      "circuitId": "monaco",
+      "start": "2026-06-07T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2026,
+      "round": 7,
+      "raceName": "Barcelona Grand Prix",
+      "circuitId": "catalunya",
+      "start": "2026-06-14T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2026,
+      "round": 8,
+      "raceName": "Austrian Grand Prix",
+      "circuitId": "red_bull_ring",
+      "start": "2026-06-28T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2026,
+      "round": 9,
+      "raceName": "British Grand Prix",
+      "circuitId": "silverstone",
+      "start": "2026-07-05T14:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2026,
+      "round": 10,
+      "raceName": "Belgian Grand Prix",
+      "circuitId": "spa",
+      "start": "2026-07-19T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2026,
+      "round": 11,
+      "raceName": "Hungarian Grand Prix",
+      "circuitId": "hungaroring",
+      "start": "2026-07-26T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2026,
+      "round": 12,
+      "raceName": "Dutch Grand Prix",
+      "circuitId": "zandvoort",
+      "start": "2026-08-23T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2026,
+      "round": 13,
+      "raceName": "Italian Grand Prix",
+      "circuitId": "monza",
+      "start": "2026-09-06T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2026,
+      "round": 14,
+      "raceName": "Spanish Grand Prix",
+      "circuitId": "madring",
+      "start": "2026-09-13T13:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2026,
+      "round": 15,
+      "raceName": "Azerbaijan Grand Prix",
+      "circuitId": "baku",
+      "start": "2026-09-26T11:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2026,
+      "round": 16,
+      "raceName": "Bahrain Grand Prix in Malaysia",
+      "circuitId": "sepang",
+      "start": "2026-10-04T07:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2026,
+      "round": 17,
+      "raceName": "Singapore Grand Prix",
+      "circuitId": "marina_bay",
+      "start": "2026-10-11T12:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2026,
+      "round": 18,
+      "raceName": "United States Grand Prix",
+      "circuitId": "americas",
+      "start": "2026-10-25T20:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2026,
+      "round": 19,
+      "raceName": "Mexico City Grand Prix",
+      "circuitId": "rodriguez",
+      "start": "2026-11-01T20:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    },
+    {
+      "season": 2026,
+      "round": 20,
+      "raceName": "Brazilian Grand Prix",
+      "circuitId": "interlagos",
+      "start": "2026-11-08T17:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
+    }
+  ]
+}
