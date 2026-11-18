@@ -1,0 +1,236 @@
+{
+  "season": 2025,
+  "round": 24,
+  "drivers": [
+    {
+      "position": 1,
+      "points": 423,
+      "wins": 7,
+      "code": "NOR",
+      "name": "Lando Norris",
+      "team": "McLaren"
+    },
+    {
+      "position": 2,
+      "points": 421,
+      "wins": 8,
+      "code": "VER",
+      "name": "Max Verstappen",
+      "team": "Red Bull"
+    },
+    {
+      "position": 3,
+      "points": 410,
+      "wins": 7,
+      "code": "PIA",
+      "name": "Oscar Piastri",
+      "team": "McLaren"
+    },
+    {
+      "position": 4,
+      "points": 319,
+      "wins": 2,
+      "code": "RUS",
+      "name": "George Russell",
+      "team": "Mercedes"
+    },
+    {
+      "position": 5,
+      "points": 242,
+      "wins": 0,
+      "code": "LEC",
+      "name": "Charles Leclerc",
+      "team": "Ferrari"
+    },
+    {
+      "position": 6,
+      "points": 156,
+      "wins": 0,
+      "code": "HAM",
+      "name": "Lewis Hamilton",
+      "team": "Ferrari"
+    },
+    {
+      "position": 7,
+      "points": 150,
+      "wins": 0,
+      "code": "ANT",
+      "name": "Andrea Kimi Antonelli",
+      "team": "Mercedes"
+    },
+    {
+      "position": 8,
+      "points": 73,
+      "wins": 0,
+      "code": "ALB",
+      "name": "Alexander Albon",
+      "team": "Williams"
+    },
+    {
+      "position": 9,
+      "points": 64,
+      "wins": 0,
+      "code": "SAI",
+      "name": "Carlos Sainz",
+      "team": "Williams"
+    },
+    {
+      "position": 10,
+      "points": 56,
+      "wins": 0,
+      "code": "ALO",
+      "name": "Fernando Alonso",
+      "team": "Aston Martin"
+    },
+    {
+      "position": 11,
+      "points": 51,
+      "wins": 0,
+      "code": "HUL",
+      "name": "Nico Hülkenberg",
+      "team": "Sauber"
+    },
+    {
+      "position": 12,
+      "points": 51,
+      "wins": 0,
+      "code": "HAD",
+      "name": "Isack Hadjar",
+      "team": "RB F1 Team"
+    },
+    {
+      "position": 13,
+      "points": 41,
+      "wins": 0,
+      "code": "BEA",
+      "name": "Oliver Bearman",
+      "team": "Haas F1 Team"
+    },
+    {
+      "position": 14,
+      "points": 38,
+      "wins": 0,
+      "code": "LAW",
+      "name": "Liam Lawson",
+      "team": "RB F1 Team"
+    },
+    {
+      "position": 15,
+      "points": 38,
+      "wins": 0,
+      "code": "OCO",
+      "name": "Esteban Ocon",
+      "team": "Haas F1 Team"
+    },
+    {
+      "position": 16,
+      "points": 33,
+      "wins": 0,
+      "code": "STR",
+      "name": "Lance Stroll",
+      "team": "Aston Martin"
+    },
+    {
+      "position": 17,
+      "points": 33,
+      "wins": 0,
+      "code": "TSU",
+      "name": "Yuki Tsunoda",
+      "team": "Red Bull"
+    },
+    {
+      "position": 18,
+      "points": 22,
+      "wins": 0,
+      "code": "GAS",
+      "name": "Pierre Gasly",
+      "team": "Alpine F1 Team"
+    },
+    {
+      "position": 19,
+      "points": 19,
+      "wins": 0,
+      "code": "BOR",
+      "name": "Gabriel Bortoleto",
+      "team": "Sauber"
+    },
+    {
+      "position": 20,
+      "points": 0,
+      "wins": 0,
+      "code": "COL",
+      "name": "Franco Colapinto",
+      "team": "Alpine F1 Team"
+    },
+    {
+      "position": 21,
+      "points": 0,
+      "wins": 0,
+      "code": "DOO",
+      "name": "Jack Doohan",
+      "team": "Alpine F1 Team"
+    }
+  ],
+  "constructors": [
+    {
+      "position": 1,
+      "points": 833,
+      "wins": 14,
+      "name": "McLaren"
+    },
+    {
+      "position": 2,
+      "points": 469,
+      "wins": 2,
+      "name": "Mercedes"
+    },
+    {
+      "position": 3,
+      "points": 451,
+      "wins": 8,
+      "name": "Red Bull"
+    },
+    {
+      "position": 4,
+      "points": 398,
+      "wins": 0,
+      "name": "Ferrari"
+    },
+    {
+      "position": 5,
+      "points": 137,
+      "wins": 0,
+      "name": "Williams"
+    },
+    {
+      "position": 6,
+      "points": 92,
+      "wins": 0,
+      "name": "RB F1 Team"
+    },
+    {
+      "position": 7,
+      "points": 89,
+      "wins": 0,
+      "name": "Aston Martin"
+    },
+    {
+      "position": 8,
+      "points": 79,
+      "wins": 0,
+      "name": "Haas F1 Team"
+    },
+    {
+      "position": 9,
+      "points": 70,
+      "wins": 0,
+      "name": "Sauber"
+    },
+    {
+      "position": 10,
+      "points": 22,
+      "wins": 0,
+      "name": "Alpine F1 Team"
+    }
+  ]
+}

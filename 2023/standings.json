@@ -1,0 +1,244 @@
+{
+  "season": 2023,
+  "round": 22,
+  "drivers": [
+    {
+      "position": 1,
+      "points": 575,
+      "wins": 19,
+      "code": "VER",
+      "name": "Max Verstappen",
+      "team": "Red Bull"
+    },
+    {
+      "position": 2,
+      "points": 285,
+      "wins": 2,
+      "code": "PER",
+      "name": "Sergio Pérez",
+      "team": "Red Bull"
+    },
+    {
+      "position": 3,
+      "points": 234,
+      "wins": 0,
+      "code": "HAM",
+      "name": "Lewis Hamilton",
+      "team": "Mercedes"
+    },
+    {
+      "position": 4,
+      "points": 206,
+      "wins": 0,
+      "code": "ALO",
+      "name": "Fernando Alonso",
+      "team": "Aston Martin"
+    },
+    {
+      "position": 5,
+      "points": 206,
+      "wins": 0,
+      "code": "LEC",
+      "name": "Charles Leclerc",
+      "team": "Ferrari"
+    },
+    {
+      "position": 6,
+      "points": 205,
+      "wins": 0,
+      "code": "NOR",
+      "name": "Lando Norris",
+      "team": "McLaren"
+    },
+    {
+      "position": 7,
+      "points": 200,
+      "wins": 1,
+      "code": "SAI",
+      "name": "Carlos Sainz",
+      "team": "Ferrari"
+    },
+    {
+      "position": 8,
+      "points": 175,
+      "wins": 0,
+      "code": "RUS",
+      "name": "George Russell",
+      "team": "Mercedes"
+    },
+    {
+      "position": 9,
+      "points": 97,
+      "wins": 0,
+      "code": "PIA",
+      "name": "Oscar Piastri",
+      "team": "McLaren"
+    },
+    {
+      "position": 10,
+      "points": 74,
+      "wins": 0,
+      "code": "STR",
+      "name": "Lance Stroll",
+      "team": "Aston Martin"
+    },
+    {
+      "position": 11,
+      "points": 62,
+      "wins": 0,
+      "code": "GAS",
+      "name": "Pierre Gasly",
+      "team": "Alpine F1 Team"
+    },
+    {
+      "position": 12,
+      "points": 58,
+      "wins": 0,
+      "code": "OCO",
+      "name": "Esteban Ocon",
+      "team": "Alpine F1 Team"
+    },
+    {
+      "position": 13,
+      "points": 27,
+      "wins": 0,
+      "code": "ALB",
+      "name": "Alexander Albon",
+      "team": "Williams"
+    },
+    {
+      "position": 14,
+      "points": 17,
+      "wins": 0,
+      "code": "TSU",
+      "name": "Yuki Tsunoda",
+      "team": "AlphaTauri"
+    },
+    {
+      "position": 15,
+      "points": 10,
+      "wins": 0,
+      "code": "BOT",
+      "name": "Valtteri Bottas",
+      "team": "Alfa Romeo"
+    },
+    {
+      "position": 16,
+      "points": 9,
+      "wins": 0,
+      "code": "HUL",
+      "name": "Nico Hülkenberg",
+      "team": "Haas F1 Team"
+    },
+    {
+      "position": 17,
+      "points": 6,
+      "wins": 0,
+      "code": "RIC",
+      "name": "Daniel Ricciardo",
+      "team": "AlphaTauri"
+    },
+    {
+      "position": 18,
+      "points": 6,
+      "wins": 0,
+      "code": "ZHO",
+      "name": "Guanyu Zhou",
+      "team": "Alfa Romeo"
+    },
+    {
+      "position": 19,
+      "points": 3,
+      "wins": 0,
+      "code": "MAG",
+      "name": "Kevin Magnussen",
+      "team": "Haas F1 Team"
+    },
+    {
+      "position": 20,
+      "points": 2,
+      "wins": 0,
+      "code": "LAW",
+      "name": "Liam Lawson",
+      "team": "AlphaTauri"
+    },
+    {
+      "position": 21,
+      "points": 1,
+      "wins": 0,
+      "code": "SAR",
+      "name": "Logan Sargeant",
+      "team": "Williams"
+    },
+    {
+      "position": 22,
+      "points": 0,
+      "wins": 0,
+      "code": "DEV",
+      "name": "Nyck de Vries",
+      "team": "AlphaTauri"
+    }
+  ],
+  "constructors": [
+    {
+      "position": 1,
+      "points": 860,
+      "wins": 21,
+      "name": "Red Bull"
+    },
+    {
+      "position": 2,
+      "points": 409,
+      "wins": 0,
+      "name": "Mercedes"
+    },
+    {
+      "position": 3,
+      "points": 406,
+      "wins": 1,
+      "name": "Ferrari"
+    },
+    {
+      "position": 4,
+      "points": 302,
+      "wins": 0,
+      "name": "McLaren"
+    },
+    {
+      "position": 5,
+      "points": 280,
+      "wins": 0,
+      "name": "Aston Martin"
+    },
+    {
+      "position": 6,
+      "points": 120,
+      "wins": 0,
+      "name": "Alpine F1 Team"
+    },
+    {
+      "position": 7,
+      "points": 28,
+      "wins": 0,
+      "name": "Williams"
+    },
+    {
+      "position": 8,
+      "points": 25,
+      "wins": 0,
+      "name": "AlphaTauri"
+    },
+    {
+      "position": 9,
+      "points": 16,
+      "wins": 0,
+      "name": "Alfa Romeo"
+    },
+    {
+      "position": 10,
+      "points": 12,
+      "wins": 0,
+      "name": "Haas F1 Team"
+    }
+  ]
+}
