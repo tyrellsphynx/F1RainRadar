@@ -4808,7 +4808,7 @@
       "circuitId": "vegas",
       "start": "2025-11-23T04:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2025,
@@ -4817,7 +4817,7 @@
       "circuitId": "losail",
       "start": "2025-11-30T16:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2025,
@@ -4826,7 +4826,7 @@
       "circuitId": "yas_marina",
       "start": "2025-12-07T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2026,
@@ -4835,7 +4835,7 @@
       "circuitId": "albert_park",
       "start": "2026-03-08T04:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2026,
@@ -4844,7 +4844,7 @@
       "circuitId": "shanghai",
       "start": "2026-03-15T07:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2026,
@@ -4853,7 +4853,7 @@
       "circuitId": "suzuka",
       "start": "2026-03-29T05:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2026,
@@ -4862,7 +4862,7 @@
       "circuitId": "miami",
       "start": "2026-05-03T20:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 1.9
     },
     {
       "season": 2026,
@@ -4871,7 +4871,7 @@
       "circuitId": "villeneuve",
       "start": "2026-05-24T20:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2026,
@@ -4880,7 +4880,7 @@
       "circuitId": "monaco",
       "start": "2026-06-07T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2026,
@@ -4889,7 +4889,7 @@
       "circuitId": "catalunya",
       "start": "2026-06-14T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2026,
@@ -4898,7 +4898,7 @@
       "circuitId": "red_bull_ring",
       "start": "2026-06-28T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.2
     },
     {
       "season": 2026,
@@ -4907,7 +4907,7 @@
       "circuitId": "silverstone",
       "start": "2026-07-05T14:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2026,
@@ -4916,7 +4916,7 @@
       "circuitId": "spa",
       "start": "2026-07-19T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2026,
@@ -4925,7 +4925,7 @@
       "circuitId": "hungaroring",
       "start": "2026-07-26T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2026,
@@ -4934,7 +4934,7 @@
       "circuitId": "zandvoort",
       "start": "2026-08-23T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.1
     },
     {
       "season": 2026,
@@ -4943,7 +4943,7 @@
       "circuitId": "monza",
       "start": "2026-09-06T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2026,
@@ -4952,7 +4952,7 @@
       "circuitId": "madring",
       "start": "2026-09-13T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2026,
@@ -4961,7 +4961,7 @@
       "circuitId": "baku",
       "start": "2026-09-26T11:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2026,
@@ -4970,7 +4970,7 @@
       "circuitId": "sepang",
       "start": "2026-10-04T07:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 1.9
     },
     {
       "season": 2026,
@@ -4979,7 +4979,7 @@
       "circuitId": "marina_bay",
       "start": "2026-10-11T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2026,
@@ -4988,7 +4988,7 @@
       "circuitId": "americas",
       "start": "2026-10-25T20:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2026,
@@ -4997,7 +4997,7 @@
       "circuitId": "rodriguez",
       "start": "2026-11-01T20:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.1
     },
     {
       "season": 2026,
@@ -5006,7 +5006,7 @@
       "circuitId": "interlagos",
       "start": "2026-11-08T17:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.8
     }
   ]
 }
