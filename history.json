@@ -2558,7 +2558,7 @@
       "circuitId": "interlagos",
       "start": "2013-11-24T16:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 3.9
     },
     {
       "season": 2014,
@@ -2567,7 +2567,7 @@
       "circuitId": "albert_park",
       "start": "2014-03-16T06:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.5
     },
     {
       "season": 2014,
@@ -2576,7 +2576,7 @@
       "circuitId": "sepang",
       "start": "2014-03-30T08:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.9
     },
     {
       "season": 2014,
@@ -2585,7 +2585,7 @@
       "circuitId": "bahrain",
       "start": "2014-04-06T15:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2014,
@@ -2594,7 +2594,7 @@
       "circuitId": "shanghai",
       "start": "2014-04-20T07:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2014,
@@ -2603,7 +2603,7 @@
       "circuitId": "catalunya",
       "start": "2014-05-11T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2014,
@@ -2612,7 +2612,7 @@
       "circuitId": "monaco",
       "start": "2014-05-25T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2014,
@@ -2621,7 +2621,7 @@
       "circuitId": "villeneuve",
       "start": "2014-06-08T18:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2014,
@@ -2630,7 +2630,7 @@
       "circuitId": "red_bull_ring",
       "start": "2014-06-22T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.2
     },
     {
       "season": 2014,
@@ -2639,7 +2639,7 @@
       "circuitId": "silverstone",
       "start": "2014-07-06T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2014,
@@ -2648,7 +2648,7 @@
       "circuitId": "hockenheimring",
       "start": "2014-07-20T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2014,
@@ -2657,7 +2657,7 @@
       "circuitId": "hungaroring",
       "start": "2014-07-27T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 4.1
     },
     {
       "season": 2014,
@@ -2666,7 +2666,7 @@
       "circuitId": "spa",
       "start": "2014-08-24T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.2
     },
     {
       "season": 2014,
@@ -2675,7 +2675,7 @@
       "circuitId": "monza",
       "start": "2014-09-07T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2014,
@@ -2684,7 +2684,7 @@
       "circuitId": "marina_bay",
       "start": "2014-09-21T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2014,
@@ -2693,7 +2693,7 @@
       "circuitId": "suzuka",
       "start": "2014-10-05T06:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.7
     },
     {
       "season": 2014,
@@ -2702,7 +2702,7 @@
       "circuitId": "sochi",
       "start": "2014-10-12T11:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2014,
@@ -2711,7 +2711,7 @@
       "circuitId": "americas",
       "start": "2014-11-02T20:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2014,
@@ -2720,7 +2720,7 @@
       "circuitId": "interlagos",
       "start": "2014-11-09T16:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.5
     },
     {
       "season": 2014,
@@ -2729,7 +2729,7 @@
       "circuitId": "yas_marina",
       "start": "2014-11-23T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2015,
@@ -2738,7 +2738,7 @@
       "circuitId": "albert_park",
       "start": "2015-03-15T05:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2015,
@@ -2747,7 +2747,7 @@
       "circuitId": "sepang",
       "start": "2015-03-29T07:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.1
     },
     {
       "season": 2015,
@@ -2756,7 +2756,7 @@
       "circuitId": "shanghai",
       "start": "2015-04-12T06:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2015,
@@ -2765,7 +2765,7 @@
       "circuitId": "bahrain",
       "start": "2015-04-19T15:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2015,
@@ -2774,7 +2774,7 @@
       "circuitId": "catalunya",
       "start": "2015-05-10T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2015,
@@ -2783,7 +2783,7 @@
       "circuitId": "monaco",
       "start": "2015-05-24T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2015,
@@ -2792,7 +2792,7 @@
       "circuitId": "villeneuve",
       "start": "2015-06-07T18:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2015,
@@ -2801,7 +2801,7 @@
       "circuitId": "red_bull_ring",
       "start": "2015-06-21T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.7
     },
     {
       "season": 2015,
@@ -2810,7 +2810,7 @@
       "circuitId": "silverstone",
       "start": "2015-07-05T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.1
     },
     {
       "season": 2015,
@@ -2819,7 +2819,7 @@
       "circuitId": "hungaroring",
       "start": "2015-07-26T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2015,
@@ -2828,7 +2828,7 @@
       "circuitId": "spa",
       "start": "2015-08-23T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.3
     },
     {
       "season": 2015,
@@ -2837,7 +2837,7 @@
       "circuitId": "monza",
       "start": "2015-09-06T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2015,
@@ -2846,7 +2846,7 @@
       "circuitId": "marina_bay",
       "start": "2015-09-20T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2015,
@@ -2855,7 +2855,7 @@
       "circuitId": "suzuka",
       "start": "2015-09-27T05:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2015,
@@ -2864,7 +2864,7 @@
       "circuitId": "sochi",
       "start": "2015-10-11T11:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2015,
@@ -2873,7 +2873,7 @@
       "circuitId": "americas",
       "start": "2015-10-25T19:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.3
     },
     {
       "season": 2015,
@@ -2882,7 +2882,7 @@
       "circuitId": "rodriguez",
       "start": "2015-11-01T19:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2015,
@@ -2891,7 +2891,7 @@
       "circuitId": "interlagos",
       "start": "2015-11-15T16:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.2
     },
     {
       "season": 2015,
@@ -2900,7 +2900,7 @@
       "circuitId": "yas_marina",
       "start": "2015-11-29T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2016,
@@ -2909,7 +2909,7 @@
       "circuitId": "albert_park",
       "start": "2016-03-20T05:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2016,
@@ -2918,7 +2918,7 @@
       "circuitId": "bahrain",
       "start": "2016-04-03T15:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2016,
@@ -2927,7 +2927,7 @@
       "circuitId": "shanghai",
       "start": "2016-04-17T06:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2016,
@@ -2936,7 +2936,7 @@
       "circuitId": "sochi",
       "start": "2016-05-01T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2016,
@@ -2945,7 +2945,7 @@
       "circuitId": "catalunya",
       "start": "2016-05-15T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2016,
@@ -2954,7 +2954,7 @@
       "circuitId": "monaco",
       "start": "2016-05-29T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 1.1
     },
     {
       "season": 2016,
@@ -2963,7 +2963,7 @@
       "circuitId": "villeneuve",
       "start": "2016-06-12T18:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2016,
@@ -2972,7 +2972,7 @@
       "circuitId": "baku",
       "start": "2016-06-19T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2016,
@@ -2981,7 +2981,7 @@
       "circuitId": "red_bull_ring",
       "start": "2016-07-03T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.1
     },
     {
       "season": 2016,
@@ -2990,7 +2990,7 @@
       "circuitId": "silverstone",
       "start": "2016-07-10T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2016,
@@ -2999,7 +2999,7 @@
       "circuitId": "hungaroring",
       "start": "2016-07-24T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2016,
@@ -3008,7 +3008,7 @@
       "circuitId": "hockenheimring",
       "start": "2016-07-31T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2016,
@@ -3017,7 +3017,7 @@
       "circuitId": "spa",
       "start": "2016-08-28T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2016,
@@ -3026,7 +3026,7 @@
       "circuitId": "monza",
       "start": "2016-09-04T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2016,
@@ -3035,7 +3035,7 @@
       "circuitId": "marina_bay",
       "start": "2016-09-18T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.1
     },
     {
       "season": 2016,
@@ -3044,7 +3044,7 @@
       "circuitId": "sepang",
       "start": "2016-10-02T07:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2016,
@@ -3053,7 +3053,7 @@
       "circuitId": "suzuka",
       "start": "2016-10-09T05:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2016,
@@ -3062,7 +3062,7 @@
       "circuitId": "americas",
       "start": "2016-10-23T19:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2016,
@@ -3071,7 +3071,7 @@
       "circuitId": "rodriguez",
       "start": "2016-10-30T19:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2016,
@@ -3080,7 +3080,7 @@
       "circuitId": "interlagos",
       "start": "2016-11-13T16:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 1.9
     },
     {
       "season": 2016,
@@ -3089,7 +3089,7 @@
       "circuitId": "yas_marina",
       "start": "2016-11-27T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2017,
@@ -3098,7 +3098,7 @@
       "circuitId": "albert_park",
       "start": "2017-03-26T05:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2017,
@@ -3107,7 +3107,7 @@
       "circuitId": "shanghai",
       "start": "2017-04-09T06:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2017,
@@ -3116,7 +3116,7 @@
       "circuitId": "bahrain",
       "start": "2017-04-16T15:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2017,
@@ -3125,7 +3125,7 @@
       "circuitId": "sochi",
       "start": "2017-04-30T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2017,
@@ -3134,7 +3134,7 @@
       "circuitId": "catalunya",
       "start": "2017-05-14T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2017,
@@ -3143,7 +3143,7 @@
       "circuitId": "monaco",
       "start": "2017-05-28T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2017,
@@ -3152,7 +3152,7 @@
       "circuitId": "villeneuve",
       "start": "2017-06-11T18:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.3
     },
     {
       "season": 2017,
@@ -3161,7 +3161,7 @@
       "circuitId": "baku",
       "start": "2017-06-25T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2017,
@@ -3170,7 +3170,7 @@
       "circuitId": "red_bull_ring",
       "start": "2017-07-09T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.3
     },
     {
       "season": 2017,
@@ -3179,7 +3179,7 @@
       "circuitId": "silverstone",
       "start": "2017-07-16T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 1.1
     },
     {
       "season": 2017,
@@ -3188,7 +3188,7 @@
       "circuitId": "hungaroring",
       "start": "2017-07-30T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2017,
@@ -3197,7 +3197,7 @@
       "circuitId": "spa",
       "start": "2017-08-27T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2017,
@@ -3206,7 +3206,7 @@
       "circuitId": "monza",
       "start": "2017-09-03T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2017,
@@ -3215,7 +3215,7 @@
       "circuitId": "marina_bay",
       "start": "2017-09-17T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 2
     },
     {
       "season": 2017,
@@ -3224,7 +3224,7 @@
       "circuitId": "sepang",
       "start": "2017-10-01T07:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2017,
@@ -3233,7 +3233,7 @@
       "circuitId": "suzuka",
       "start": "2017-10-08T05:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2017,
@@ -3242,7 +3242,7 @@
       "circuitId": "americas",
       "start": "2017-10-22T19:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2017,
@@ -3251,7 +3251,7 @@
       "circuitId": "rodriguez",
       "start": "2017-10-29T19:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.1
     },
     {
       "season": 2017,
@@ -3260,7 +3260,7 @@
       "circuitId": "interlagos",
       "start": "2017-11-12T16:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2017,
@@ -3269,7 +3269,7 @@
       "circuitId": "yas_marina",
       "start": "2017-11-26T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2018,
@@ -3278,7 +3278,7 @@
       "circuitId": "albert_park",
       "start": "2018-03-25T05:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2018,
@@ -3287,7 +3287,7 @@
       "circuitId": "bahrain",
       "start": "2018-04-08T15:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2018,
@@ -3296,7 +3296,7 @@
       "circuitId": "shanghai",
       "start": "2018-04-15T06:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2018,
@@ -3305,7 +3305,7 @@
       "circuitId": "baku",
       "start": "2018-04-29T12:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2018,
@@ -3314,7 +3314,7 @@
       "circuitId": "catalunya",
       "start": "2018-05-13T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 4
     },
     {
       "season": 2018,
@@ -3323,7 +3323,7 @@
       "circuitId": "monaco",
       "start": "2018-05-27T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.4
     },
     {
       "season": 2018,
@@ -3332,7 +3332,7 @@
       "circuitId": "villeneuve",
       "start": "2018-06-10T18:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2018,
@@ -3341,7 +3341,7 @@
       "circuitId": "ricard",
       "start": "2018-06-24T14:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2018,
@@ -3350,7 +3350,7 @@
       "circuitId": "red_bull_ring",
       "start": "2018-07-01T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2018,
@@ -3359,7 +3359,7 @@
       "circuitId": "silverstone",
       "start": "2018-07-08T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2018,
@@ -3368,7 +3368,7 @@
       "circuitId": "hockenheimring",
       "start": "2018-07-22T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 1.4
     },
     {
       "season": 2018,
@@ -3377,7 +3377,7 @@
       "circuitId": "hungaroring",
       "start": "2018-07-29T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2018,
@@ -3386,7 +3386,7 @@
       "circuitId": "spa",
       "start": "2018-08-26T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2018,
@@ -3395,7 +3395,7 @@
       "circuitId": "monza",
       "start": "2018-09-02T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.1
     },
     {
       "season": 2018,
@@ -3404,7 +3404,7 @@
       "circuitId": "marina_bay",
       "start": "2018-09-16T12:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2018,
@@ -3413,7 +3413,7 @@
       "circuitId": "sochi",
       "start": "2018-09-30T11:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2018,
@@ -3422,7 +3422,7 @@
       "circuitId": "suzuka",
       "start": "2018-10-07T05:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2018,
@@ -3431,7 +3431,7 @@
       "circuitId": "americas",
       "start": "2018-10-21T18:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2018,
@@ -3440,7 +3440,7 @@
       "circuitId": "rodriguez",
       "start": "2018-10-28T19:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.4
     },
     {
       "season": 2018,
@@ -3449,7 +3449,7 @@
       "circuitId": "interlagos",
       "start": "2018-11-11T17:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.3
     },
     {
       "season": 2018,
@@ -3458,7 +3458,7 @@
       "circuitId": "yas_marina",
       "start": "2018-11-25T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.6
     },
     {
       "season": 2019,
@@ -3467,7 +3467,7 @@
       "circuitId": "albert_park",
       "start": "2019-03-17T05:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2019,
@@ -3476,7 +3476,7 @@
       "circuitId": "bahrain",
       "start": "2019-03-31T15:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2019,
@@ -3485,7 +3485,7 @@
       "circuitId": "shanghai",
       "start": "2019-04-14T06:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2019,
@@ -3494,7 +3494,7 @@
       "circuitId": "baku",
       "start": "2019-04-28T12:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2019,
@@ -3503,7 +3503,7 @@
       "circuitId": "catalunya",
       "start": "2019-05-12T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2019,
@@ -3512,7 +3512,7 @@
       "circuitId": "monaco",
       "start": "2019-05-26T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.4
     },
     {
       "season": 2019,
@@ -3521,7 +3521,7 @@
       "circuitId": "villeneuve",
       "start": "2019-06-09T18:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2019,
@@ -3530,7 +3530,7 @@
       "circuitId": "ricard",
       "start": "2019-06-23T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2019,
@@ -3539,7 +3539,7 @@
       "circuitId": "red_bull_ring",
       "start": "2019-06-30T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2019,
@@ -3548,7 +3548,7 @@
       "circuitId": "silverstone",
       "start": "2019-07-14T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.3
     },
     {
       "season": 2019,
@@ -3557,7 +3557,7 @@
       "circuitId": "hockenheimring",
       "start": "2019-07-28T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 1.4
     },
     {
       "season": 2019,
@@ -3566,7 +3566,7 @@
       "circuitId": "hungaroring",
       "start": "2019-08-04T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2019,
@@ -3575,7 +3575,7 @@
       "circuitId": "spa",
       "start": "2019-09-01T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.1
     },
     {
       "season": 2019,
@@ -3584,7 +3584,7 @@
       "circuitId": "monza",
       "start": "2019-09-08T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.1
     },
     {
       "season": 2019,
@@ -3593,7 +3593,7 @@
       "circuitId": "marina_bay",
       "start": "2019-09-22T12:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2019,
@@ -3602,7 +3602,7 @@
       "circuitId": "sochi",
       "start": "2019-09-29T11:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.7
     },
     {
       "season": 2019,
@@ -3611,7 +3611,7 @@
       "circuitId": "suzuka",
       "start": "2019-10-13T05:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2019,
@@ -3620,7 +3620,7 @@
       "circuitId": "rodriguez",
       "start": "2019-10-27T19:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 4.3
     },
     {
       "season": 2019,
@@ -3629,7 +3629,7 @@
       "circuitId": "americas",
       "start": "2019-11-03T19:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2019,
@@ -3638,7 +3638,7 @@
       "circuitId": "interlagos",
       "start": "2019-11-17T17:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2019,
@@ -3647,7 +3647,7 @@
       "circuitId": "yas_marina",
       "start": "2019-12-01T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2020,
@@ -3656,7 +3656,7 @@
       "circuitId": "red_bull_ring",
       "start": "2020-07-05T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2020,
@@ -3665,7 +3665,7 @@
       "circuitId": "red_bull_ring",
       "start": "2020-07-12T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2020,
@@ -3674,7 +3674,7 @@
       "circuitId": "hungaroring",
       "start": "2020-07-19T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 2.3
     },
     {
       "season": 2020,
@@ -3683,7 +3683,7 @@
       "circuitId": "silverstone",
       "start": "2020-08-02T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2020,
@@ -3692,7 +3692,7 @@
       "circuitId": "silverstone",
       "start": "2020-08-09T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2020,
@@ -3701,7 +3701,7 @@
       "circuitId": "catalunya",
       "start": "2020-08-16T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 1.1
     },
     {
       "season": 2020,
@@ -3710,7 +3710,7 @@
       "circuitId": "spa",
       "start": "2020-08-30T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 1.3
     },
     {
       "season": 2020,
@@ -3719,7 +3719,7 @@
       "circuitId": "monza",
       "start": "2020-09-06T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2020,
@@ -3728,7 +3728,7 @@
       "circuitId": "mugello",
       "start": "2020-09-13T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2020,
@@ -3737,7 +3737,7 @@
       "circuitId": "sochi",
       "start": "2020-09-27T11:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2020,
@@ -3746,7 +3746,7 @@
       "circuitId": "nurburgring",
       "start": "2020-10-11T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2020,
@@ -3755,7 +3755,7 @@
       "circuitId": "portimao",
       "start": "2020-10-25T12:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.4
     },
     {
       "season": 2020,
@@ -3764,7 +3764,7 @@
       "circuitId": "imola",
       "start": "2020-11-01T12:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2020,
@@ -3773,7 +3773,7 @@
       "circuitId": "istanbul",
       "start": "2020-11-15T10:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.3
     },
     {
       "season": 2020,
@@ -3782,7 +3782,7 @@
       "circuitId": "bahrain",
       "start": "2020-11-29T14:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2020,
@@ -3791,7 +3791,7 @@
       "circuitId": "bahrain",
       "start": "2020-12-06T17:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2020,
@@ -3800,7 +3800,7 @@
       "circuitId": "yas_marina",
       "start": "2020-12-13T13:10:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2021,
@@ -3809,7 +3809,7 @@
       "circuitId": "bahrain",
       "start": "2021-03-28T15:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2021,
@@ -3818,7 +3818,7 @@
       "circuitId": "imola",
       "start": "2021-04-18T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2021,
@@ -3827,7 +3827,7 @@
       "circuitId": "portimao",
       "start": "2021-05-02T14:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2021,
@@ -3836,7 +3836,7 @@
       "circuitId": "catalunya",
       "start": "2021-05-09T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2021,
@@ -3845,7 +3845,7 @@
       "circuitId": "monaco",
       "start": "2021-05-23T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2021,
@@ -3854,7 +3854,7 @@
       "circuitId": "baku",
       "start": "2021-06-06T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2021,
@@ -3863,7 +3863,7 @@
       "circuitId": "ricard",
       "start": "2021-06-20T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.1
     },
     {
       "season": 2021,
@@ -3872,7 +3872,7 @@
       "circuitId": "red_bull_ring",
       "start": "2021-06-27T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.8
     },
     {
       "season": 2021,
@@ -3881,7 +3881,7 @@
       "circuitId": "red_bull_ring",
       "start": "2021-07-04T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2021,
@@ -3890,7 +3890,7 @@
       "circuitId": "silverstone",
       "start": "2021-07-18T14:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2021,
@@ -3899,7 +3899,7 @@
       "circuitId": "hungaroring",
       "start": "2021-08-01T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.6
     },
     {
       "season": 2021,
@@ -3908,7 +3908,7 @@
       "circuitId": "spa",
       "start": "2021-08-29T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 1.2
     },
     {
       "season": 2021,
@@ -3917,7 +3917,7 @@
       "circuitId": "zandvoort",
       "start": "2021-09-05T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2021,
@@ -3926,7 +3926,7 @@
       "circuitId": "monza",
       "start": "2021-09-12T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2021,
@@ -3935,7 +3935,7 @@
       "circuitId": "sochi",
       "start": "2021-09-26T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.4
     },
     {
       "season": 2021,
@@ -3944,7 +3944,7 @@
       "circuitId": "istanbul",
       "start": "2021-10-10T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2021,
@@ -3953,7 +3953,7 @@
       "circuitId": "americas",
       "start": "2021-10-24T19:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2021,
@@ -3962,7 +3962,7 @@
       "circuitId": "rodriguez",
       "start": "2021-11-07T19:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2021,
@@ -3971,7 +3971,7 @@
       "circuitId": "interlagos",
       "start": "2021-11-14T17:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2021,
@@ -3980,7 +3980,7 @@
       "circuitId": "losail",
       "start": "2021-11-21T14:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2021,
@@ -3989,7 +3989,7 @@
       "circuitId": "jeddah",
       "start": "2021-12-05T17:30:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2021,
@@ -3998,7 +3998,7 @@
       "circuitId": "yas_marina",
       "start": "2021-12-12T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2022,
@@ -4007,7 +4007,7 @@
       "circuitId": "bahrain",
       "start": "2022-03-20T15:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2022,
@@ -4016,7 +4016,7 @@
       "circuitId": "jeddah",
       "start": "2022-03-27T17:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2022,
@@ -4025,7 +4025,7 @@
       "circuitId": "albert_park",
       "start": "2022-04-10T05:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2022,
@@ -4034,7 +4034,7 @@
       "circuitId": "imola",
       "start": "2022-04-24T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 1.1
     },
     {
       "season": 2022,
@@ -4043,7 +4043,7 @@
       "circuitId": "miami",
       "start": "2022-05-08T19:30:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2022,
@@ -4052,7 +4052,7 @@
       "circuitId": "catalunya",
       "start": "2022-05-22T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2022,
@@ -4061,7 +4061,7 @@
       "circuitId": "monaco",
       "start": "2022-05-29T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.2
     },
     {
       "season": 2022,
@@ -4070,7 +4070,7 @@
       "circuitId": "baku",
       "start": "2022-06-12T11:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2022,
@@ -4079,7 +4079,7 @@
       "circuitId": "villeneuve",
       "start": "2022-06-19T18:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2022,
@@ -4088,7 +4088,7 @@
       "circuitId": "silverstone",
       "start": "2022-07-03T14:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.6
     },
     {
       "season": 2022,
@@ -4097,7 +4097,7 @@
       "circuitId": "red_bull_ring",
       "start": "2022-07-10T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2022,
@@ -4106,7 +4106,7 @@
       "circuitId": "ricard",
       "start": "2022-07-24T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2022,
@@ -4115,7 +4115,7 @@
       "circuitId": "hungaroring",
       "start": "2022-07-31T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 1.7
     },
     {
       "season": 2022,
@@ -4124,7 +4124,7 @@
       "circuitId": "spa",
       "start": "2022-08-28T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2022,
@@ -4133,7 +4133,7 @@
       "circuitId": "zandvoort",
       "start": "2022-09-04T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 1.5
     },
     {
       "season": 2022,
@@ -4142,7 +4142,7 @@
       "circuitId": "monza",
       "start": "2022-09-11T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2022,
@@ -4151,7 +4151,7 @@
       "circuitId": "marina_bay",
       "start": "2022-10-02T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.2
     },
     {
       "season": 2022,
@@ -4160,7 +4160,7 @@
       "circuitId": "suzuka",
       "start": "2022-10-09T05:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 5.6
     },
     {
       "season": 2022,
@@ -4169,7 +4169,7 @@
       "circuitId": "americas",
       "start": "2022-10-23T19:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2022,
@@ -4178,7 +4178,7 @@
       "circuitId": "rodriguez",
       "start": "2022-10-30T20:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.8
     },
     {
       "season": 2022,
@@ -4187,7 +4187,7 @@
       "circuitId": "interlagos",
       "start": "2022-11-13T18:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2022,
@@ -4196,7 +4196,7 @@
       "circuitId": "yas_marina",
       "start": "2022-11-20T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2023,
@@ -4205,7 +4205,7 @@
       "circuitId": "bahrain",
       "start": "2023-03-05T15:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2023,
@@ -4214,7 +4214,7 @@
       "circuitId": "jeddah",
       "start": "2023-03-19T17:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2023,
@@ -4223,7 +4223,7 @@
       "circuitId": "albert_park",
       "start": "2023-04-02T05:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2023,
@@ -4232,7 +4232,7 @@
       "circuitId": "baku",
       "start": "2023-04-30T11:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2023,
@@ -4241,7 +4241,7 @@
       "circuitId": "miami",
       "start": "2023-05-07T19:30:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.2
     },
     {
       "season": 2023,
@@ -4250,7 +4250,7 @@
       "circuitId": "monaco",
       "start": "2023-05-28T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.3
     },
     {
       "season": 2023,
@@ -4259,7 +4259,7 @@
       "circuitId": "catalunya",
       "start": "2023-06-04T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.1
     },
     {
       "season": 2023,
@@ -4268,7 +4268,7 @@
       "circuitId": "villeneuve",
       "start": "2023-06-18T18:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2023,
@@ -4277,7 +4277,7 @@
       "circuitId": "red_bull_ring",
       "start": "2023-07-02T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2023,
@@ -4286,7 +4286,7 @@
       "circuitId": "silverstone",
       "start": "2023-07-09T14:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2023,
@@ -4295,7 +4295,7 @@
       "circuitId": "hungaroring",
       "start": "2023-07-23T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2023,
@@ -4304,7 +4304,7 @@
       "circuitId": "spa",
       "start": "2023-07-30T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.1
     },
     {
       "season": 2023,
@@ -4313,7 +4313,7 @@
       "circuitId": "zandvoort",
       "start": "2023-08-27T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.8
     },
     {
       "season": 2023,
@@ -4322,7 +4322,7 @@
       "circuitId": "monza",
       "start": "2023-09-03T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2023,
@@ -4331,7 +4331,7 @@
       "circuitId": "marina_bay",
       "start": "2023-09-17T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.1
     },
     {
       "season": 2023,
@@ -4340,7 +4340,7 @@
       "circuitId": "suzuka",
       "start": "2023-09-24T05:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2023,
@@ -4349,7 +4349,7 @@
       "circuitId": "losail",
       "start": "2023-10-08T17:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2023,
@@ -4358,7 +4358,7 @@
       "circuitId": "americas",
       "start": "2023-10-22T19:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2023,
@@ -4367,7 +4367,7 @@
       "circuitId": "rodriguez",
       "start": "2023-10-29T20:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2023,
@@ -4376,7 +4376,7 @@
       "circuitId": "interlagos",
       "start": "2023-11-05T17:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.1
     },
     {
       "season": 2023,
@@ -4385,7 +4385,7 @@
       "circuitId": "vegas",
       "start": "2023-11-19T06:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2023,
@@ -4394,7 +4394,7 @@
       "circuitId": "yas_marina",
       "start": "2023-11-26T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2024,
@@ -4403,7 +4403,7 @@
       "circuitId": "bahrain",
       "start": "2024-03-02T15:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2024,
@@ -4412,7 +4412,7 @@
       "circuitId": "jeddah",
       "start": "2024-03-09T17:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2024,
@@ -4421,7 +4421,7 @@
       "circuitId": "albert_park",
       "start": "2024-03-24T04:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2024,
@@ -4430,7 +4430,7 @@
       "circuitId": "suzuka",
       "start": "2024-04-07T05:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2024,
@@ -4439,7 +4439,7 @@
       "circuitId": "shanghai",
       "start": "2024-04-21T07:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2024,
@@ -4448,7 +4448,7 @@
       "circuitId": "miami",
       "start": "2024-05-05T20:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.2
     },
     {
       "season": 2024,
@@ -4457,7 +4457,7 @@
       "circuitId": "imola",
       "start": "2024-05-19T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.1
     },
     {
       "season": 2024,
@@ -4466,7 +4466,7 @@
       "circuitId": "monaco",
       "start": "2024-05-26T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2024,
@@ -4475,7 +4475,7 @@
       "circuitId": "villeneuve",
       "start": "2024-06-09T18:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 2.6
     },
     {
       "season": 2024,
@@ -4484,7 +4484,7 @@
       "circuitId": "catalunya",
       "start": "2024-06-23T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 1
     },
     {
       "season": 2024,
@@ -4493,7 +4493,7 @@
       "circuitId": "red_bull_ring",
       "start": "2024-06-30T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2024,
@@ -4502,7 +4502,7 @@
       "circuitId": "silverstone",
       "start": "2024-07-07T14:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.7
     },
     {
       "season": 2024,
@@ -4511,7 +4511,7 @@
       "circuitId": "hungaroring",
       "start": "2024-07-21T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2024,
@@ -4520,7 +4520,7 @@
       "circuitId": "spa",
       "start": "2024-07-28T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2024,
@@ -4529,7 +4529,7 @@
       "circuitId": "zandvoort",
       "start": "2024-08-25T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2024,
@@ -4538,7 +4538,7 @@
       "circuitId": "monza",
       "start": "2024-09-01T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.7
     },
     {
       "season": 2024,
@@ -4547,7 +4547,7 @@
       "circuitId": "baku",
       "start": "2024-09-15T11:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2024,
@@ -4556,7 +4556,7 @@
       "circuitId": "marina_bay",
       "start": "2024-09-22T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2024,
@@ -4565,7 +4565,7 @@
       "circuitId": "americas",
       "start": "2024-10-20T19:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2024,
@@ -4574,7 +4574,7 @@
       "circuitId": "rodriguez",
       "start": "2024-10-27T20:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.1
     },
     {
       "season": 2024,
@@ -4583,7 +4583,7 @@
       "circuitId": "interlagos",
       "start": "2024-11-03T17:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 5.7
     },
     {
       "season": 2024,
@@ -4592,7 +4592,7 @@
       "circuitId": "vegas",
       "start": "2024-11-23T06:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2024,
@@ -4601,7 +4601,7 @@
       "circuitId": "losail",
       "start": "2024-12-01T16:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2024,
@@ -4610,7 +4610,7 @@
       "circuitId": "yas_marina",
       "start": "2024-12-08T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2025,
@@ -4619,7 +4619,7 @@
       "circuitId": "albert_park",
       "start": "2025-03-16T04:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 2.1
     },
     {
       "season": 2025,
@@ -4628,7 +4628,7 @@
       "circuitId": "shanghai",
       "start": "2025-03-23T07:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2025,
@@ -4637,7 +4637,7 @@
       "circuitId": "suzuka",
       "start": "2025-04-06T05:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.5
     },
     {
       "season": 2025,
@@ -4646,7 +4646,7 @@
       "circuitId": "bahrain",
       "start": "2025-04-13T15:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2025,
@@ -4655,7 +4655,7 @@
       "circuitId": "jeddah",
       "start": "2025-04-20T17:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2025,
@@ -4664,7 +4664,7 @@
       "circuitId": "miami",
       "start": "2025-05-04T20:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.2
     },
     {
       "season": 2025,
@@ -4673,7 +4673,7 @@
       "circuitId": "imola",
       "start": "2025-05-18T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2025,
@@ -4682,7 +4682,7 @@
       "circuitId": "monaco",
       "start": "2025-05-25T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2025,
@@ -4691,7 +4691,7 @@
       "circuitId": "catalunya",
       "start": "2025-06-01T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2025,
@@ -4700,7 +4700,7 @@
       "circuitId": "villeneuve",
       "start": "2025-06-15T18:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2025,
@@ -4709,7 +4709,7 @@
       "circuitId": "red_bull_ring",
       "start": "2025-06-29T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2025,
@@ -4718,7 +4718,7 @@
       "circuitId": "silverstone",
       "start": "2025-07-06T14:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 2.7
     },
     {
       "season": 2025,
@@ -4727,7 +4727,7 @@
       "circuitId": "spa",
       "start": "2025-07-27T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.4
     },
     {
       "season": 2025,
@@ -4736,7 +4736,7 @@
       "circuitId": "hungaroring",
       "start": "2025-08-03T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2025,
@@ -4745,7 +4745,7 @@
       "circuitId": "zandvoort",
       "start": "2025-08-31T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.2
     },
     {
       "season": 2025,
@@ -4754,7 +4754,7 @@
       "circuitId": "monza",
       "start": "2025-09-07T13:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2025,
@@ -4763,7 +4763,7 @@
       "circuitId": "baku",
       "start": "2025-09-21T11:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2025,
@@ -4772,7 +4772,7 @@
       "circuitId": "marina_bay",
       "start": "2025-10-05T12:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0.1
     },
     {
       "season": 2025,
@@ -4781,7 +4781,7 @@
       "circuitId": "americas",
       "start": "2025-10-19T19:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2025,
@@ -4790,7 +4790,7 @@
       "circuitId": "rodriguez",
       "start": "2025-10-26T20:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2025,
@@ -4799,7 +4799,7 @@
       "circuitId": "interlagos",
       "start": "2025-11-09T17:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     },
     {
       "season": 2025,
