@@ -248,8 +248,8 @@
     },
     "FP2": {
       "status": "unavailable",
-      "attempts": 2,
-      "lastAttempt": "2026-11-19T19:31:17.968Z"
+      "attempts": 3,
+      "lastAttempt": "2026-11-20T10:09:59.703Z"
     },
     "FP3": {
       "status": "ok",
