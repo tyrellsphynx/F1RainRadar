@@ -317,6 +317,18 @@
           "code": 3
         }
       }
+    },
+    {
+      "fetchedAt": "2026-11-21T08:22:01.556Z",
+      "sessions": {
+        "Race": {
+          "rainChance": 0,
+          "precipMm": 0,
+          "tempC": 7.3,
+          "windKmh": 8.5,
+          "code": 3
+        }
+      }
     }
   ]
 }
