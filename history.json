@@ -5007,6 +5007,15 @@
       "start": "2026-11-08T17:00:00.000Z",
       "startAssumed": false,
       "modelledPrecipMm": 0.8
+    },
+    {
+      "season": 2026,
+      "round": 21,
+      "raceName": "Las Vegas Grand Prix",
+      "circuitId": "vegas",
+      "start": "2026-11-22T04:00:00.000Z",
+      "startAssumed": false,
+      "modelledPrecipMm": null
     }
   ]
 }
