@@ -10,8 +10,8 @@
     "mode": "race",
     "featured": {
       "season": 2026,
-      "round": 21
+      "round": 22
     },
-    "radarActive": true
+    "radarActive": false
   }
 }
