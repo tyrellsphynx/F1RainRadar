@@ -1,5 +1,5 @@
 {
-  "lastDailySync": "2026-11-25T13:10:45.761Z",
+  "lastDailySync": "2026-11-26T15:27:28.295Z",
   "seasons": [
     2023,
     2024,
@@ -12,6 +12,6 @@
       "season": 2026,
       "round": 22
     },
-    "radarActive": false
+    "radarActive": true
   }
 }
