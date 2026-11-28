@@ -825,6 +825,32 @@
           "code": 3
         }
       }
+    },
+    {
+      "fetchedAt": "2026-11-28T02:47:14.571Z",
+      "sessions": {
+        "FP3": {
+          "rainChance": 0,
+          "precipMm": 0,
+          "tempC": 25.2,
+          "windKmh": 8.6,
+          "code": 1
+        },
+        "Q": {
+          "rainChance": 0,
+          "precipMm": 0,
+          "tempC": 22.2,
+          "windKmh": 5.6,
+          "code": 0
+        },
+        "Race": {
+          "rainChance": 0,
+          "precipMm": 0,
+          "tempC": 23.8,
+          "windKmh": 4,
+          "code": 3
+        }
+      }
     }
   ]
 }
