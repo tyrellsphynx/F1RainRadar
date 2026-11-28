@@ -5015,7 +5015,7 @@
       "circuitId": "vegas",
       "start": "2026-11-22T04:00:00.000Z",
       "startAssumed": false,
-      "modelledPrecipMm": null
+      "modelledPrecipMm": 0
     }
   ]
 }

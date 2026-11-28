@@ -119,6 +119,46 @@
           "code": 3
         }
       }
+    },
+    {
+      "fetchedAt": "2026-11-28T11:58:25.448Z",
+      "sessions": {
+        "FP1": {
+          "rainChance": 5,
+          "precipMm": 0,
+          "tempC": 29.2,
+          "windKmh": 15.7,
+          "code": 0
+        },
+        "FP2": {
+          "rainChance": 4,
+          "precipMm": 0,
+          "tempC": 28.2,
+          "windKmh": 16.2,
+          "code": 0
+        },
+        "FP3": {
+          "rainChance": 0,
+          "precipMm": 0,
+          "tempC": 27.5,
+          "windKmh": 13.5,
+          "code": 2
+        },
+        "Q": {
+          "rainChance": 0,
+          "precipMm": 0,
+          "tempC": 25.7,
+          "windKmh": 10.1,
+          "code": 1
+        },
+        "Race": {
+          "rainChance": 3,
+          "precipMm": 0,
+          "tempC": 26,
+          "windKmh": 14.9,
+          "code": 0
+        }
+      }
     }
   ]
 }
